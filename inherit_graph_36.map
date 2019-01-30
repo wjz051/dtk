@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qtextformat.html" title="QTextFormat" alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qtextcharformat.html" title="QTextCharFormat" alt="" coords="156,5,289,32"/>
+<area shape="rect" id="node3" href="$class_dtk_1_1_widget_1_1_d_crumb_text_format.html" title="Dtk::Widget::DCrumbTextFormat" alt="" coords="337,5,564,32"/>
+</map>
