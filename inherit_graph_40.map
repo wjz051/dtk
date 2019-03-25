@@ -1,0 +1,152 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="247,1639,388,1665"/>
+<area shape="rect" id="node2" href="$class_dtk_1_1_core_1_1_d_base_file_watcher.html" title="DBaseFileWatcher 类提供了一系列接口可供监视文件和目录的变动。 " alt="" coords="495,512,697,539"/>
+<area shape="rect" id="node4" href="$class_dtk_1_1_core_1_1_d_file_system_watcher.html" title="The DFileSystemWatcher class provides an interface for monitoring files and directories for modificat..." alt="" coords="486,980,706,1007"/>
+<area shape="rect" id="node5" href="$class_dtk_1_1_core_1_1_d_file_watcher_manager.html" title="DFileWatcherManager 类可以帮助管理一系列 DFileWatcher 文件监视器，并在文件变动时发送信号通知。 ..." alt="" coords="483,1081,709,1108"/>
+<area shape="rect" id="node6" href="$class_dtk_1_1_widget_1_1_d_abstract_dialog.html" title="可以使用 DAbstractDialog 类创建符合 DDE 风格的对话框窗口。 " alt="" coords="773,1335,980,1361"/>
+<area shape="rect" id="node11" href="$class_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition.html" title="Dtk::Widget::DAbstractStack\lWidgetTransition" alt="" coords="495,563,697,605"/>
+<area shape="rect" id="node13" href="$class_dtk_1_1_widget_1_1_d_application.html" title="DApplication 是 DTK 中用于替换 QCoreApplication 相关功能实现的类。 继承自 QApplication ，并在此之上添..." alt="" coords="1067,695,1249,721"/>
+<area shape="rect" id="node14" href="$class_dtk_1_1_widget_1_1_d_arrow_rectangle.html" title="DArrowRectangle 提供了可以在四个边中的任意一个边显示箭头的矩形控件 " alt="" coords="491,2313,701,2340"/>
+<area shape="rect" id="node15" href="$class_dtk_1_1_widget_1_1_d_blur_effect_widget.html" title="用于实现主窗口或控件背景的实时模糊效果。 " alt="" coords="509,2837,683,2878"/>
+<area shape="rect" id="node16" href="$class_dtk_1_1_widget_1_1_d_borderless_widget.html" title="DBorderlessWidget 是DTK中用于提供无边框的功能的类，主要用于Windows。 在Windows和Linux图形环境下，窗口..." alt="" coords="505,2719,687,2761"/>
+<area shape="rect" id="node18" href="$class_dtk_1_1_widget_1_1_d_box_widget.html" title="DBoxWidget提供了一个自适应子控件大小的Widget. " alt="" coords="787,1841,967,1868"/>
+<area shape="rect" id="node21" href="$class_dtk_1_1_widget_1_1_d_circle_progress.html" title="Dtk::Widget::DCircleProgress" alt="" coords="494,2567,698,2593"/>
+<area shape="rect" id="node22" href="$class_dtk_1_1_widget_1_1_d_clip_effect_widget.html" title="用于裁剪窗口的绘制内容 " alt="" coords="510,2197,682,2238"/>
+<area shape="rect" id="node23" href="$class_dtk_1_1_widget_1_1_d_crumb_edit.html" title="标签输入控件。 " alt="" coords="1363,1323,1543,1349"/>
+<area shape="rect" id="node24" href="$class_dtk_1_1_widget_1_1_d_double_spin_box.html" title="类似 DDoubleSpinBox 。 " alt="" coords="1053,1791,1263,1817"/>
+<area shape="rect" id="node25" href="$class_dtk_1_1_widget_1_1_d_file_icon_provider.html" title="Dtk::Widget::DFileIconProvider" alt="" coords="491,1031,701,1057"/>
+<area shape="rect" id="node26" href="$class_dtk_1_1_widget_1_1_d_flow_layout.html" title="DFlowLayout 类提供了一个简便的流布局。 " alt="" coords="505,107,687,133"/>
+<area shape="rect" id="node27" href="$class_dtk_1_1_widget_1_1_d_foreign_window.html" title="一个用于获取本地窗口信息的类，继承于 QWindow，支持 QWindow::geometry QWindow::x QWindow::y QWindow::w..." alt="" coords="493,2145,699,2172"/>
+<area shape="rect" id="node28" href="$class_dtk_1_1_widget_1_1_d_graphics_clip_effect.html" title="用于裁剪窗口的绘制内容 " alt="" coords="500,914,692,955"/>
+<area shape="rect" id="node29" href="$class_dtk_1_1_widget_1_1_d_image_button.html" title="在Deepin的程序设计中，用到了大量基于图片的按钮，而Qt的QPushButton不能方便的只使用图片， 每个项目都存�..." alt="" coords="1060,2175,1256,2201"/>
+<area shape="rect" id="node34" href="$class_dtk_1_1_widget_1_1_d_line_edit.html" title="DLineEdit提供了一个修改过的QLineEdit样式 " alt="" coords="795,1487,958,1513"/>
+<area shape="rect" id="node38" href="$class_dtk_1_1_widget_1_1_d_list_view.html" title="一个用于展示一列数据的控件 " alt="" coords="1658,1687,1822,1713"/>
+<area shape="rect" id="node39" href="$class_dtk_1_1_widget_1_1_d_loading_indicator.html" title="DLoadingIndicator 类提供了一种用来显示“加载中”动画的控件。使用者通过设置 DLoadingIndicator::imageSo..." alt="" coords="1344,2007,1563,2033"/>
+<area shape="rect" id="node40" href="$class_dtk_1_1_widget_1_1_d_main_window.html" title="The DMainWindow class provides a main application window. " alt="" coords="781,1791,972,1817"/>
+<area shape="rect" id="node41" href="$class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html" title="DMPRISControl 封装了MPRIS协议，提供了上一曲、下一曲、暂停播放、恢复播放和显示歌曲名和封面的功能。 ..." alt="" coords="777,2111,976,2137"/>
+<area shape="rect" id="node42" href="$class_dtk_1_1_widget_1_1_d_page_indicator.html" title="DPageIndicator 类提供了一种用来指示一组元素中当前可见元素索引的控件。控件会显示了一系列的点，代表一组..." alt="" coords="497,2263,695,2289"/>
+<area shape="rect" id="node43" href="$class_dtk_1_1_widget_1_1_d_passwd_edit_animated.html" title="带有动画的密码输入框。 " alt="" coords="785,2162,968,2203"/>
+<area shape="rect" id="node44" href="$class_dtk_1_1_widget_1_1_d_picture_sequence_view.html" title="将图片序列绘制为动画，通过定时器刷新来实现动画效果。 " alt="" coords="1328,1880,1579,1907"/>
+<area shape="rect" id="node45" href="$class_dtk_1_1_widget_1_1_d_push_button.html" title="封装了三种状态的QPushButton，可以自动在不同状态更换图标，不需要自己控制。 " alt="" coords="1065,3244,1251,3271"/>
+<area shape="rect" id="node46" href="$class_dtk_1_1_widget_1_1_d_region_monitor.html" title="Dtk::Widget::DRegionMonitor" alt="" coords="495,411,697,437"/>
+<area shape="rect" id="node47" href="$class_dtk_1_1_widget_1_1_d_segmented_control.html" title="DSegmentedControl 类提供了一种类似标签页的控件。 它由一系列的 Segment 构成，每一个 Segment 可以被设置..." alt="" coords="479,2364,713,2391"/>
+<area shape="rect" id="node48" href="$class_dtk_1_1_widget_1_1_d_simple_list_view.html" title="DSimpleListView 是 deepin 基于 QWidget 从零绘制的列表控件。 " alt="" coords="492,2465,700,2492"/>
+<area shape="rect" id="node49" href="$class_dtk_1_1_widget_1_1_d_spin_box.html" title="Deepin风格的QSpinBox。 " alt="" coords="1075,1943,1241,1969"/>
+<area shape="rect" id="node50" href="$class_dtk_1_1_widget_1_1_d_spinner.html" title="可以使用 DSpinner 类快速创建用于指示加载中状态的旋转等待图标动画控件。 " alt="" coords="515,2516,677,2543"/>
+<area shape="rect" id="node51" href="$class_dtk_1_1_widget_1_1_d_stack_widget.html" title="一个可定制切换动画的容器控件 " alt="" coords="500,2415,692,2441"/>
+<area shape="rect" id="node52" href="$class_dtk_1_1_widget_1_1_d_suggest_button.html" title="这个控件提供了DTK中默认的按钮样式. " alt="" coords="1053,3295,1263,3321"/>
+<area shape="rect" id="node53" href="$class_dtk_1_1_widget_1_1_d_switch_button.html" title="DSwitchButton提供了切换样式的控件 用户可以打开和关闭一些功能 " alt="" coords="778,2228,975,2255"/>
+<area shape="rect" id="node54" href="$class_dtk_1_1_widget_1_1_d_tab_bar.html" title="DTabBar 是一个标签栏控件，是在 QTabBar 基础之上进行扩展增强。 " alt="" coords="518,2617,674,2644"/>
+<area shape="rect" id="node55" href="$class_dtk_1_1_widget_1_1_d_text_edit.html" title="Dtk::Widget::DTextEdit" alt="" coords="1372,1677,1535,1704"/>
+<area shape="rect" id="node56" href="$class_dtk_1_1_widget_1_1_d_theme_manager.html" title="DThemeManager 类提供了管理控件主题文件的工具函数。在 DTK 中，目前只有 light 和 dark 两种风格的主题，�..." alt="" coords="489,461,703,488"/>
+<area shape="rect" id="node57" href="$class_dtk_1_1_widget_1_1_d_thumbnail_provider.html" title="Dtk::Widget::DThumbnailProvider" alt="" coords="481,812,711,839"/>
+<area shape="rect" id="node58" href="$class_dtk_1_1_widget_1_1_d_tick_effect.html" title="这个类提供了跑马灯效果，可以让控件的内容滚动起来 " alt="" coords="509,863,683,889"/>
+<area shape="rect" id="node59" href="$class_dtk_1_1_widget_1_1_d_titlebar.html" title="Dtitlebar是Dtk程序通用的标题栏组件，用于实现标题栏的高度定制化。 " alt="" coords="797,2009,957,2036"/>
+<area shape="rect" id="node60" href="$class_dtk_1_1_widget_1_1_d_toast.html" title="提供应用内通知的 Tooltip，类似安卓的 Toast。 " alt="" coords="803,2060,950,2087"/>
+<area shape="rect" id="node61" href="$class_dtk_1_1_widget_1_1_d_trash_manager.html" title="Dtk::Widget::DTrashManager" alt="" coords="495,629,697,656"/>
+<area shape="rect" id="node63" href="$class_dtk_1_1_widget_1_1_d_video_widget.html" title="DVideoWidget类提供了呈现视频的小部件 为了给循环播放提供更好的用户体验，视频的最后一帧将会被保留，同时..." alt="" coords="500,2668,692,2695"/>
+<area shape="rect" id="node64" href="$class_dtk_1_1_widget_1_1_d_water_progress.html" title="可以使用 DWaterProgress 类快速创建圆形容器内水位高低指示进度的动画控件。 " alt="" coords="493,2785,699,2812"/>
+<area shape="rect" id="node65" href="$class_dtk_1_1_widget_1_1_d_window_manager_helper.html" title="提供与窗口管理器交互的接口，同 DPlatformWindowHandle 依赖 dxcb 插件。 dxcb 插件抽象出所有需要和X11平�..." alt="" coords="488,681,704,722"/>
+<area shape="rect" id="node3" href="$class_dtk_1_1_core_1_1_d_file_watcher.html" title="DFileWatcher 类提供了对 DBaseFileWatcher 接口的实现，可供监视文件和目录的变动。 " alt="" coords="791,512,962,539"/>
+<area shape="rect" id="node7" href="$class_dtk_1_1_widget_1_1_d_dialog.html" title="可以使用 DDialog 类快速创建符合 DDE 风格的简要对话框窗口。 " alt="" coords="1081,1183,1235,1209"/>
+<area shape="rect" id="node10" href="$class_dtk_1_1_widget_1_1_d_settings_dialog.html" title="为使用DSettings的Dtk程序提供一个通用的设置对话框，这个对话框可以通过json配置文件来自动生成。 ..." alt="" coords="1055,1335,1261,1361"/>
+<area shape="rect" id="node8" href="$class_dtk_1_1_widget_1_1_d_about_dialog.html" title="DAboutDialog 类提供了应用程序的关于对话框，规范所有 deepin 应用关于窗口设计规范，符合 Deepin 风格。 ..." alt="" coords="1358,1183,1549,1209"/>
+<area shape="rect" id="node9" href="$class_dtk_1_1_widget_1_1_d_input_dialog.html" title="快速创建一个获取可输入数据的对话框 " alt="" coords="1361,1233,1546,1260"/>
+<area shape="rect" id="node12" href="$class_dtk_1_1_widget_1_1_d_slide_stack_widget_transition.html" title="Dtk::Widget::DSlideStack\lWidgetTransition" alt="" coords="787,563,967,605"/>
+<area shape="rect" id="node17" href="$class_dtk_1_1_widget_1_1_d_borderless_window.html" title="DBorderlessWindow 是DBorderlessWidget的派生类，提供了简化的接口 " alt="" coords="786,1893,967,1934"/>
+<area shape="rect" id="node19" href="$class_dtk_1_1_widget_1_1_d_h_box_widget.html" title="是设置成水平方向的DBoxWidget " alt="" coords="1063,1740,1253,1767"/>
+<area shape="rect" id="node20" href="$class_dtk_1_1_widget_1_1_d_v_box_widget.html" title="Dtk::Widget::DVBoxWidget" alt="" coords="1063,1841,1253,1868"/>
+<area shape="rect" id="node30" href="$class_dtk_1_1_widget_1_1_d_window_close_button.html" title="DWindowCloseButton 类是 DTK 窗口统一的关闭按钮控件。 " alt="" coords="1356,2083,1551,2125"/>
+<area shape="rect" id="node31" href="$class_dtk_1_1_widget_1_1_d_window_max_button.html" title="DWindowMaxButton 类是 DTK 窗口统一的最大化/恢复按钮控件。 它有两种状态，一种表示窗口已经进入最大化状�..." alt="" coords="1339,2149,1568,2176"/>
+<area shape="rect" id="node32" href="$class_dtk_1_1_widget_1_1_d_window_min_button.html" title="DWindowMinButton 类是 DTK 窗口统一的最小化按钮控件。 " alt="" coords="1341,2200,1566,2227"/>
+<area shape="rect" id="node33" href="$class_dtk_1_1_widget_1_1_d_window_option_button.html" title="DWindowOptionButton 类是 DTK 窗口统一的菜单按钮控件。 点击按钮后，默认会显示程序主菜单，包含“关于”�..." alt="" coords="1352,2251,1555,2293"/>
+<area shape="rect" id="node35" href="$class_dtk_1_1_widget_1_1_d_file_chooser_edit.html" title="带有选择文件按钮的文本编辑框 " alt="" coords="1053,1537,1263,1564"/>
+<area shape="rect" id="node36" href="$class_dtk_1_1_widget_1_1_d_ipv4_line_edit.html" title="类DIpv4LineEdit是专门用于输入ipv4格式文本的编辑框。 " alt="" coords="1063,1588,1253,1615"/>
+<area shape="rect" id="node37" href="$class_dtk_1_1_widget_1_1_d_password_edit.html" title="DPasswordEdit提供了一个让用户输入的密码框 " alt="" coords="1060,1487,1256,1513"/>
+<area shape="rect" id="node62" href="$class_dtk_1_1_widget_1_1_d_trash_manager__.html" title="Dtk::Widget::DTrashManager_" alt="" coords="772,629,981,656"/>
+<area shape="rect" id="node66" href="$class_dtk_1_1_widget_1_1_d_window_manager_helper__.html" title="Dtk::Widget::DWindowManager\lHelper_" alt="" coords="769,681,985,722"/>
+<area shape="rect" id="node67" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qfileiconprovider.html" title="QFileIconProvider" alt="" coords="252,1120,383,1147"/>
+<area shape="rect" id="node68" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlayoutitem.html" title="QLayoutItem" alt="" coords="31,56,135,83"/>
+<area shape="rect" id="node69" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlayout.html" title="QLayout" alt="" coords="280,56,355,83"/>
+<area shape="rect" id="node70" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qobject.html" title="QObject" alt="" coords="46,715,119,741"/>
+<area shape="rect" id="node71" href="$class_dtk_1_1_core_1_1_d_settings.html" title="DSettings是设计上为Dtk的应用程序提供统一的配置存储以及界面生成工具的基础库。 DSetting使用json作为应用..." alt="" coords="241,765,394,792"/>
+<area shape="rect" id="node72" href="$class_dtk_1_1_core_1_1_d_settings_backend.html" title="DSettingsBackend是一个纯虚类, 用来描述DSettings的存储接口。 " alt="" coords="213,208,421,235"/>
+<area shape="rect" id="node75" href="$class_dtk_1_1_core_1_1_d_settings_group.html" title="一组DSettings选项的集合，也可以包含子组。 " alt="" coords="221,816,413,843"/>
+<area shape="rect" id="node76" href="$class_dtk_1_1_core_1_1_d_settings_option.html" title="DSettingsOption是DSettings的基本单元，用于存放一对键&#45;值数据。 " alt="" coords="220,867,415,893"/>
+<area shape="rect" id="node77" href="$class_dtk_1_1_widget_1_1_crumb_object_interface.html" title="Dtk::Widget::CrumbObject\lInterface" alt="" coords="224,2807,411,2849"/>
+<area shape="rect" id="node78" href="$class_dtk_1_1_widget_1_1_d_anchors_base.html" title="DAnchorsBase 提供了一种指定 QWidget 与其它 QWidget 之间的关系来确定 其位置的方法 " alt="" coords="219,5,416,32"/>
+<area shape="rect" id="node80" href="$class_dtk_1_1_widget_1_1_d_enhanced_widget.html" title="Dtk::Widget::DEnhancedWidget" alt="" coords="208,917,427,944"/>
+<area shape="rect" id="node81" href="$class_dtk_1_1_widget_1_1_d_expand_group.html" title="Dtk::Widget::DExpandGroup" alt="" coords="218,1069,417,1096"/>
+<area shape="rect" id="node82" href="$class_dtk_1_1_widget_1_1_d_platform_window_handle.html" title="一个和Qt dxcb平台插件交互的工具类，实质性的功能皆在dxcb插件中实现，此插件目前只 支持X11平台，在其它平..." alt="" coords="210,1171,425,1213"/>
+<area shape="rect" id="node83" href="$class_dtk_1_1_widget_1_1_d_settings_widget_factory.html" title="DSettingsWidgetFactory是一个用于构造Deepin风格的设置对话框的控件。 &#160;对于每种控件，均由一个id和对应的�..." alt="" coords="213,1289,422,1330"/>
+<area shape="rect" id="node84" href="$class_dtk_1_1_widget_1_1_d_simple_list_item.html" title="DSimpleListItem 是 DSimpleListView 的接口，得到 DSimpleListView 传递过来的 QPainter、列信息、表格矩形..." alt="" coords="213,1355,421,1381"/>
+<area shape="rect" id="node85" href="$class_dtk_1_1_widget_1_1_filter_mouse_move.html" title="Dtk::Widget::FilterMouseMove" alt="" coords="213,107,422,133"/>
+<area shape="rect" id="node86" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qabstractitemmodel.html" title="QAbstractItemModel" alt="" coords="241,157,394,184"/>
+<area shape="rect" id="node89" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qcoreapplication.html" title="QCoreApplication" alt="" coords="251,309,383,336"/>
+<area shape="rect" id="node92" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qgraphicseffect.html" title="QGraphicsEffect" alt="" coords="255,968,379,995"/>
+<area shape="rect" id="node94" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qiodevice.html" title="QIODevice" alt="" coords="273,360,361,387"/>
+<area shape="rect" id="node96" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qstyle.html" title="QStyle" alt="" coords="285,259,349,285"/>
+<area shape="rect" id="node100" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qthread.html" title="QThread" alt="" coords="279,715,355,741"/>
+<area shape="rect" id="node101" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qwidget.html" title="QWidget" alt="" coords="280,2756,355,2783"/>
+<area shape="rect" id="node147" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qwindow.html" title="QWindow" alt="" coords="278,1917,357,1944"/>
+<area shape="rect" id="node73" href="$class_dtk_1_1_core_1_1_g_settings_backend.html" title="Storage backend of DSettings use gsettings. " alt="" coords="492,157,700,184"/>
+<area shape="rect" id="node74" href="$class_dtk_1_1_core_1_1_q_setting_backend.html" title="Storage DSetttings to an QSettings. " alt="" coords="495,208,697,235"/>
+<area shape="rect" id="node79" href="$class_dtk_1_1_widget_1_1_d_anchors.html" title="DAnchors 是一个模板类，在 DAnchorsBase 的基础上保存了一个控件指针， 将控件和锚定绑定在一起使用，相当�..." alt="" coords="495,5,697,32"/>
+<area shape="rect" id="node87" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qabstractlistmodel.html" title="QAbstractListModel" alt="" coords="523,56,669,83"/>
+<area shape="rect" id="node88" href="$class_dtk_1_1_widget_1_1_d_variant_list_model.html" title="Dtk::Widget::DVariantList\lModel" alt="" coords="787,49,967,90"/>
+<area shape="rect" id="node90" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qguiapplication.html" title="QGuiApplication" alt="" coords="535,309,657,336"/>
+<area shape="rect" id="node91" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qapplication.html" title="QApplication" alt="" coords="825,309,928,336"/>
+<area shape="rect" id="node93" href="$class_dtk_1_1_widget_1_1_d_graphics_glow_effect.html" title="控件发散效果，同时也是Dtk默认的窗口特效。 " alt="" coords="497,746,695,787"/>
+<area shape="rect" id="node95" href="$class_dtk_1_1_core_1_1_log_device.html" title="Dtk::Core::LogDevice" alt="" coords="518,360,674,387"/>
+<area shape="rect" id="node97" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qcommonstyle.html" title="QCommonStyle" alt="" coords="535,259,657,285"/>
+<area shape="rect" id="node98" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qproxystyle.html" title="QProxyStyle" alt="" coords="827,259,926,285"/>
+<area shape="rect" id="node99" href="$class_popup_menu_style.html" title="PopupMenuStyle" alt="" coords="1093,259,1223,285"/>
+<area shape="rect" id="node102" href="$class_dtk_1_1_widget_1_1_d_base_expand.html" title="一个美观的可展开的控件 " alt="" coords="500,3207,692,3233"/>
+<area shape="rect" id="node105" href="$class_dtk_1_1_widget_1_1_d_movable_tab_widget.html" title="Dtk::Widget::DMovableTab\lWidget" alt="" coords="503,3258,689,3299"/>
+<area shape="rect" id="node106" href="$class_dtk_1_1_widget_1_1_d_separator_horizontal.html" title="DSeparatorHorizontal 类提供了通用的横向分割线，可以应用在任何基于 QWidget 的控件上。 ..." alt="" coords="475,3324,717,3351"/>
+<area shape="rect" id="node107" href="$class_dtk_1_1_widget_1_1_d_separator_vertical.html" title="DSeparatorVertical 类提供了通用的纵向分割线，可以应用在任何基于 QWidget 的控件上。 ..." alt="" coords="484,3156,708,3183"/>
+<area shape="rect" id="node108" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qabstractbutton.html" title="QAbstractButton" alt="" coords="531,3425,661,3452"/>
+<area shape="rect" id="node117" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qabstractslider.html" title="QAbstractSlider" alt="" coords="535,3375,657,3401"/>
+<area shape="rect" id="node120" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qabstractspinbox.html" title="QAbstractSpinBox" alt="" coords="527,3105,665,3132"/>
+<area shape="rect" id="node123" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qdialog.html" title="QDialog" alt="" coords="560,2953,632,2980"/>
+<area shape="rect" id="node126" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qframe.html" title="QFrame" alt="" coords="560,3055,632,3081"/>
+<area shape="rect" id="node145" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlineedit.html" title="QLineEdit" alt="" coords="555,2903,637,2929"/>
+<area shape="rect" id="node146" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qmainwindow.html" title="QMainWindow" alt="" coords="541,3004,651,3031"/>
+<area shape="rect" id="node103" href="$class_dtk_1_1_widget_1_1_d_arrow_line_expand.html" title="一个美观的可展开的控件DArrowLineExpand 继承自 DBaseExpand 并提供了了 ArrowHeaderLine (一个带有箭头标�..." alt="" coords="765,3175,988,3201"/>
+<area shape="rect" id="node104" href="$class_dtk_1_1_widget_1_1_d_switch_line_expand.html" title="DSwitchLineExpand 类提供了一种通过开关按钮来展开/合上显示内容的控件。 控件由标题栏和内容两部分组成，�..." alt="" coords="787,3226,967,3267"/>
+<area shape="rect" id="node109" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qpushbutton.html" title="QPushButton" alt="" coords="823,3396,930,3423"/>
+<area shape="rect" id="node114" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qtoolbutton.html" title="QToolButton" alt="" coords="827,3548,926,3575"/>
+<area shape="rect" id="node110" href="$class_dtk_1_1_widget_1_1_d_base_button.html" title="DBaseButton 提供 deepin 风格的 QPushButton。 " alt="" coords="1064,3497,1252,3524"/>
+<area shape="rect" id="node111" href="$class_dtk_1_1_widget_1_1_d_icon_button.html" title="Dtk::Widget::DIconButton" alt="" coords="1067,3345,1249,3372"/>
+<area shape="rect" id="node112" href="$class_dtk_1_1_widget_1_1_d_link_button.html" title="提供了一个QPushButton的样式，和显示在网页上的链接一样。 " alt="" coords="1067,3396,1249,3423"/>
+<area shape="rect" id="node113" href="$class_dtk_1_1_widget_1_1_d_text_button.html" title="Dtk::Widget::DTextButton" alt="" coords="1067,3447,1249,3473"/>
+<area shape="rect" id="node115" href="$class_dtk_1_1_widget_1_1_d_segmented_highlight.html" title="DSegmentedHighlight 类代表了 DSegmentedControl 中当前选中（即高亮）的部分。 " alt="" coords="1036,3599,1280,3625"/>
+<area shape="rect" id="node116" href="$class_dtk_1_1_widget_1_1_d_tab_bar_add_button.html" title="Dtk::Widget::DTabBarAddButton" alt="" coords="1046,3548,1270,3575"/>
+<area shape="rect" id="node118" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qslider.html" title="QSlider" alt="" coords="843,3317,911,3344"/>
+<area shape="rect" id="node119" href="$class_dtk_1_1_widget_1_1_d_slider.html" title="DSlider 是基于 QSlider 之上扩展的控件。 " alt="" coords="1083,3193,1233,3220"/>
+<area shape="rect" id="node121" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qdoublespinbox.html" title="QDoubleSpinBox" alt="" coords="812,2279,941,2305"/>
+<area shape="rect" id="node122" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qspinbox.html" title="QSpinBox" alt="" coords="835,2329,919,2356"/>
+<area shape="rect" id="node124" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qfiledialog.html" title="QFileDialog" alt="" coords="831,1959,923,1985"/>
+<area shape="rect" id="node125" href="$class_dtk_1_1_widget_1_1_d_file_dialog.html" title="DFileDialog 类提供了一个可供用户选择文件或目录的对话框. " alt="" coords="1071,1892,1245,1919"/>
+<area shape="rect" id="node127" href="$class_dtk_1_1_widget_1_1_content_loader.html" title="Dtk::Widget::ContentLoader" alt="" coords="777,2953,976,2980"/>
+<area shape="rect" id="node128" href="$class_dtk_1_1_widget_1_1_d_search_edit.html" title="DSearchEdit 类提供了专门用来进行搜索的输入框控件。相比于一般的输入框控件，DSearchEdit 提供了搜索按钮�..." alt="" coords="785,3004,968,3031"/>
+<area shape="rect" id="node129" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qabstractscrollarea.html" title="QAbstractScrollArea" alt="" coords="801,2380,952,2407"/>
+<area shape="rect" id="node136" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlabel.html" title="QLabel" alt="" coords="843,3055,910,3081"/>
+<area shape="rect" id="node130" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qabstractitemview.html" title="QAbstractItemView" alt="" coords="1086,2336,1230,2363"/>
+<area shape="rect" id="node134" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qgraphicsview.html" title="QGraphicsView" alt="" coords="1099,2044,1217,2071"/>
+<area shape="rect" id="node135" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qtextedit.html" title="QTextEdit" alt="" coords="1117,1993,1199,2020"/>
+<area shape="rect" id="node131" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlistview.html" title="QListView" alt="" coords="1412,2329,1495,2356"/>
+<area shape="rect" id="node132" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlistwidget.html" title="QListWidget" alt="" coords="1691,2329,1789,2356"/>
+<area shape="rect" id="node133" href="$class_dtk_1_1_widget_1_1_d_button_list.html" title="已废弃，请考虑配合 QButtonGroup 使用 QRadioButton 来替代。 " alt="" coords="1901,2329,2080,2356"/>
+<area shape="rect" id="node137" href="$class_dtk_1_1_widget_1_1_arrow_button_icon.html" title="Dtk::Widget::ArrowButtonIcon" alt="" coords="1054,3143,1262,3169"/>
+<area shape="rect" id="node138" href="$class_dtk_1_1_widget_1_1_d_arrow_button.html" title="可以使用 DArrowButton 类快速创建箭头形状的按钮。 " alt="" coords="1062,2924,1254,2951"/>
+<area shape="rect" id="node139" href="$class_dtk_1_1_widget_1_1_d_base_line.html" title="可以使用 DBaseLine 类快速创建具有位于左右两侧的两个控件的行控件。 " alt="" coords="1073,3025,1243,3052"/>
+<area shape="rect" id="node143" href="$class_dtk_1_1_widget_1_1_d_label.html" title="DLabel 是 QLabel 的子类，为 deepin 提供更好的的风格统一。 " alt="" coords="1085,2975,1231,3001"/>
+<area shape="rect" id="node144" href="$class_dtk_1_1_widget_1_1_d_shortcut_edit_label.html" title="Dtk::Widget::DShortcutEdit\lLabel" alt="" coords="1062,3077,1254,3118"/>
+<area shape="rect" id="node140" href="$class_dtk_1_1_widget_1_1_d_header_line.html" title="可以使用 DHeaderLine 类快速创建标题行控件。 " alt="" coords="1360,3025,1547,3052"/>
+<area shape="rect" id="node141" href="$class_dtk_1_1_widget_1_1_arrow_header_line.html" title="Dtk::Widget::ArrowHeaderLine" alt="" coords="1634,3000,1846,3027"/>
+<area shape="rect" id="node142" href="$class_dtk_1_1_widget_1_1_d_switch_header_line.html" title="DSwitchHeaderLine 类用于提供 DSwitchLineExpand 的标题栏。 " alt="" coords="1627,3051,1853,3077"/>
+<area shape="rect" id="node148" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qpaintdevice.html" title="QPaintDevice" alt="" coords="29,2756,136,2783"/>
+<area shape="rect" id="node149" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qsurface.html" title="QSurface" alt="" coords="42,1917,123,1944"/>
+<area shape="rect" id="node150" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qtextobjectinterface.html" title="QTextObjectInterface" alt="" coords="5,2815,160,2841"/>
+</map>

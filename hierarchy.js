@@ -27,7 +27,8 @@ var hierarchy =
     [ "Dtk::Widget::DHiDPIHelper", "class_dtk_1_1_widget_1_1_d_hi_d_p_i_helper.html", null ],
     [ "Dtk::Widget::DFileDialog::DLineEditOptions", "struct_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_line_edit_options.html", null ],
     [ "Dtk::Core::DLogManager", "class_dtk_1_1_core_1_1_d_log_manager.html", null ],
-    [ "DMPRISControl", "class_d_m_p_r_i_s_control.html", null ],
+    [ "Dtk::Core::DUtil::DNotifyData", "struct_dtk_1_1_core_1_1_d_util_1_1_d_notify_data.html", null ],
+    [ "Dtk::Core::DUtil::DNotifySender", "class_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender.html", null ],
     [ "Dtk::Core::DObject", "class_dtk_1_1_core_1_1_d_object.html", [
       [ "Dtk::Core::DBaseFileWatcher", "class_dtk_1_1_core_1_1_d_base_file_watcher.html", [
         [ "Dtk::Core::DFileWatcher", "class_dtk_1_1_core_1_1_d_file_watcher.html", null ]
@@ -77,17 +78,12 @@ var hierarchy =
       [ "Dtk::Widget::DLoadingIndicator", "class_dtk_1_1_widget_1_1_d_loading_indicator.html", null ],
       [ "Dtk::Widget::DMainWindow", "class_dtk_1_1_widget_1_1_d_main_window.html", null ],
       [ "Dtk::Widget::DMPRISControl", "class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html", null ],
-      [ "Dtk::Widget::DOption", "class_dtk_1_1_widget_1_1_d_option.html", null ],
-      [ "Dtk::Widget::DOptionList", "class_dtk_1_1_widget_1_1_d_option_list.html", null ],
       [ "Dtk::Widget::DPageIndicator", "class_dtk_1_1_widget_1_1_d_page_indicator.html", null ],
       [ "Dtk::Widget::DPasswdEditAnimated", "class_dtk_1_1_widget_1_1_d_passwd_edit_animated.html", null ],
       [ "Dtk::Widget::DPictureSequenceView", "class_dtk_1_1_widget_1_1_d_picture_sequence_view.html", null ],
       [ "Dtk::Widget::DPushButton", "class_dtk_1_1_widget_1_1_d_push_button.html", null ],
       [ "Dtk::Widget::DRegionMonitor", "class_dtk_1_1_widget_1_1_d_region_monitor.html", null ],
-      [ "Dtk::Widget::DScrollArea", "class_dtk_1_1_widget_1_1_d_scroll_area.html", [
-        [ "Dtk::Widget::DListWidget", "class_dtk_1_1_widget_1_1_d_list_widget.html", null ]
-      ] ],
-      [ "Dtk::Widget::DScrollBar", "class_dtk_1_1_widget_1_1_d_scroll_bar.html", null ],
+      [ "Dtk::Widget::DSegmentedControl", "class_dtk_1_1_widget_1_1_d_segmented_control.html", null ],
       [ "Dtk::Widget::DSimpleListView", "class_dtk_1_1_widget_1_1_d_simple_list_view.html", null ],
       [ "Dtk::Widget::DSpinBox", "class_dtk_1_1_widget_1_1_d_spin_box.html", null ],
       [ "Dtk::Widget::DSpinner", "class_dtk_1_1_widget_1_1_d_spinner.html", null ],
@@ -114,6 +110,9 @@ var hierarchy =
     [ "Dtk::Core::DPathBuf", "class_dtk_1_1_core_1_1_d_path_buf.html", null ],
     [ "Dtk::Core::DRecentData", "struct_dtk_1_1_core_1_1_d_recent_data.html", null ],
     [ "Dtk::Core::DRecentManager", "class_dtk_1_1_core_1_1_d_recent_manager.html", null ],
+    [ "DScrollArea", null, [
+      [ "Dtk::Widget::DListWidget", "class_dtk_1_1_widget_1_1_d_list_widget.html", null ]
+    ] ],
     [ "Dtk::Core::DSingleton< T >", "class_dtk_1_1_core_1_1_d_singleton.html", null ],
     [ "Dtk::Core::DStandardPaths", "class_dtk_1_1_core_1_1_d_standard_paths.html", null ],
     [ "Dtk::Widget::DStyleOption", "class_dtk_1_1_widget_1_1_d_style_option.html", [
@@ -209,6 +208,7 @@ var hierarchy =
         [ "Dtk::Widget::DClipEffectWidget", "class_dtk_1_1_widget_1_1_d_clip_effect_widget.html", null ],
         [ "Dtk::Widget::DMovableTabWidget", "class_dtk_1_1_widget_1_1_d_movable_tab_widget.html", null ],
         [ "Dtk::Widget::DPageIndicator", "class_dtk_1_1_widget_1_1_d_page_indicator.html", null ],
+        [ "Dtk::Widget::DSegmentedControl", "class_dtk_1_1_widget_1_1_d_segmented_control.html", null ],
         [ "Dtk::Widget::DSeparatorHorizontal", "class_dtk_1_1_widget_1_1_d_separator_horizontal.html", null ],
         [ "Dtk::Widget::DSeparatorVertical", "class_dtk_1_1_widget_1_1_d_separator_vertical.html", null ],
         [ "Dtk::Widget::DSimpleListView", "class_dtk_1_1_widget_1_1_d_simple_list_view.html", null ],
@@ -232,9 +232,6 @@ var hierarchy =
           ] ]
         ] ],
         [ "QAbstractSlider", "https://doc.qt.io/qt-5/qabstractslider.html", [
-          [ "QScrollBar", "https://doc.qt.io/qt-5/qscrollbar.html", [
-            [ "Dtk::Widget::DScrollBar", "class_dtk_1_1_widget_1_1_d_scroll_bar.html", null ]
-          ] ],
           [ "QSlider", "https://doc.qt.io/qt-5/qslider.html", [
             [ "Dtk::Widget::DSlider", "class_dtk_1_1_widget_1_1_d_slider.html", null ]
           ] ]
@@ -257,11 +254,8 @@ var hierarchy =
           [ "Dtk::Widget::ContentLoader", "class_dtk_1_1_widget_1_1_content_loader.html", null ],
           [ "Dtk::Widget::DBoxWidget", "class_dtk_1_1_widget_1_1_d_box_widget.html", null ],
           [ "Dtk::Widget::DMPRISControl", "class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html", null ],
-          [ "Dtk::Widget::DOption", "class_dtk_1_1_widget_1_1_d_option.html", null ],
           [ "Dtk::Widget::DPasswdEditAnimated", "class_dtk_1_1_widget_1_1_d_passwd_edit_animated.html", null ],
           [ "Dtk::Widget::DSearchEdit", "class_dtk_1_1_widget_1_1_d_search_edit.html", null ],
-          [ "Dtk::Widget::DSegmentedControl", "class_dtk_1_1_widget_1_1_d_segmented_control.html", null ],
-          [ "Dtk::Widget::DShortcutEdit", "class_dtk_1_1_widget_1_1_d_shortcut_edit.html", null ],
           [ "Dtk::Widget::DSwitchButton", "class_dtk_1_1_widget_1_1_d_switch_button.html", null ],
           [ "Dtk::Widget::DTitlebar", "class_dtk_1_1_widget_1_1_d_titlebar.html", null ],
           [ "Dtk::Widget::DToast", "class_dtk_1_1_widget_1_1_d_toast.html", null ],
@@ -270,17 +264,13 @@ var hierarchy =
               [ "QListView", "https://doc.qt.io/qt-5/qlistview.html", [
                 [ "Dtk::Widget::DListView", "class_dtk_1_1_widget_1_1_d_list_view.html", null ],
                 [ "QListWidget", "https://doc.qt.io/qt-5/qlistwidget.html", [
-                  [ "Dtk::Widget::DButtonList", "class_dtk_1_1_widget_1_1_d_button_list.html", null ],
-                  [ "Dtk::Widget::DOptionList", "class_dtk_1_1_widget_1_1_d_option_list.html", null ]
+                  [ "Dtk::Widget::DButtonList", "class_dtk_1_1_widget_1_1_d_button_list.html", null ]
                 ] ]
               ] ]
             ] ],
             [ "QGraphicsView", "https://doc.qt.io/qt-5/qgraphicsview.html", [
               [ "Dtk::Widget::DLoadingIndicator", "class_dtk_1_1_widget_1_1_d_loading_indicator.html", null ],
               [ "Dtk::Widget::DPictureSequenceView", "class_dtk_1_1_widget_1_1_d_picture_sequence_view.html", null ]
-            ] ],
-            [ "QScrollArea", "https://doc.qt.io/qt-5/qscrollarea.html", [
-              [ "Dtk::Widget::DScrollArea", "class_dtk_1_1_widget_1_1_d_scroll_area.html", null ]
             ] ],
             [ "QTextEdit", "https://doc.qt.io/qt-5/qtextedit.html", [
               [ "Dtk::Widget::DCrumbEdit", "class_dtk_1_1_widget_1_1_d_crumb_edit.html", null ],
@@ -335,5 +325,9 @@ var hierarchy =
       [ "Dtk::Widget::CrumbObjectInterface", "class_dtk_1_1_widget_1_1_crumb_object_interface.html", null ]
     ] ],
     [ "Dtk::Widget::DAbstractStackWidgetTransition::TransitionInfo", "struct_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition_1_1_transition_info.html", null ],
-    [ "Dtk::Widget::DPlatformWindowHandle::WMBlurArea", "struct_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area.html", null ]
+    [ "Dtk::Widget::DPlatformWindowHandle::WMBlurArea", "struct_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area.html", null ],
+    [ "ConanFile", null, [
+      [ "conanfile.DtkcoreConan", "classconanfile_1_1_dtkcore_conan.html", null ],
+      [ "conanfile.DtkwidgetConan", "classconanfile_1_1_dtkwidget_conan.html", null ]
+    ] ]
 ];

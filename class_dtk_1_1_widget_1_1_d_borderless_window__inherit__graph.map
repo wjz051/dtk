@@ -1,7 +1,7 @@
 <map id="Dtk::Widget::DBorderlessWindow" name="Dtk::Widget::DBorderlessWindow">
-<area shape="rect" id="node2" href="$class_dtk_1_1_widget_1_1_d_borderless_widget.html" title="DBorderlessWidget 是DTK中用于提供无边框的功能的类，主要用于Windows。通过设置窗口的WindowFlags为Qt::Wi..." alt="" coords="74,155,255,196"/>
+<area shape="rect" id="node2" href="$class_dtk_1_1_widget_1_1_d_borderless_widget.html" title="DBorderlessWidget 是DTK中用于提供无边框的功能的类，主要用于Windows。 在Windows和Linux图形环境下，窗口..." alt="" coords="74,155,255,196"/>
 <area shape="rect" id="node3" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qwidget.html" title="QWidget" alt="" coords="62,80,137,107"/>
 <area shape="rect" id="node4" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qobject.html" title="QObject" alt="" coords="5,5,79,32"/>
 <area shape="rect" id="node5" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qpaintdevice.html" title="QPaintDevice" alt="" coords="103,5,210,32"/>
-<area shape="rect" id="node6" href="$class_dtk_1_1_core_1_1_d_object.html" title="Dtk::Core::DObject" alt="" coords="161,80,302,107"/>
+<area shape="rect" id="node6" href="$class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="161,80,302,107"/>
 </map>

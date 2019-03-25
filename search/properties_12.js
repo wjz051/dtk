@@ -11,7 +11,7 @@ var searchData=
   ['tabsmovable',['tabsMovable',['https://doc.qt.io/qt-5/qmdiarea.html#tabsMovable-prop',1,'QMdiArea']]],
   ['tabstopdistance',['tabStopDistance',['https://doc.qt.io/qt-5/qtextedit.html#tabStopDistance-prop',1,'QTextEdit::tabStopDistance()'],['https://doc.qt.io/qt-5/qplaintextedit.html#tabStopDistance-prop',1,'QPlainTextEdit::tabStopDistance()']]],
   ['tabstopwidth',['tabStopWidth',['https://doc.qt.io/qt-5/qtextedit-obsolete.html#tabStopWidth-prop',1,'QTextEdit::tabStopWidth()'],['https://doc.qt.io/qt-5/qplaintextedit-obsolete.html#tabStopWidth-prop',1,'QPlainTextEdit::tabStopWidth()']]],
-  ['target',['target',['../class_dtk_1_1_widget_1_1_d_anchors_base.html#ad0bfa648cb6405c7841c4dc4e299d0d3',1,'Dtk::Widget::DAnchorsBase']]],
+  ['target',['target',['../class_dtk_1_1_widget_1_1_d_anchors_base.html#ad0bfa648cb6405c7841c4dc4e299d0d3',1,'Dtk::Widget::DAnchorsBase::target()'],['../class_dtk_1_1_widget_1_1_d_enhanced_widget.html#a1d504d227220c0d23c8c3024fea0f39b',1,'Dtk::Widget::DEnhancedWidget::target()']]],
   ['targetobject',['targetObject',['https://doc.qt.io/qt-5/qpropertyanimation.html#targetObject-prop',1,'QPropertyAnimation']]],
   ['targetstate',['targetState',['https://doc.qt.io/qt-5/qabstracttransition.html#targetState-prop',1,'QAbstractTransition']]],
   ['targetstates',['targetStates',['https://doc.qt.io/qt-5/qabstracttransition.html#targetStates-prop',1,'QAbstractTransition']]],
@@ -32,6 +32,7 @@ var searchData=
   ['time',['time',['https://doc.qt.io/qt-5/qdatetimeedit.html#time-prop',1,'QDateTimeEdit']]],
   ['timertype',['timerType',['https://doc.qt.io/qt-5/qtimer.html#timerType-prop',1,'QTimer']]],
   ['timespec',['timeSpec',['https://doc.qt.io/qt-5/qdatetimeedit.html#timeSpec-prop',1,'QDateTimeEdit']]],
+  ['tipcolor',['tipColor',['../class_dtk_1_1_widget_1_1_d_slider.html#a753a8a2702282caa634efe14fcecaf35',1,'Dtk::Widget::DSlider']]],
   ['title',['title',['https://doc.qt.io/qt-5/qwindow.html#title-prop',1,'QWindow::title()'],['https://doc.qt.io/qt-5/qgroupbox.html#title-prop',1,'QGroupBox::title()'],['https://doc.qt.io/qt-5/qmenu.html#title-prop',1,'QMenu::title()'],['https://doc.qt.io/qt-5/qwizardpage.html#title-prop',1,'QWizardPage::title()']]],
   ['titlebarheight',['titlebarHeight',['../class_dtk_1_1_widget_1_1_d_borderless_widget.html#a294bbe3ac333ca3b3fcbe83c0583e496',1,'Dtk::Widget::DBorderlessWidget']]],
   ['titleformat',['titleFormat',['https://doc.qt.io/qt-5/qwizard.html#titleFormat-prop',1,'QWizard']]],
@@ -49,7 +50,8 @@ var searchData=
   ['tracking',['tracking',['https://doc.qt.io/qt-5/qabstractslider.html#tracking-prop',1,'QAbstractSlider']]],
   ['transformationanchor',['transformationAnchor',['https://doc.qt.io/qt-5/qgraphicsview.html#transformationAnchor-prop',1,'QGraphicsView']]],
   ['transformoriginpoint',['transformOriginPoint',['https://doc.qt.io/qt-5/qgraphicsobject.html#transformOriginPoint-prop',1,'QGraphicsObject']]],
+  ['transition',['transition',['../class_dtk_1_1_widget_1_1_d_stack_widget.html#ac8d967794a965cfd33041dc966f6ca7b',1,'Dtk::Widget::DStackWidget']]],
   ['transitiontype',['transitionType',['https://doc.qt.io/qt-5/qabstracttransition.html#transitionType-prop',1,'QAbstractTransition']]],
-  ['translucentbackground',['translucentBackground',['../class_dtk_1_1_widget_1_1_d_main_window.html#a43d45c18abc620ec8a6e4dbde613ef42',1,'Dtk::Widget::DMainWindow']]],
+  ['translucentbackground',['translucentBackground',['../class_dtk_1_1_widget_1_1_d_main_window.html#a43d45c18abc620ec8a6e4dbde613ef42',1,'Dtk::Widget::DMainWindow::translucentBackground()'],['../class_dtk_1_1_widget_1_1_d_platform_window_handle.html#a3effdaca3b8ef0b99cea11492300ab7a',1,'Dtk::Widget::DPlatformWindowHandle::translucentBackground()']]],
   ['tristate',['tristate',['https://doc.qt.io/qt-5/qcheckbox.html#tristate-prop',1,'QCheckBox']]]
 ];

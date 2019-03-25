@@ -12,6 +12,7 @@ var searchData=
   ['physicaldotsperinchx',['physicalDotsPerInchX',['https://doc.qt.io/qt-5/qscreen.html#physicalDotsPerInchX-prop',1,'QScreen']]],
   ['physicaldotsperinchy',['physicalDotsPerInchY',['https://doc.qt.io/qt-5/qscreen.html#physicalDotsPerInchY-prop',1,'QScreen']]],
   ['physicalsize',['physicalSize',['https://doc.qt.io/qt-5/qscreen.html#physicalSize-prop',1,'QScreen']]],
+  ['pid',['pid',['../class_dtk_1_1_widget_1_1_d_foreign_window.html#a45e5f4ecdba6bd873748314ffe48997c',1,'Dtk::Widget::DForeignWindow']]],
   ['pixmap',['pixmap',['https://doc.qt.io/qt-5/qlabel.html#pixmap-prop',1,'QLabel']]],
   ['placeholdertext',['placeholderText',['https://doc.qt.io/qt-5/qlineedit.html#placeholderText-prop',1,'QLineEdit::placeholderText()'],['https://doc.qt.io/qt-5/qtextedit.html#placeholderText-prop',1,'QTextEdit::placeholderText()'],['https://doc.qt.io/qt-5/qplaintextedit.html#placeholderText-prop',1,'QPlainTextEdit::placeholderText()'],['../class_dtk_1_1_widget_1_1_d_ipv4_line_edit.html#ab5a0ed1d7b77c29ff95b9e3d09d0273b',1,'Dtk::Widget::DIpv4LineEdit::placeholderText()']]],
   ['plaintext',['plainText',['https://doc.qt.io/qt-5/qtextedit.html#plainText-prop',1,'QTextEdit::plainText()'],['https://doc.qt.io/qt-5/qplaintextedit.html#plainText-prop',1,'QPlainTextEdit::plainText()']]],

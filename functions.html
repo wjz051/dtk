@@ -81,6 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'搜索');
     <ul class="tablist">
       <li class="current"><a href="functions.html"><span>全部</span></a></li>
       <li><a href="functions_func.html"><span>函数</span></a></li>
+      <li><a href="functions_vars.html"><span>变量</span></a></li>
       <li><a href="functions_type.html"><span>类型定义</span></a></li>
       <li><a href="functions_enum.html"><span>枚举</span></a></li>
       <li><a href="functions_eval.html"><span>枚举值</span></a></li>
@@ -242,6 +243,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>addWidgets()
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_list_widget.html#aea88c1feda739802bc813c4e4b686c28">Dtk::Widget::DListWidget</a>
 </li>
+<li>addWindow()
+: <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a">Dtk::Widget::DWindowGroupLeader</a>
+</li>
 <li>adjustSize()
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_borderless_widget.html#a29b65657938979ce53dd0e1dfc2069d7">Dtk::Widget::DBorderlessWidget</a>
 </li>
@@ -251,7 +255,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_dtk_1_1_widget_1_1_d_spin_box.html#a9253cedad0295a997375a509adaf9fa6">Dtk::Widget::DSpinBox</a>
 </li>
 <li>Alert
-: <a class="el" href="class_dtk_1_1_widget_1_1_d_style_option_line_edit.html#ae5225628894367c3cace469617ef38aaa67999a586727c31b022490a493f48d44">Dtk::Widget::DStyleOptionLineEdit</a>
+: <a class="el" href="class_dtk_1_1_widget_1_1_d_style_option_line_edit.html#ae5225628894367c3cace469617ef38aaab9242d69bcb7f188fd7085aa81d94815">Dtk::Widget::DStyleOptionLineEdit</a>
 </li>
 <li>alertChanged()
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_passwd_edit_animated.html#aaa29fc117bdf9bddd70b3f28f0470348">Dtk::Widget::DPasswdEditAnimated</a>
@@ -259,6 +263,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>alignment
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_ipv4_line_edit.html#a3e2eab48098b48223775cd2f8d1b5e61">Dtk::Widget::DIpv4LineEdit</a>
+</li>
+<li>allWindowIdList()
+: <a class="el" href="class_dtk_1_1_widget_1_1_d_window_manager_helper.html#abc09b417aeb24a7af5376924b58a9170">Dtk::Widget::DWindowManagerHelper</a>
 </li>
 <li>AnchorError
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_anchors_base.html#ab48f5b39f0e6a0e3693a00235e3a0272">Dtk::Widget::DAnchorsBase</a>
@@ -274,12 +281,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>animationDuration
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_segmented_control.html#ac20243086aa4cd6dd20e0af1c1bea43b">Dtk::Widget::DSegmentedControl</a>
+, <a class="el" href="class_dtk_1_1_widget_1_1_d_stack_widget.html#ac338501bfccd35ca7e5d1fa0574d69ce">Dtk::Widget::DStackWidget</a>
 </li>
 <li>animationDurationChanged()
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_segmented_control.html#a214cebe41784c34067f3512bd8c439a6">Dtk::Widget::DSegmentedControl</a>
 </li>
 <li>animationType
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_segmented_control.html#aa892bedb437ae13e6478551d55eded6c">Dtk::Widget::DSegmentedControl</a>
+, <a class="el" href="class_dtk_1_1_widget_1_1_d_stack_widget.html#acd677f4159404839dfd603542e70a081">Dtk::Widget::DStackWidget</a>
 </li>
 <li>append()
 : <a class="el" href="class_dtk_1_1_core_1_1_abstract_appender.html#ab65789459b74307789438907af06ecee">Dtk::Core::AbstractAppender</a>
@@ -287,6 +296,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_dtk_1_1_core_1_1_file_appender.html#a4b209b3446baf33bb33354589a4ef14f">Dtk::Core::FileAppender</a>
 , <a class="el" href="class_dtk_1_1_core_1_1_output_debug_appender.html#aca27dae77280c19ad2918e6a6d54b38d">Dtk::Core::OutputDebugAppender</a>
 , <a class="el" href="class_dtk_1_1_core_1_1_rolling_file_appender.html#a48751b7bdc15b97ec2640a249b950935">Dtk::Core::RollingFileAppender</a>
+</li>
+<li>appendCrumb()
+: <a class="el" href="class_dtk_1_1_widget_1_1_d_crumb_edit.html#a437d299a68f950bcfe145012a040d1fd">Dtk::Widget::DCrumbEdit</a>
 </li>
 <li>applicationAcknowledgementPage()
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a548c25b7047b24dccf7a2e27d6c9bbf3">Dtk::Widget::DApplication</a>
@@ -314,10 +326,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>arrowDirection()
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_arrow_button.html#a294df8079921a528cc3acfe815779df5">Dtk::Widget::DArrowButton</a>
-, <a class="el" href="class_dtk_1_1_widget_1_1_d_arrow_rectangle.html#add6b786fd648a6615422acd94051387d">Dtk::Widget::DArrowRectangle</a>
 </li>
 <li>ArrowDirection
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_arrow_rectangle.html#aec8c44f26feb0e8f724f86a9ed293a74">Dtk::Widget::DArrowRectangle</a>
+</li>
+<li>arrowDirection
+: <a class="el" href="class_dtk_1_1_widget_1_1_d_arrow_rectangle.html#add6b786fd648a6615422acd94051387d">Dtk::Widget::DArrowRectangle</a>
 </li>
 <li>ArrowDown
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_arrow_button.html#a9d5cc5fb3f8a80d51da1608fe8bcb34aa03cc45d500c85e3c2732d6ff176f9237">Dtk::Widget::DArrowButton</a>
@@ -371,6 +385,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>autoInputMaskByClipPath
 : <a class="el" href="class_dtk_1_1_widget_1_1_d_main_window.html#ab32671e0548270e0ee275fd704a08f2f">Dtk::Widget::DMainWindow</a>
+, <a class="el" href="class_dtk_1_1_widget_1_1_d_platform_window_handle.html#ac24ec26d86ac951d5c1cd7060318e4ca">Dtk::Widget::DPlatformWindowHandle</a>
+</li>
+<li>autoInputMaskByClipPathChanged()
+: <a class="el" href="class_dtk_1_1_widget_1_1_d_platform_window_handle.html#ae829798324d4c9fc5fd73a679e666a30">Dtk::Widget::DPlatformWindowHandle</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -378,7 +396,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2019年 一月 30日 星期三 10:16:59 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:43 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

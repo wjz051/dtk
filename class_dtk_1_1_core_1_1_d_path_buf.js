@@ -1,5 +1,6 @@
 var class_dtk_1_1_core_1_1_d_path_buf =
 [
+    [ "DPathBuf", "class_dtk_1_1_core_1_1_d_path_buf.html#a2fe02db5ffa5e283eb458046195ffdf8", null ],
     [ "DPathBuf", "class_dtk_1_1_core_1_1_d_path_buf.html#a2831dcece57d0f40cce47357424cc28a", null ],
     [ "join", "class_dtk_1_1_core_1_1_d_path_buf.html#a9d59a194ad6a49475c25cf8fa083080d", null ],
     [ "operator/", "class_dtk_1_1_core_1_1_d_path_buf.html#a8b3de53a552104a5626ce61b1edc5250", null ],

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pointinvalid',['PointInvalid',['../class_dtk_1_1_widget_1_1_d_anchors_base.html#ab48f5b39f0e6a0e3693a00235e3a0272a8660c7debe35ad3cc9c22b35eff09314',1,'Dtk::Widget::DAnchorsBase']]],
-  ['press',['Press',['../class_dtk_1_1_widget_1_1_d_image_button.html#a98c3afb6415450e772510125c05e29cba7c31fe275b91cd19e0432a0dc58dc743',1,'Dtk::Widget::DImageButton']]]
+  ['otherwm',['OtherWM',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a9673e5ba49e9b374d36b0436163ff442a47e5629e1b27c2ea903b2f9106059d70',1,'Dtk::Widget::DWindowManagerHelper']]]
 ];

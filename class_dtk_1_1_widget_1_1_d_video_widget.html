@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('class_dtk_1_1_widget_1_1_d_video_widge
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html" title="The DVideoWidget class provides a widget which presents video produced by a media object...">DVideoWidget</a> class provides a widget which presents video produced by a media object.  
+<p>DVideoWidget类提供了呈现视频的小部件 为了给循环播放提供更好的用户体验，视频的最后一帧将会被保留，同时还支持视频垂直或水平翻转， 视频缩放和圆形视频编辑。  
  <a href="class_dtk_1_1_widget_1_1_d_video_widget.html#details">更多...</a></p>
 <div class="dynheader">
 类 Dtk::Widget::DVideoWidget 继承关系图:</div>
@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('class_dtk_1_1_widget_1_1_d_video_widge
 <area shape="rect" id="node2" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="62,80,137,107"/>
 <area shape="rect" id="node3" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,5,79,32"/>
 <area shape="rect" id="node4" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpaintdevice.html" title="QPaintDevice" alt="" coords="103,5,210,32"/>
-<area shape="rect" id="node5" href="class_dtk_1_1_core_1_1_d_object.html" title="Dtk::Core::DObject" alt="" coords="161,80,302,107"/>
+<area shape="rect" id="node5" href="class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="161,80,302,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <div class="dynheader">
@@ -140,77 +140,85 @@ Dtk::Widget::DVideoWidget 的协作图:</div>
 <area shape="rect" id="node2" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="119,95,194,121"/>
 <area shape="rect" id="node3" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="5,5,79,32"/>
 <area shape="rect" id="node4" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpaintdevice.html" title="QPaintDevice" alt="" coords="103,5,210,32"/>
-<area shape="rect" id="node5" href="class_dtk_1_1_core_1_1_d_object.html" title="Dtk::Core::DObject" alt="" coords="267,95,409,121"/>
+<area shape="rect" id="node5" href="class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="267,95,409,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public 槽</h2></td></tr>
 <tr class="memitem:a52a761177a4cd14436f57d947f79e78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a52a761177a4cd14436f57d947f79e78c">setSource</a> (QCamera *source)</td></tr>
-<tr class="memdesc:a52a761177a4cd14436f57d947f79e78c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a52a761177a4cd14436f57d947f79e78c" title="DVideoWidget::setSource sets a QCamera source to be tracked. ">DVideoWidget::setSource</a> sets a QCamera source to be tracked.  <a href="#a52a761177a4cd14436f57d947f79e78c">更多...</a><br /></td></tr>
+<tr class="memdesc:a52a761177a4cd14436f57d947f79e78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置要跟踪的QCamera源  <a href="#a52a761177a4cd14436f57d947f79e78c">更多...</a><br /></td></tr>
 <tr class="separator:a52a761177a4cd14436f57d947f79e78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63a96f2643c30611cccfc90128190027"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a63a96f2643c30611cccfc90128190027">setSource</a> (QMediaPlayer *source)</td></tr>
-<tr class="memdesc:a63a96f2643c30611cccfc90128190027"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a52a761177a4cd14436f57d947f79e78c" title="DVideoWidget::setSource sets a QCamera source to be tracked. ">DVideoWidget::setSource</a> sets a QMediaPlayer source to be played.  <a href="#a63a96f2643c30611cccfc90128190027">更多...</a><br /></td></tr>
+<tr class="memdesc:a63a96f2643c30611cccfc90128190027"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置要跟踪的QMediaPlayer源  <a href="#a63a96f2643c30611cccfc90128190027">更多...</a><br /></td></tr>
 <tr class="separator:a63a96f2643c30611cccfc90128190027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba7a9a6ef47e0b716f4c1cfa043af7ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba7a9a6ef47e0b716f4c1cfa043af7ff"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMirroredHorizontal</b> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093">mirroredHorizontal</a>)</td></tr>
+<tr class="memitem:aba7a9a6ef47e0b716f4c1cfa043af7ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aba7a9a6ef47e0b716f4c1cfa043af7ff">setMirroredHorizontal</a> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093">mirroredHorizontal</a>)</td></tr>
+<tr class="memdesc:aba7a9a6ef47e0b716f4c1cfa043af7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置是否开启当前视频或画面水平翻转  <a href="#aba7a9a6ef47e0b716f4c1cfa043af7ff">更多...</a><br /></td></tr>
 <tr class="separator:aba7a9a6ef47e0b716f4c1cfa043af7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0524cd59f9e5b926997d16c21d8024ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0524cd59f9e5b926997d16c21d8024ac"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMirroredVertical</b> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4">mirroredVertical</a>)</td></tr>
+<tr class="memitem:a0524cd59f9e5b926997d16c21d8024ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0524cd59f9e5b926997d16c21d8024ac">setMirroredVertical</a> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4">mirroredVertical</a>)</td></tr>
+<tr class="memdesc:a0524cd59f9e5b926997d16c21d8024ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置是否开启当前的视频或画面的垂直翻转  <a href="#a0524cd59f9e5b926997d16c21d8024ac">更多...</a><br /></td></tr>
 <tr class="separator:a0524cd59f9e5b926997d16c21d8024ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4c5dc107e1eea423b8b6dfb241e78c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4c5dc107e1eea423b8b6dfb241e78c8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setScale</b> (qreal <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2">scale</a>)</td></tr>
+<tr class="memitem:aa4c5dc107e1eea423b8b6dfb241e78c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa4c5dc107e1eea423b8b6dfb241e78c8">setScale</a> (qreal <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2">scale</a>)</td></tr>
+<tr class="memdesc:aa4c5dc107e1eea423b8b6dfb241e78c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置相对于原始视频或画面大小的缩放  <a href="#aa4c5dc107e1eea423b8b6dfb241e78c8">更多...</a><br /></td></tr>
 <tr class="separator:aa4c5dc107e1eea423b8b6dfb241e78c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f7b4a67d614c2cbbd00501fb624c07b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f7b4a67d614c2cbbd00501fb624c07b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setAspectRatioMode</b> (Qt::AspectRatioMode mode)</td></tr>
+<tr class="memitem:a3f7b4a67d614c2cbbd00501fb624c07b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a3f7b4a67d614c2cbbd00501fb624c07b">setAspectRatioMode</a> (Qt::AspectRatioMode mode)</td></tr>
+<tr class="memdesc:a3f7b4a67d614c2cbbd00501fb624c07b"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前的视频或画面的缩放模式  <a href="#a3f7b4a67d614c2cbbd00501fb624c07b">更多...</a><br /></td></tr>
 <tr class="separator:a3f7b4a67d614c2cbbd00501fb624c07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bfdeb0f5f93033e3849f6c8464c9d34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bfdeb0f5f93033e3849f6c8464c9d34"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setBrightness</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a8166e982a4ed788a9bf92a404142bdc0">brightness</a>)</td></tr>
+<tr class="memitem:a0bfdeb0f5f93033e3849f6c8464c9d34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0bfdeb0f5f93033e3849f6c8464c9d34">setBrightness</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a8166e982a4ed788a9bf92a404142bdc0">brightness</a>)</td></tr>
+<tr class="memdesc:a0bfdeb0f5f93033e3849f6c8464c9d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前的视频或画面的亮度  <a href="#a0bfdeb0f5f93033e3849f6c8464c9d34">更多...</a><br /></td></tr>
 <tr class="separator:a0bfdeb0f5f93033e3849f6c8464c9d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae98200813736510b0fe408ba5477fe1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae98200813736510b0fe408ba5477fe1e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setContrast</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">contrast</a>)</td></tr>
+<tr class="memitem:ae98200813736510b0fe408ba5477fe1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ae98200813736510b0fe408ba5477fe1e">setContrast</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">contrast</a>)</td></tr>
+<tr class="memdesc:ae98200813736510b0fe408ba5477fe1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前视频或画面的对比度  <a href="#ae98200813736510b0fe408ba5477fe1e">更多...</a><br /></td></tr>
 <tr class="separator:ae98200813736510b0fe408ba5477fe1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220962b5fb59aab14e96cac5a4ea114f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a220962b5fb59aab14e96cac5a4ea114f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setHue</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a47c2ff0fd7c16d68d5b943651fd48597">hue</a>)</td></tr>
+<tr class="memitem:a220962b5fb59aab14e96cac5a4ea114f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a220962b5fb59aab14e96cac5a4ea114f">setHue</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a47c2ff0fd7c16d68d5b943651fd48597">hue</a>)</td></tr>
+<tr class="memdesc:a220962b5fb59aab14e96cac5a4ea114f"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前视频或画面的色彩度  <a href="#a220962b5fb59aab14e96cac5a4ea114f">更多...</a><br /></td></tr>
 <tr class="separator:a220962b5fb59aab14e96cac5a4ea114f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22b15f35d40c8f2ce69f77c6a3298d5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22b15f35d40c8f2ce69f77c6a3298d5b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSaturation</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aaa6e82bd035a7dea6550b2760c044bc9">saturation</a>)</td></tr>
+<tr class="memitem:a22b15f35d40c8f2ce69f77c6a3298d5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a22b15f35d40c8f2ce69f77c6a3298d5b">setSaturation</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aaa6e82bd035a7dea6550b2760c044bc9">saturation</a>)</td></tr>
+<tr class="memdesc:a22b15f35d40c8f2ce69f77c6a3298d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前的视频或画面的饱和度  <a href="#a22b15f35d40c8f2ce69f77c6a3298d5b">更多...</a><br /></td></tr>
 <tr class="separator:a22b15f35d40c8f2ce69f77c6a3298d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a731c11a3a77a1a75ed3cf91caff3bb14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a731c11a3a77a1a75ed3cf91caff3bb14"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setRound</b> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625">round</a>)</td></tr>
+<tr class="memitem:a731c11a3a77a1a75ed3cf91caff3bb14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a731c11a3a77a1a75ed3cf91caff3bb14">setRound</a> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625">round</a>)</td></tr>
+<tr class="memdesc:a731c11a3a77a1a75ed3cf91caff3bb14"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置是否开启视频圆形  <a href="#a731c11a3a77a1a75ed3cf91caff3bb14">更多...</a><br /></td></tr>
 <tr class="separator:a731c11a3a77a1a75ed3cf91caff3bb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 信号</h2></td></tr>
-<tr class="memitem:af2e09f885235f904f44957aa011b7f7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2e09f885235f904f44957aa011b7f7c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mirroredHorizontalChanged</b> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093">mirroredHorizontal</a>)</td></tr>
-<tr class="separator:af2e09f885235f904f44957aa011b7f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacf7b6f3465e3a41b70b77398f6ba397"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacf7b6f3465e3a41b70b77398f6ba397"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mirroredVerticalChanged</b> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4">mirroredVertical</a>)</td></tr>
-<tr class="separator:aacf7b6f3465e3a41b70b77398f6ba397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92304ba5057607b451ff5cf6b28cd9a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92304ba5057607b451ff5cf6b28cd9a6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>scaleChanged</b> (qreal <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2">scale</a>)</td></tr>
-<tr class="separator:a92304ba5057607b451ff5cf6b28cd9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa02178fca53e31754882d2d0082a0aca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa02178fca53e31754882d2d0082a0aca"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>brightnessChanged</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a8166e982a4ed788a9bf92a404142bdc0">brightness</a>)</td></tr>
-<tr class="separator:aa02178fca53e31754882d2d0082a0aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c3b125737efcafc41ce4fa10de078ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c3b125737efcafc41ce4fa10de078ce"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>contrastChanged</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">contrast</a>)</td></tr>
-<tr class="separator:a9c3b125737efcafc41ce4fa10de078ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6576dae3dceb1385d636d03a95f7743"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6576dae3dceb1385d636d03a95f7743"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>hueChanged</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a47c2ff0fd7c16d68d5b943651fd48597">hue</a>)</td></tr>
-<tr class="separator:ad6576dae3dceb1385d636d03a95f7743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e88c4090bee740ba97e78ba90e21796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e88c4090bee740ba97e78ba90e21796"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>saturationChanged</b> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aaa6e82bd035a7dea6550b2760c044bc9">saturation</a>)</td></tr>
-<tr class="separator:a6e88c4090bee740ba97e78ba90e21796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48b885aa453821ff06a0b8a592327e51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48b885aa453821ff06a0b8a592327e51"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>roundChanged</b> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625">round</a>)</td></tr>
-<tr class="separator:a48b885aa453821ff06a0b8a592327e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a7a69ad6d183b0c3ff74884932b464"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45a7a69ad6d183b0c3ff74884932b464"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a45a7a69ad6d183b0c3ff74884932b464">mirroredHorizontalChanged</a> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093">mirroredHorizontal</a>)</td></tr>
+<tr class="memdesc:a45a7a69ad6d183b0c3ff74884932b464"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前的视频或画面发生水平翻转时会发出该信号 <br /></td></tr>
+<tr class="separator:a45a7a69ad6d183b0c3ff74884932b464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf1239a0af002007322d3eccc7891ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacf1239a0af002007322d3eccc7891ac"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aacf1239a0af002007322d3eccc7891ac">mirroredVerticalChanged</a> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4">mirroredVertical</a>)</td></tr>
+<tr class="memdesc:aacf1239a0af002007322d3eccc7891ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前的视频或画面发生垂直翻转时会发出该信号 <br /></td></tr>
+<tr class="separator:aacf1239a0af002007322d3eccc7891ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e6422e698b8a72c37390bcee7a0e36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84e6422e698b8a72c37390bcee7a0e36"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a84e6422e698b8a72c37390bcee7a0e36">scaleChanged</a> (qreal <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2">scale</a>)</td></tr>
+<tr class="memdesc:a84e6422e698b8a72c37390bcee7a0e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">当相对于视频或画面的原始大小的比例发生变化时会发出该信号 <br /></td></tr>
+<tr class="separator:a84e6422e698b8a72c37390bcee7a0e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16646ac982570723b5b70e2493a13099"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16646ac982570723b5b70e2493a13099"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a16646ac982570723b5b70e2493a13099">brightnessChanged</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a8166e982a4ed788a9bf92a404142bdc0">brightness</a>)</td></tr>
+<tr class="memdesc:a16646ac982570723b5b70e2493a13099"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前的视频或画面的亮度发生变化时会发出该信号 <br /></td></tr>
+<tr class="separator:a16646ac982570723b5b70e2493a13099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5634683cb12d7f73b3fd22f5ef9a5030"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5634683cb12d7f73b3fd22f5ef9a5030"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a5634683cb12d7f73b3fd22f5ef9a5030">contrastChanged</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">contrast</a>)</td></tr>
+<tr class="memdesc:a5634683cb12d7f73b3fd22f5ef9a5030"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前的视频或画面的对比度发生变化时会发出该信号 <br /></td></tr>
+<tr class="separator:a5634683cb12d7f73b3fd22f5ef9a5030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd38afb5f3a51e9663d2c662674f0b08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd38afb5f3a51e9663d2c662674f0b08"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abd38afb5f3a51e9663d2c662674f0b08">hueChanged</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a47c2ff0fd7c16d68d5b943651fd48597">hue</a>)</td></tr>
+<tr class="memdesc:abd38afb5f3a51e9663d2c662674f0b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前的视频或画面的色彩度发生变化时会发出该信号 <br /></td></tr>
+<tr class="separator:abd38afb5f3a51e9663d2c662674f0b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc8ca48fabd099fdda5b856176a4783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bc8ca48fabd099fdda5b856176a4783"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0bc8ca48fabd099fdda5b856176a4783">saturationChanged</a> (int <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aaa6e82bd035a7dea6550b2760c044bc9">saturation</a>)</td></tr>
+<tr class="memdesc:a0bc8ca48fabd099fdda5b856176a4783"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前视频或画面的饱和度发生变化时会发出该信号 <br /></td></tr>
+<tr class="separator:a0bc8ca48fabd099fdda5b856176a4783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388189d6a85c80d0f777a98477d190c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a388189d6a85c80d0f777a98477d190c4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a388189d6a85c80d0f777a98477d190c4">roundChanged</a> (bool <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625">round</a>)</td></tr>
+<tr class="memdesc:a388189d6a85c80d0f777a98477d190c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前开启和关闭圆形效果时会发出该信号 <br /></td></tr>
+<tr class="separator:a388189d6a85c80d0f777a98477d190c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:a297a90f1f25fc51de3faae74980410f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a297a90f1f25fc51de3faae74980410f2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DVideoWidget</b> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html#parent">parent</a>=0)</td></tr>
+<tr class="memitem:a297a90f1f25fc51de3faae74980410f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a297a90f1f25fc51de3faae74980410f2">DVideoWidget</a> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html#parent">parent</a>=0)</td></tr>
+<tr class="memdesc:a297a90f1f25fc51de3faae74980410f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DVideoWidget的构造函数  <a href="#a297a90f1f25fc51de3faae74980410f2">更多...</a><br /></td></tr>
 <tr class="separator:a297a90f1f25fc51de3faae74980410f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a3eee36cdb9317e032df5eb53c5a4a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a3eee36cdb9317e032df5eb53c5a4a9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>mirroredHorizontal</b> () const </td></tr>
@@ -218,8 +226,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>mirroredHorizontal</b
 <tr class="memitem:a92b9ce20049cb5ef89dd86d9d48d3968"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92b9ce20049cb5ef89dd86d9d48d3968"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>mirroredVertical</b> () const </td></tr>
 <tr class="separator:a92b9ce20049cb5ef89dd86d9d48d3968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4586f1dc27e01d541e5d86174393719"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa4586f1dc27e01d541e5d86174393719">paint</a> (const QVideoFrame &amp;frame)</td></tr>
-<tr class="memdesc:aa4586f1dc27e01d541e5d86174393719"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa4586f1dc27e01d541e5d86174393719" title="DVideoWidget::paint paints a specific QVideoFrame onto the widget. ">DVideoWidget::paint</a> paints a specific QVideoFrame onto the widget.  <a href="#aa4586f1dc27e01d541e5d86174393719">更多...</a><br /></td></tr>
+<tr class="memitem:aa4586f1dc27e01d541e5d86174393719"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4586f1dc27e01d541e5d86174393719"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>paint</b> (const QVideoFrame &amp;frame)</td></tr>
 <tr class="separator:aa4586f1dc27e01d541e5d86174393719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a16406303822a476c572e743a7f64c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a16406303822a476c572e743a7f64c9"></a>
 qreal&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> () const </td></tr>
@@ -227,11 +235,11 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> () const <
 <tr class="memitem:a0bde0565f1b9b578d4a64e904731a6d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bde0565f1b9b578d4a64e904731a6d0"></a>
 Qt::AspectRatioMode&#160;</td><td class="memItemRight" valign="bottom"><b>aspectRatioMode</b> () const </td></tr>
 <tr class="separator:a0bde0565f1b9b578d4a64e904731a6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c7a5d6c207e46fe68fc673658744244"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c7a5d6c207e46fe68fc673658744244"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSourceVideoPixelRatio</b> (const qreal ratio)</td></tr>
+<tr class="memitem:a9c7a5d6c207e46fe68fc673658744244"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a9c7a5d6c207e46fe68fc673658744244">setSourceVideoPixelRatio</a> (const qreal ratio)</td></tr>
+<tr class="memdesc:a9c7a5d6c207e46fe68fc673658744244"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前的视频或画面在HiDPI下的缩放系数  <a href="#a9c7a5d6c207e46fe68fc673658744244">更多...</a><br /></td></tr>
 <tr class="separator:a9c7a5d6c207e46fe68fc673658744244"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c075321bbc44430994ced6fad17cc22"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c075321bbc44430994ced6fad17cc22"></a>
-qreal&#160;</td><td class="memItemRight" valign="bottom"><b>sourceVideoPixelRatio</b> () const </td></tr>
+<tr class="memitem:a3c075321bbc44430994ced6fad17cc22"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a3c075321bbc44430994ced6fad17cc22">sourceVideoPixelRatio</a> () const </td></tr>
+<tr class="memdesc:a3c075321bbc44430994ced6fad17cc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回视频在HiDPI下的缩放系数  <a href="#a3c075321bbc44430994ced6fad17cc22">更多...</a><br /></td></tr>
 <tr class="separator:a3c075321bbc44430994ced6fad17cc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f0d99c5d9b4456cac306b55d2d2ab76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f0d99c5d9b4456cac306b55d2d2ab76"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>brightness</b> () const </td></tr>
@@ -246,10 +254,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>hue</b> () const </td>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>saturation</b> () const </td></tr>
 <tr class="separator:a1a6e6f16a0abbd164265e7d776f5f8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcdbfb7c8da2db672d0367ade04362c2"><td class="memItemLeft" align="right" valign="top">const QVideoFrame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abcdbfb7c8da2db672d0367ade04362c2">currentFrame</a> () const </td></tr>
-<tr class="memdesc:abcdbfb7c8da2db672d0367ade04362c2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abcdbfb7c8da2db672d0367ade04362c2" title="DVideoWidget::currentFrame. ">DVideoWidget::currentFrame</a>.  <a href="#abcdbfb7c8da2db672d0367ade04362c2">更多...</a><br /></td></tr>
+<tr class="memdesc:abcdbfb7c8da2db672d0367ade04362c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前的画面帧  <a href="#abcdbfb7c8da2db672d0367ade04362c2">更多...</a><br /></td></tr>
 <tr class="separator:abcdbfb7c8da2db672d0367ade04362c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa197fa181de3a9bddffcf872b92e4950"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpixmap.html">QPixmap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa197fa181de3a9bddffcf872b92e4950">capture</a> ()</td></tr>
-<tr class="memdesc:aa197fa181de3a9bddffcf872b92e4950"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa197fa181de3a9bddffcf872b92e4950" title="DVideoWidget::capture grabs the current frame. ">DVideoWidget::capture</a> grabs the current frame.  <a href="#aa197fa181de3a9bddffcf872b92e4950">更多...</a><br /></td></tr>
+<tr class="memdesc:aa197fa181de3a9bddffcf872b92e4950"><td class="mdescLeft">&#160;</td><td class="mdescRight">捕获当前的画面  <a href="#aa197fa181de3a9bddffcf872b92e4950">更多...</a><br /></td></tr>
 <tr class="separator:aa197fa181de3a9bddffcf872b92e4950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a100d544d46b1f9863fcb37fea79fe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a100d544d46b1f9863fcb37fea79fe1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>round</b> () const </td></tr>
@@ -1284,45 +1292,41 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 <tr class="separator:disconnectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_dtk_1_1_core_1_1_d_object"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_dtk_1_1_core_1_1_d_object')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_dtk_1_1_core_1_1_d_object.html">Dtk::Core::DObject</a></td></tr>
 <tr class="memitem:adbed6e66a1393a6045fb24e50300db7f inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbed6e66a1393a6045fb24e50300db7f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DObject</b> (<a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_object.html#adbed6e66a1393a6045fb24e50300db7f">DObject</a> (<a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+<tr class="memdesc:adbed6e66a1393a6045fb24e50300db7f inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">只有在不需要数据成员的派生类中才会使用 <br /></td></tr>
 <tr class="separator:adbed6e66a1393a6045fb24e50300db7f inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64d70b82c64f7d7e71d4775854b25206"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DObject</b> (DObjectPrivate &amp;dd, <a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+<tr class="memitem:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_object.html#a64d70b82c64f7d7e71d4775854b25206">DObject</a> (DObjectPrivate &amp;dd, <a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+<tr class="memdesc:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">在派生类中比较常用的构造函数  <a href="#a64d70b82c64f7d7e71d4775854b25206">更多...</a><br /></td></tr>
 <tr class="separator:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 属性</h2></td></tr>
-<tr class="memitem:aa09bff146116df5f7d229350683ba093"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa09bff146116df5f7d229350683ba093"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093">mirroredHorizontal</a></td></tr>
-<tr class="memdesc:aa09bff146116df5f7d229350683ba093"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the video is horizontally flipped. <br /></td></tr>
+<tr class="memitem:aa09bff146116df5f7d229350683ba093"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093">mirroredHorizontal</a></td></tr>
+<tr class="memdesc:aa09bff146116df5f7d229350683ba093"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视频或画面是否水平翻转画面  <a href="#aa09bff146116df5f7d229350683ba093">更多...</a><br /></td></tr>
 <tr class="separator:aa09bff146116df5f7d229350683ba093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36a32b34ebbbd344a23224ff390f5ed4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36a32b34ebbbd344a23224ff390f5ed4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4">mirroredVertical</a></td></tr>
-<tr class="memdesc:a36a32b34ebbbd344a23224ff390f5ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the video is vertically flipped. <br /></td></tr>
+<tr class="memitem:a36a32b34ebbbd344a23224ff390f5ed4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4">mirroredVertical</a></td></tr>
+<tr class="memdesc:a36a32b34ebbbd344a23224ff390f5ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视频或画面是否垂直翻转画面  <a href="#a36a32b34ebbbd344a23224ff390f5ed4">更多...</a><br /></td></tr>
 <tr class="separator:a36a32b34ebbbd344a23224ff390f5ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9539b964fa111140f55f4cc5ba963e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad9539b964fa111140f55f4cc5ba963e2"></a>
-qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2">scale</a></td></tr>
-<tr class="memdesc:ad9539b964fa111140f55f4cc5ba963e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the scale ratio used to paint the video frames. <br /></td></tr>
+<tr class="memitem:ad9539b964fa111140f55f4cc5ba963e2"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2">scale</a></td></tr>
+<tr class="memdesc:ad9539b964fa111140f55f4cc5ba963e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视频或画面相对于原始大小的缩放比例  <a href="#ad9539b964fa111140f55f4cc5ba963e2">更多...</a><br /></td></tr>
 <tr class="separator:ad9539b964fa111140f55f4cc5ba963e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60410190f2af5069931b2ce09d011753"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60410190f2af5069931b2ce09d011753"></a>
-Qt::AspectRatioMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a60410190f2af5069931b2ce09d011753">aspectRatioMode</a></td></tr>
-<tr class="memdesc:a60410190f2af5069931b2ce09d011753"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds the current aspect ratio. <br /></td></tr>
+<tr class="memitem:a60410190f2af5069931b2ce09d011753"><td class="memItemLeft" align="right" valign="top">Qt::AspectRatioMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a60410190f2af5069931b2ce09d011753">aspectRatioMode</a></td></tr>
+<tr class="memdesc:a60410190f2af5069931b2ce09d011753"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视频或画面的宽高比模式  <a href="#a60410190f2af5069931b2ce09d011753">更多...</a><br /></td></tr>
 <tr class="separator:a60410190f2af5069931b2ce09d011753"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8166e982a4ed788a9bf92a404142bdc0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a8166e982a4ed788a9bf92a404142bdc0">brightness</a></td></tr>
-<tr class="memdesc:a8166e982a4ed788a9bf92a404142bdc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the brightness adjust setting.  <a href="#a8166e982a4ed788a9bf92a404142bdc0">更多...</a><br /></td></tr>
+<tr class="memdesc:a8166e982a4ed788a9bf92a404142bdc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视频或画面的画面亮度  <a href="#a8166e982a4ed788a9bf92a404142bdc0">更多...</a><br /></td></tr>
 <tr class="separator:a8166e982a4ed788a9bf92a404142bdc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ec71c2c4fafd11ff8d6d3c4c1610d1f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">contrast</a></td></tr>
-<tr class="memdesc:a6ec71c2c4fafd11ff8d6d3c4c1610d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the contrast adjust setting.  <a href="#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">更多...</a><br /></td></tr>
+<tr class="memdesc:a6ec71c2c4fafd11ff8d6d3c4c1610d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前的视频或画面的对比度  <a href="#a6ec71c2c4fafd11ff8d6d3c4c1610d1f">更多...</a><br /></td></tr>
 <tr class="separator:a6ec71c2c4fafd11ff8d6d3c4c1610d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47c2ff0fd7c16d68d5b943651fd48597"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a47c2ff0fd7c16d68d5b943651fd48597">hue</a></td></tr>
-<tr class="memdesc:a47c2ff0fd7c16d68d5b943651fd48597"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the hue adjust setting.  <a href="#a47c2ff0fd7c16d68d5b943651fd48597">更多...</a><br /></td></tr>
+<tr class="memdesc:a47c2ff0fd7c16d68d5b943651fd48597"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前视频或画面的色调  <a href="#a47c2ff0fd7c16d68d5b943651fd48597">更多...</a><br /></td></tr>
 <tr class="separator:a47c2ff0fd7c16d68d5b943651fd48597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa6e82bd035a7dea6550b2760c044bc9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aaa6e82bd035a7dea6550b2760c044bc9">saturation</a></td></tr>
-<tr class="memdesc:aaa6e82bd035a7dea6550b2760c044bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This property holds an adjustment to the saturation of displayed video.  <a href="#aaa6e82bd035a7dea6550b2760c044bc9">更多...</a><br /></td></tr>
+<tr class="memdesc:aaa6e82bd035a7dea6550b2760c044bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回当前的视频或画面的饱和度  <a href="#aaa6e82bd035a7dea6550b2760c044bc9">更多...</a><br /></td></tr>
 <tr class="separator:aaa6e82bd035a7dea6550b2760c044bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf0e7e9d9620c9bfa66b9b25cbc50625"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf0e7e9d9620c9bfa66b9b25cbc50625"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625">round</a></td></tr>
-<tr class="memdesc:abf0e7e9d9620c9bfa66b9b25cbc50625"><td class="mdescLeft">&#160;</td><td class="mdescRight">controls whether the painted video frame are rounded or not. <br /></td></tr>
+<tr class="memitem:abf0e7e9d9620c9bfa66b9b25cbc50625"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625">round</a></td></tr>
+<tr class="memdesc:abf0e7e9d9620c9bfa66b9b25cbc50625"><td class="mdescLeft">&#160;</td><td class="mdescRight">控制绘制的视频是否为圆形  <a href="#abf0e7e9d9620c9bfa66b9b25cbc50625">更多...</a><br /></td></tr>
 <tr class="separator:abf0e7e9d9620c9bfa66b9b25cbc50625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_qwidget"><td colspan="2" onclick="javascript:toggleInherit('properties_qwidget')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a></td></tr>
 <tr class="memitem:modal-prop inherit properties_qwidget"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="modal-prop"></a>
@@ -1578,18 +1582,46 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 <tr class="separator:a1a49828e8ece06afef896e26135f23c0 inherit pro_attribs_class_dtk_1_1_core_1_1_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<div class="textblock"><p>The <a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html" title="The DVideoWidget class provides a widget which presents video produced by a media object...">DVideoWidget</a> class provides a widget which presents video produced by a media object. </p>
-<p>Since the last frame that played is preserved, it always has better user experience looping some media. Also it supports video flip (both vertically or horizontally), video scale and rounded video clip.</p>
-<p>It's usually used just to play video animations like the one presented in dde-zone settings page. If you want to play video or other media objects, please refer to QVideoWidget for better preformance or support.</p>
+<div class="textblock"><p>DVideoWidget类提供了呈现视频的小部件 为了给循环播放提供更好的用户体验，视频的最后一帧将会被保留，同时还支持视频垂直或水平翻转， 视频缩放和圆形视频编辑。 </p>
+<p>将QMediaPlayer添加到DVideoWidget中，DVideoWidget封装了QVideoWidget来提供视频或图像的输出。 </p><dl class="section note"><dt>注解</dt><dd>注意: 一次只能将一个QMediaPlayer连接到DVideoWidget中。</dd></dl>
+<div class="fragment"><div class="line"><a class="code" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a297a90f1f25fc51de3faae74980410f2">DVideoWidget</a> *videoWidget = <span class="keyword">new</span> <a class="code" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a297a90f1f25fc51de3faae74980410f2">DVideoWidget</a>(<span class="keyword">this</span>);</div><div class="line">QMediaPlayer *mediaPlayer = <span class="keyword">new</span> QMediaPlayer(<span class="keyword">this</span>);</div><div class="line">QMediaPlaylist *list = <span class="keyword">new</span> QMediaPlaylist(<span class="keyword">this</span>);</div><div class="line">list-&gt;addMedia(<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qurl.html">QUrl</a>(<span class="stringliteral">&quot;qrc:/test.mp4&quot;</span>));</div><div class="line">list-&gt;setPlaybackMode(QMediaPlaylist::Loop);</div><div class="line">videoWidget-&gt;setVideoOutput(mediaPlayer);</div><div class="line">videoWidget-&gt;play();</div></div><!-- fragment --> 
+<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00035">35</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a297a90f1f25fc51de3faae74980410f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dtk::Widget::DVideoWidget::DVideoWidget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DVideoWidget的构造函数 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">parent</td><td>is the parent widget to be attached on. </td></tr>
+    <tr><td class="paramname">parent</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00035">35</a> 行定义.</p>
-</div><h2 class="groupheader">成员函数说明</h2>
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00184">184</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
 <a class="anchor" id="aa197fa181de3a9bddffcf872b92e4950"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1603,10 +1635,10 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa197fa181de3a9bddffcf872b92e4950" title="DVideoWidget::capture grabs the current frame. ">DVideoWidget::capture</a> grabs the current frame. </p>
-<dl class="section return"><dt>返回</dt><dd>a <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpixmap.html">QPixmap</a> representing the current frame. </dd></dl>
+<p>捕获当前的画面 </p>
+<dl class="section return"><dt>返回</dt><dd><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpixmap.html">QPixmap</a> 当前的画面帧 </dd></dl>
 
-<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00295">295</a> 行定义.</p>
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00453">453</a> 行定义.</p>
 
 </div>
 </div>
@@ -1623,36 +1655,341 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abcdbfb7c8da2db672d0367ade04362c2" title="DVideoWidget::currentFrame. ">DVideoWidget::currentFrame</a>. </p>
-<dl class="section return"><dt>返回</dt><dd>the current frame displaying. </dd></dl>
+<p>返回当前的画面帧 </p>
+<dl class="section return"><dt>返回</dt><dd>const QVideoFrame* </dd></dl>
 
-<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00280">280</a> 行定义.</p>
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00432">432</a> 行定义.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa4586f1dc27e01d541e5d86174393719"></a>
+<a class="anchor" id="a3f7b4a67d614c2cbbd00501fb624c07b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Dtk::Widget::DVideoWidget::paint </td>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setAspectRatioMode </td>
           <td>(</td>
-          <td class="paramtype">const QVideoFrame &amp;&#160;</td>
-          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td class="paramtype">Qt::AspectRatioMode&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa4586f1dc27e01d541e5d86174393719" title="DVideoWidget::paint paints a specific QVideoFrame onto the widget. ">DVideoWidget::paint</a> paints a specific QVideoFrame onto the widget. </p>
+<p>设置当前的视频或画面的缩放模式 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">frame</td><td>is the target video frame. </td></tr>
+    <tr><td class="paramname">mode</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a60410190f2af5069931b2ce09d011753" title="返回当前视频或画面的宽高比模式 ">DVideoWidget::aspectRatioMode</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00581">581</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0bfdeb0f5f93033e3849f6c8464c9d34"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setBrightness </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>brightness</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置当前的视频或画面的亮度 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">brightness</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a8166e982a4ed788a9bf92a404142bdc0" title="返回当前视频或画面的画面亮度 ">DVideoWidget::brightness</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a16646ac982570723b5b70e2493a13099" title="当前的视频或画面的亮度发生变化时会发出该信号 ">DVideoWidget::brightnessChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00596">596</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae98200813736510b0fe408ba5477fe1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setContrast </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contrast</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置当前视频或画面的对比度 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">contrast</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a6ec71c2c4fafd11ff8d6d3c4c1610d1f" title="返回当前的视频或画面的对比度 ">DVideoWidget::contrast</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a5634683cb12d7f73b3fd22f5ef9a5030" title="当前的视频或画面的对比度发生变化时会发出该信号 ">DVideoWidget::contrastChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00615">615</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a220962b5fb59aab14e96cac5a4ea114f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setHue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置当前视频或画面的色彩度 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hue</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a47c2ff0fd7c16d68d5b943651fd48597" title="返回当前视频或画面的色调 ">DVideoWidget::hue</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abd38afb5f3a51e9663d2c662674f0b08" title="当前的视频或画面的色彩度发生变化时会发出该信号 ">DVideoWidget::hueChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00634">634</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba7a9a6ef47e0b716f4c1cfa043af7ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setMirroredHorizontal </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mirroredHorizontal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置是否开启当前视频或画面水平翻转 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mirroredHorizontal</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa09bff146116df5f7d229350683ba093" title="返回当前视频或画面是否水平翻转画面 ">DVideoWidget::mirroredHorizontal</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a45a7a69ad6d183b0c3ff74884932b464" title="当前的视频或画面发生水平翻转时会发出该信号 ">DVideoWidget::mirroredHorizontalChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00525">525</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0524cd59f9e5b926997d16c21d8024ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setMirroredVertical </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mirroredVertical</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置是否开启当前的视频或画面的垂直翻转 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mirroredVertical</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a36a32b34ebbbd344a23224ff390f5ed4" title="返回当前视频或画面是否垂直翻转画面 ">DVideoWidget::mirroredVertical</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aacf1239a0af002007322d3eccc7891ac" title="当前的视频或画面发生垂直翻转时会发出该信号 ">DVideoWidget::mirroredVerticalChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00544">544</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a731c11a3a77a1a75ed3cf91caff3bb14"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setRound </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>round</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置是否开启视频圆形 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">round</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abf0e7e9d9620c9bfa66b9b25cbc50625" title="控制绘制的视频是否为圆形 ">DVideoWidget::round</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a388189d6a85c80d0f777a98477d190c4" title="当前开启和关闭圆形效果时会发出该信号 ">DVideoWidget::roundChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00672">672</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a22b15f35d40c8f2ce69f77c6a3298d5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setSaturation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>saturation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置当前的视频或画面的饱和度 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saturation</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aaa6e82bd035a7dea6550b2760c044bc9" title="返回当前的视频或画面的饱和度 ">DVideoWidget::saturation</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0bc8ca48fabd099fdda5b856176a4783" title="当前视频或画面的饱和度发生变化时会发出该信号 ">DVideoWidget::saturationChanged</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00653">653</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4c5dc107e1eea423b8b6dfb241e78c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setScale </td>
+          <td>(</td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置相对于原始视频或画面大小的缩放 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ad9539b964fa111140f55f4cc5ba963e2" title="返回当前视频或画面相对于原始大小的缩放比例 ">DVideoWidget::scale</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a84e6422e698b8a72c37390bcee7a0e36" title="当相对于视频或画面的原始大小的比例发生变化时会发出该信号 ">DVideoWidget::scaleChanged</a></dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scale</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00168">168</a> 行定义.</p>
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00563">563</a> 行定义.</p>
 
 </div>
 </div>
@@ -1678,15 +2015,15 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a52a761177a4cd14436f57d947f79e78c" title="DVideoWidget::setSource sets a QCamera source to be tracked. ">DVideoWidget::setSource</a> sets a QCamera source to be tracked. </p>
+<p>设置要跟踪的QCamera源 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">source</td><td>is the target camera source. </td></tr>
+    <tr><td class="paramname">source</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00315">315</a> 行定义.</p>
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00489">489</a> 行定义.</p>
 
 </div>
 </div>
@@ -1712,19 +2049,93 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a52a761177a4cd14436f57d947f79e78c" title="DVideoWidget::setSource sets a QCamera source to be tracked. ">DVideoWidget::setSource</a> sets a QMediaPlayer source to be played. </p>
+<p>设置要跟踪的QMediaPlayer源 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">source</td><td>is the target media player source. </td></tr>
+    <tr><td class="paramname">source</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00328">328</a> 行定义.</p>
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00508">508</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c7a5d6c207e46fe68fc673658744244"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DVideoWidget::setSourceVideoPixelRatio </td>
+          <td>(</td>
+          <td class="paramtype">const qreal&#160;</td>
+          <td class="paramname"><em>ratio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置当前的视频或画面在HiDPI下的缩放系数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ratio</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a3c075321bbc44430994ced6fad17cc22" title="返回视频在HiDPI下的缩放系数 ">DVideoWidget::sourceVideoPixelRatio</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00301">301</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3c075321bbc44430994ced6fad17cc22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Dtk::Widget::DVideoWidget::sourceVideoPixelRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>返回视频在HiDPI下的缩放系数 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a9c7a5d6c207e46fe68fc673658744244" title="设置当前的视频或画面在HiDPI下的缩放系数 ">DVideoWidget::setSourceVideoPixelRatio</a></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>qreal </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8cpp_source.html">dvideowidget.cpp</a> 第 <a class="el" href="dvideowidget_8cpp_source.html#l00315">315</a> 行定义.</p>
 
 </div>
 </div>
 <h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a60410190f2af5069931b2ce09d011753"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Qt::AspectRatioMode Dtk::Widget::DVideoWidget::aspectRatioMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>返回当前视频或画面的宽高比模式 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a3f7b4a67d614c2cbbd00501fb624c07b" title="设置当前的视频或画面的缩放模式 ">DVideoWidget::setAspectRatioMode</a></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>Qt::AspectRatioMode </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00042">42</a> 行定义.</p>
+
+</div>
+</div>
 <a class="anchor" id="a8166e982a4ed788a9bf92a404142bdc0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1743,8 +2154,11 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 </table>
 </div><div class="memdoc">
 
-<p>returns the brightness adjust setting. </p>
-<dl class="section note"><dt>注解</dt><dd>This property is not implemented. </dd></dl>
+<p>返回当前视频或画面的画面亮度 </p>
+<dl class="section note"><dt>注解</dt><dd>该属性暂未实现</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0bfdeb0f5f93033e3849f6c8464c9d34" title="设置当前的视频或画面的亮度 ">DVideoWidget::setBrightness</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a16646ac982570723b5b70e2493a13099" title="当前的视频或画面的亮度发生变化时会发出该信号 ">DVideoWidget::brightnessChanged</a> </dd></dl>
 
 <p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00043">43</a> 行定义.</p>
 
@@ -1768,8 +2182,11 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 </table>
 </div><div class="memdoc">
 
-<p>returns the contrast adjust setting. </p>
-<dl class="section note"><dt>注解</dt><dd>This property is not implemented. </dd></dl>
+<p>返回当前的视频或画面的对比度 </p>
+<dl class="section note"><dt>注解</dt><dd>该属性尚未实现</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#ae98200813736510b0fe408ba5477fe1e" title="设置当前视频或画面的对比度 ">DVideoWidget::setContrast</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a5634683cb12d7f73b3fd22f5ef9a5030" title="当前的视频或画面的对比度发生变化时会发出该信号 ">DVideoWidget::contrastChanged</a> </dd></dl>
 
 <p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00044">44</a> 行定义.</p>
 
@@ -1793,10 +2210,97 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 </table>
 </div><div class="memdoc">
 
-<p>returns the hue adjust setting. </p>
-<dl class="section note"><dt>注解</dt><dd>This property is not implemented. </dd></dl>
+<p>返回当前视频或画面的色调 </p>
+<dl class="section note"><dt>注解</dt><dd>该属性尚未实现</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a220962b5fb59aab14e96cac5a4ea114f" title="设置当前视频或画面的色彩度 ">DVideoWidget::setHue</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#abd38afb5f3a51e9663d2c662674f0b08" title="当前的视频或画面的色彩度发生变化时会发出该信号 ">DVideoWidget::hueChanged</a> </dd></dl>
 
 <p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00045">45</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa09bff146116df5f7d229350683ba093"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Dtk::Widget::DVideoWidget::mirroredHorizontal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>返回当前视频或画面是否水平翻转画面 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aba7a9a6ef47e0b716f4c1cfa043af7ff" title="设置是否开启当前视频或画面水平翻转 ">DVideoWidget::setMirroredHorizontal</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a45a7a69ad6d183b0c3ff74884932b464" title="当前的视频或画面发生水平翻转时会发出该信号 ">DVideoWidget::mirroredHorizontalChanged</a></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>bool 是否水平翻转画面 </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00039">39</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36a32b34ebbbd344a23224ff390f5ed4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Dtk::Widget::DVideoWidget::mirroredVertical</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>返回当前视频或画面是否垂直翻转画面 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0524cd59f9e5b926997d16c21d8024ac" title="设置是否开启当前的视频或画面的垂直翻转 ">DVideoWidget::setMirroredVertical</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aacf1239a0af002007322d3eccc7891ac" title="当前的视频或画面发生垂直翻转时会发出该信号 ">DVideoWidget::mirroredVerticalChanged</a></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>bool 是否垂直翻转 </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="abf0e7e9d9620c9bfa66b9b25cbc50625"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Dtk::Widget::DVideoWidget::round</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>控制绘制的视频是否为圆形 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a731c11a3a77a1a75ed3cf91caff3bb14" title="设置是否开启视频圆形 ">DVideoWidget::setRound</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a388189d6a85c80d0f777a98477d190c4" title="当前开启和关闭圆形效果时会发出该信号 ">DVideoWidget::roundChanged</a></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>boo 是否为圆形 </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00047">47</a> 行定义.</p>
 
 </div>
 </div>
@@ -1818,10 +2322,41 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 </table>
 </div><div class="memdoc">
 
-<p>This property holds an adjustment to the saturation of displayed video. </p>
-<dl class="section note"><dt>注解</dt><dd>This property is not implemented. </dd></dl>
+<p>返回当前的视频或画面的饱和度 </p>
+<dl class="section note"><dt>注解</dt><dd>该属性尚未实现</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a22b15f35d40c8f2ce69f77c6a3298d5b" title="设置当前的视频或画面的饱和度 ">DVideoWidget::setSaturation</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a0bc8ca48fabd099fdda5b856176a4783" title="当前视频或画面的饱和度发生变化时会发出该信号 ">DVideoWidget::saturationChanged</a> </dd></dl>
 
 <p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00046">46</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad9539b964fa111140f55f4cc5ba963e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Dtk::Widget::DVideoWidget::scale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>返回当前视频或画面相对于原始大小的缩放比例 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#aa4c5dc107e1eea423b8b6dfb241e78c8" title="设置相对于原始视频或画面大小的缩放 ">DVideoWidget::setScale</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html#a84e6422e698b8a72c37390bcee7a0e36" title="当相对于视频或画面的原始大小的比例发生变化时会发出该信号 ">DVideoWidget::scaleChanged</a></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>qreal 相对于原始大小的缩放比例 </dd></dl>
+
+<p>在文件 <a class="el" href="dvideowidget_8h_source.html">dvideowidget.h</a> 第 <a class="el" href="dvideowidget_8h_source.html#l00041">41</a> 行定义.</p>
 
 </div>
 </div>
@@ -1835,7 +2370,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Dtk</b></li><li class="navelem"><b>Widget</b></li><li class="navelem"><a class="el" href="class_dtk_1_1_widget_1_1_d_video_widget.html">DVideoWidget</a></li>
-    <li class="footer">生成于 2019年 一月 30日 星期三 10:16:58 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:42 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

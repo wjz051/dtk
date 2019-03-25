@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Deepin Tool Kit: dtkcore/src/base/dobject.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Deepin Tool Kit
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+   <div id="projectbrief">Deepin Tool Kit is the toolkit used to built deepin style Apps</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dobject_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">dobject.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>一些宏的定义  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &lt;QScopedPointer&gt;</code><br />
+<code>#include &quot;dtkcore_global.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+dobject.h 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="dobject_8h__incl.png" border="0" usemap="#dtkcore_2src_2base_2dobject_8h" alt=""/></div>
+<map name="dtkcore_2src_2base_2dobject_8h" id="dtkcore_2src_2base_2dobject_8h">
+<area shape="rect" id="node3" href="dtkcore__global_8h_source.html" title="dtkcore_global.h" alt="" coords="155,80,282,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="dobject_8h__dep__incl.png" border="0" usemap="#dtkcore_2src_2base_2dobject_8hdep" alt=""/></div>
+<map name="dtkcore_2src_2base_2dobject_8hdep" id="dtkcore_2src_2base_2dobject_8hdep">
+<area shape="rect" id="node2" href="dregionmonitor_8h_source.html" title="dtkwidget/src/util\l/dregionmonitor.h" alt="" coords="81,80,216,121"/>
+<area shape="rect" id="node5" href="dsvgrenderer_8h_source.html" title="dtkwidget/src/util\l/dsvgrenderer.h" alt="" coords="276,80,405,121"/>
+<area shape="rect" id="node7" href="dthumbnailprovider_8h_source.html" title="dtkwidget/src/util\l/dthumbnailprovider.h" alt="" coords="429,80,591,121"/>
+<area shape="rect" id="node9" href="dapplication_8h_source.html" title="dtkwidget/src/widgets\l/dapplication.h" alt="" coords="615,80,773,121"/>
+<area shape="rect" id="node10" href="dblureffectwidget_8h_source.html" title="dtkwidget/src/widgets\l/dblureffectwidget.h" alt="" coords="797,80,956,121"/>
+<area shape="rect" id="node11" href="darrowrectangle_8h_source.html" title="dtkwidget/src/widgets\l/darrowrectangle.h" alt="" coords="856,169,1015,211"/>
+<area shape="rect" id="node12" href="dboxwidget_8h_source.html" title="dtkwidget/src/widgets\l/dboxwidget.h" alt="" coords="1032,80,1191,121"/>
+<area shape="rect" id="node13" href="dborderlesswidget_8h_source.html" title="dtkwidget/src/widgets\l/dborderlesswidget.h" alt="" coords="1215,80,1373,121"/>
+<area shape="rect" id="node14" href="dborderlesswindow_8h_source.html" title="dtkwidget/src/widgets\l/dborderlesswindow.h" alt="" coords="1273,169,1432,211"/>
+<area shape="rect" id="node15" href="dtitlebar_8h_source.html" title="dtkwidget/src/widgets\l/dtitlebar.h" alt="" coords="1449,80,1608,121"/>
+<area shape="rect" id="node16" href="dcircleprogress_8h_source.html" title="dtkwidget/src/widgets\l/dcircleprogress.h" alt="" coords="1632,80,1791,121"/>
+<area shape="rect" id="node17" href="dclipeffectwidget_8h_source.html" title="dtkwidget/src/widgets\l/dclipeffectwidget.h" alt="" coords="1815,80,1973,121"/>
+<area shape="rect" id="node18" href="dcrumbedit_8h_source.html" title="dtkwidget/src/widgets\l/dcrumbedit.h" alt="" coords="1997,80,2156,121"/>
+<area shape="rect" id="node19" href="dimagebutton_8h_source.html" title="dtkwidget/src/widgets\l/dimagebutton.h" alt="" coords="2180,80,2339,121"/>
+<area shape="rect" id="node20" href="dwindowmaxbutton_8h_source.html" title="dtkwidget/src/widgets\l/dwindowmaxbutton.h" alt="" coords="2204,169,2365,211"/>
+<area shape="rect" id="node21" href="dlineedit_8h_source.html" title="dtkwidget/src/widgets\l/dlineedit.h" alt="" coords="2415,80,2573,121"/>
+<area shape="rect" id="node22" href="dinputdialog_8h_source.html" title="dtkwidget/src/widgets\l/dinputdialog.h" alt="" coords="2473,169,2632,211"/>
+<area shape="rect" id="node23" href="dflowlayout_8h_source.html" title="dtkwidget/src/widgets\l/dflowlayout.h" alt="" coords="2649,80,2808,121"/>
+<area shape="rect" id="node24" href="dforeignwindow_8h_source.html" title="dtkwidget/src/widgets\l/dforeignwindow.h" alt="" coords="2832,80,2991,121"/>
+<area shape="rect" id="node25" href="dgraphicsclipeffect_8h_source.html" title="dtkwidget/src/widgets\l/dgraphicsclipeffect.h" alt="" coords="3015,80,3173,121"/>
+<area shape="rect" id="node26" href="dspinbox_8h_source.html" title="dtkwidget/src/widgets\l/dspinbox.h" alt="" coords="3197,80,3356,121"/>
+<area shape="rect" id="node27" href="dlistview_8h_source.html" title="dtkwidget/src/widgets\l/dlistview.h" alt="" coords="3380,80,3539,121"/>
+<area shape="rect" id="node28" href="dscrollarea_8h_source.html" title="dtkwidget/src/widgets\l/dscrollarea.h" alt="" coords="3563,80,3721,121"/>
+<area shape="rect" id="node29" href="dloadingindicator_8h_source.html" title="dtkwidget/src/widgets\l/dloadingindicator.h" alt="" coords="3745,80,3904,121"/>
+<area shape="rect" id="node30" href="dmainwindow_8h_source.html" title="dtkwidget/src/widgets\l/dmainwindow.h" alt="" coords="3928,80,4087,121"/>
+<area shape="rect" id="node31" href="dmpriscontrol_8h_source.html" title="dtkwidget/src/widgets\l/dmpriscontrol.h" alt="" coords="4111,80,4269,121"/>
+<area shape="rect" id="node32" href="doption_8h_source.html" title="dtkwidget/src/widgets\l/doption.h" alt="" coords="4293,80,4452,121"/>
+<area shape="rect" id="node33" href="doptionlist_8h_source.html" title="dtkwidget/src/widgets\l/doptionlist.h" alt="" coords="4352,169,4511,211"/>
+<area shape="rect" id="node34" href="dpageindicator_8h_source.html" title="dtkwidget/src/widgets\l/dpageindicator.h" alt="" coords="4528,80,4687,121"/>
+<area shape="rect" id="node35" href="dpicturesequenceview_8h_source.html" title="dtkwidget/src/widgets\l/dpicturesequenceview.h" alt="" coords="4711,80,4890,121"/>
+<area shape="rect" id="node36" href="dpushbutton_8h_source.html" title="dtkwidget/src/widgets\l/dpushbutton.h" alt="" coords="4915,80,5073,121"/>
+<area shape="rect" id="node37" href="dscrollbar_8h_source.html" title="dtkwidget/src/widgets\l/dscrollbar.h" alt="" coords="5097,80,5256,121"/>
+<area shape="rect" id="node38" href="dsimplelistview_8h_source.html" title="dtkwidget/src/widgets\l/dsimplelistview.h" alt="" coords="5280,80,5439,121"/>
+<area shape="rect" id="node39" href="dstackwidget_8h_source.html" title="dtkwidget/src/widgets\l/dstackwidget.h" alt="" coords="5463,80,5621,121"/>
+<area shape="rect" id="node40" href="dsuggestbutton_8h_source.html" title="dtkwidget/src/widgets\l/dsuggestbutton.h" alt="" coords="5645,80,5804,121"/>
+<area shape="rect" id="node41" href="dswitchbutton_8h_source.html" title="dtkwidget/src/widgets\l/dswitchbutton.h" alt="" coords="5828,80,5987,121"/>
+<area shape="rect" id="node42" href="dtabbar_8h_source.html" title="dtkwidget/src/widgets\l/dtabbar.h" alt="" coords="6011,80,6169,121"/>
+<area shape="rect" id="node43" href="dtextedit_8h_source.html" title="dtkwidget/src/widgets\l/dtextedit.h" alt="" coords="6193,80,6352,121"/>
+<area shape="rect" id="node44" href="dtickeffect_8h_source.html" title="dtkwidget/src/widgets\l/dtickeffect.h" alt="" coords="6376,80,6535,121"/>
+<area shape="rect" id="node45" href="dvideowidget_8h_source.html" title="dtkwidget/src/widgets\l/dvideowidget.h" alt="" coords="6559,80,6717,121"/>
+<area shape="rect" id="node46" href="dwaterprogress_8h_source.html" title="dtkwidget/src/widgets\l/dwaterprogress.h" alt="" coords="6741,80,6900,121"/>
+<area shape="rect" id="node47" href="dobject_8cpp_source.html" title="dtkcore/src/base/dobject.cpp" alt="" coords="6924,87,7131,114"/>
+<area shape="rect" id="node48" href="dbasefilewatcher_8h_source.html" title="dtkcore/src/filesystem\l/dbasefilewatcher.h" alt="" coords="7155,80,7318,121"/>
+<area shape="rect" id="node49" href="dfilesystemwatcher_8h_source.html" title="dtkcore/src/filesystem\l/dfilesystemwatcher.h" alt="" coords="7342,80,7505,121"/>
+<area shape="rect" id="node50" href="dfilewatchermanager_8h_source.html" title="dtkcore/src/filesystem\l/dfilewatchermanager.h" alt="" coords="7529,80,7699,121"/>
+<area shape="rect" id="node3" href="dregionmonitor_8cpp_source.html" title="dtkwidget/src/util\l/dregionmonitor.cpp" alt="" coords="5,259,156,300"/>
+<area shape="rect" id="node4" href="dregionmonitor__p_8h_source.html" title="dtkwidget/src/util\l/private/dregionmonitor_p.h" alt="" coords="49,169,248,211"/>
+<area shape="rect" id="node6" href="dsvgrenderer_8cpp_source.html" title="dtkwidget/src/util\l/dsvgrenderer.cpp" alt="" coords="272,169,409,211"/>
+<area shape="rect" id="node8" href="dthumbnailprovider_8cpp_source.html" title="dtkwidget/src/util\l/dthumbnailprovider.cpp" alt="" coords="434,169,610,211"/>
+</map>
+</div>
+</div>
+<p><a href="dobject_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_object.html">Dtk::Core::DObject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">deepin-tool-kit 中所有公开类的祖先类。  <a href="class_dtk_1_1_core_1_1_d_object.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a848faf1d3a1cf9bb771f32106484a2d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#a848faf1d3a1cf9bb771f32106484a2d8">D_DECLARE_PRIVATE</a>(Class)&#160;&#160;&#160;Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_d_ptr),Class)</td></tr>
+<tr class="memdesc:a848faf1d3a1cf9bb771f32106484a2d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">这个宏一定要放到类的私有区域，它定义了 d_func() 这个函数用于返回私有类的对象， 这个对象只应该在类的内部使用，另外将私有类声明为公开类的友元类。  <a href="#a848faf1d3a1cf9bb771f32106484a2d8">更多...</a><br /></td></tr>
+<tr class="separator:a848faf1d3a1cf9bb771f32106484a2d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3eb59f9f5c2b7511246f15a0eb25c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#a6b3eb59f9f5c2b7511246f15a0eb25c5">D_DECLARE_PUBLIC</a>(Class)&#160;&#160;&#160;Q_DECLARE_PUBLIC(Class)</td></tr>
+<tr class="memdesc:a6b3eb59f9f5c2b7511246f15a0eb25c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">这个宏用于私有类中，它定义了 q_func() 这个函数用于返回公开类的对象，另外将公开类 声明为私有类的友元类。  <a href="#a6b3eb59f9f5c2b7511246f15a0eb25c5">更多...</a><br /></td></tr>
+<tr class="separator:a6b3eb59f9f5c2b7511246f15a0eb25c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad638ba34d44d91bad5dd9f86ed9035c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#ad638ba34d44d91bad5dd9f86ed9035c9">D_D</a>(Class)&#160;&#160;&#160;Q_D(Class)</td></tr>
+<tr class="memdesc:ad638ba34d44d91bad5dd9f86ed9035c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">这个宏用于公开类中，它定义了一个名字为 d 的变量存储 d_func() 的返回值。用于在公开 类中需要访问私有类的数据成员的函数中。  <a href="#ad638ba34d44d91bad5dd9f86ed9035c9">更多...</a><br /></td></tr>
+<tr class="separator:ad638ba34d44d91bad5dd9f86ed9035c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1f6c1673a4186b6629d554a7eff35c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#a8b1f6c1673a4186b6629d554a7eff35c">D_Q</a>(Class)&#160;&#160;&#160;Q_Q(Class)</td></tr>
+<tr class="memdesc:a8b1f6c1673a4186b6629d554a7eff35c"><td class="mdescLeft">&#160;</td><td class="mdescRight">这个宏用于私有类中，它定义了一个名字为 q 的变量存储 q_func() 的返回值。用于在私有 类中需要调用公开类的成员函数时。  <a href="#a8b1f6c1673a4186b6629d554a7eff35c">更多...</a><br /></td></tr>
+<tr class="separator:a8b1f6c1673a4186b6629d554a7eff35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4e2dce37eda69f485ea50d533f0a1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#aba4e2dce37eda69f485ea50d533f0a1c">D_DC</a>(Class)&#160;&#160;&#160;Q_D(const Class)</td></tr>
+<tr class="memdesc:aba4e2dce37eda69f485ea50d533f0a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">同 D_D，用在公开类加了 const 修饰符的成员函数中。  <a href="#aba4e2dce37eda69f485ea50d533f0a1c">更多...</a><br /></td></tr>
+<tr class="separator:aba4e2dce37eda69f485ea50d533f0a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56dbbbc6dddc25cfebbb5434a91bd774"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#a56dbbbc6dddc25cfebbb5434a91bd774">D_QC</a>(Class)&#160;&#160;&#160;Q_Q(const Class)</td></tr>
+<tr class="memdesc:a56dbbbc6dddc25cfebbb5434a91bd774"><td class="mdescLeft">&#160;</td><td class="mdescRight">同 D_Q，用在私有类加了 const 修饰符的成员函数中。  <a href="#a56dbbbc6dddc25cfebbb5434a91bd774">更多...</a><br /></td></tr>
+<tr class="separator:a56dbbbc6dddc25cfebbb5434a91bd774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2aa4940a6efdb13b991953611215348"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dobject_8h.html#af2aa4940a6efdb13b991953611215348">D_PRIVATE_SLOT</a>(Func)&#160;&#160;&#160;Q_PRIVATE_SLOT(d_func(), Func)</td></tr>
+<tr class="memdesc:af2aa4940a6efdb13b991953611215348"><td class="mdescLeft">&#160;</td><td class="mdescRight">同 Q_PRIVATE_SLOT，用在继承了 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html">QObject</a> 的公开类中，在公开类中定一个槽函数，且函数 必须在私有类中有实现。用这个方式定义的槽函数无法被直接调用，只能用于 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html#connect">QObject::connect</a> 使用 SIGNAL 和 SLOT 的方式连接信号，或者使用 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qmetaobject.html#invokeMethod">QMetaObject::invokeMethod</a> 调用。 一般来讲，这个槽函数应该只在类内部使用，外界不应该通过任何方式来调用它。  <a href="#af2aa4940a6efdb13b991953611215348">更多...</a><br /></td></tr>
+<tr class="separator:af2aa4940a6efdb13b991953611215348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>一些宏的定义 </p>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 中定义.</p>
+</div><h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="ad638ba34d44d91bad5dd9f86ed9035c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_D</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_D(Class)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>这个宏用于公开类中，它定义了一个名字为 d 的变量存储 d_func() 的返回值。用于在公开 类中需要访问私有类的数据成员的函数中。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Class</td><td>公开类的类名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd>D_DECLARE_PRVATE <a class="el" href="dobject_8h.html#aba4e2dce37eda69f485ea50d533f0a1c" title="同 D_D，用在公开类加了 const 修饰符的成员函数中。 ">D_DC</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba4e2dce37eda69f485ea50d533f0a1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_DC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_D(const Class)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>同 D_D，用在公开类加了 const 修饰符的成员函数中。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Class</td><td>公开类的类名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd>D_DECLARE_PRVATE <a class="el" href="dobject_8h.html#ad638ba34d44d91bad5dd9f86ed9035c9" title="这个宏用于公开类中，它定义了一个名字为 d 的变量存储 d_func() 的返回值。用于在公开 类中需要访问私有类�...">D_D</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00031">31</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a848faf1d3a1cf9bb771f32106484a2d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_DECLARE_PRIVATE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_DECLARE_PRIVATE_D(qGetPtrHelper(d_d_ptr),Class)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>这个宏一定要放到类的私有区域，它定义了 d_func() 这个函数用于返回私有类的对象， 这个对象只应该在类的内部使用，另外将私有类声明为公开类的友元类。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Class</td><td>公开类的类名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="dobject_8h.html#a6b3eb59f9f5c2b7511246f15a0eb25c5" title="这个宏用于私有类中，它定义了 q_func() 这个函数用于返回公开类的对象，另外将公开类 声明为私有类的友元类...">D_DECLARE_PUBLIC</a> <a class="el" href="dobject_8h.html#ad638ba34d44d91bad5dd9f86ed9035c9" title="这个宏用于公开类中，它定义了一个名字为 d 的变量存储 d_func() 的返回值。用于在公开 类中需要访问私有类�...">D_D</a> <a class="el" href="dobject_8h.html#aba4e2dce37eda69f485ea50d533f0a1c" title="同 D_D，用在公开类加了 const 修饰符的成员函数中。 ">D_DC</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00027">27</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b3eb59f9f5c2b7511246f15a0eb25c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_DECLARE_PUBLIC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_DECLARE_PUBLIC(Class)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>这个宏用于私有类中，它定义了 q_func() 这个函数用于返回公开类的对象，另外将公开类 声明为私有类的友元类。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Class</td><td>公开类的类名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="dobject_8h.html#a848faf1d3a1cf9bb771f32106484a2d8" title="这个宏一定要放到类的私有区域，它定义了 d_func() 这个函数用于返回私有类的对象， 这个对象只应该在类的内...">D_DECLARE_PRIVATE</a> <a class="el" href="dobject_8h.html#a8b1f6c1673a4186b6629d554a7eff35c" title="这个宏用于私有类中，它定义了一个名字为 q 的变量存储 q_func() 的返回值。用于在私有 类中需要调用公开类�...">D_Q</a> <a class="el" href="dobject_8h.html#a56dbbbc6dddc25cfebbb5434a91bd774" title="同 D_Q，用在私有类加了 const 修饰符的成员函数中。 ">D_QC</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00028">28</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="af2aa4940a6efdb13b991953611215348"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_PRIVATE_SLOT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Func</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_PRIVATE_SLOT(d_func(), Func)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>同 Q_PRIVATE_SLOT，用在继承了 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html">QObject</a> 的公开类中，在公开类中定一个槽函数，且函数 必须在私有类中有实现。用这个方式定义的槽函数无法被直接调用，只能用于 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html#connect">QObject::connect</a> 使用 SIGNAL 和 SLOT 的方式连接信号，或者使用 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qmetaobject.html#invokeMethod">QMetaObject::invokeMethod</a> 调用。 一般来讲，这个槽函数应该只在类内部使用，外界不应该通过任何方式来调用它。 </p>
+<p>例子：</p>
+<p>a.h </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;class APrivate;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;class A : public DObject</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;{</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    D_DECLARE_PRIVATE(A)</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;public:</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    A();</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;protected:</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    A(APrivate &amp;dd, DObject *parent = nullptr);</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;private:</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    D_PRIVATE_SLOT(void _q_testSlot() const)</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;};</div></div><!-- fragment --><p> a.cpp </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;class APrivate : public DObjectPrivate</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;public:</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    D_DECLARE_PUBLIC(A)</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    APrivate(A *qq)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        : DObjectPrivate(qq)</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        QTimer *timer = new QTimer();</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        QObject::connect(timer, SIGNAL(timeout()), qq, SLOT(_q_testSlot()));</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        timer-&gt;start(1000);</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    void _q_testSlot() const</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        qDebug() &lt;&lt; &quot;slot&quot;;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;A::A()</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    : DObject(*new APrivate(this))</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;A::A(APrivate &amp;dd, DObject *parent)</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    : DObject(dd, parent)</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;#include &quot;moc_a.cpp&quot;</div></div><!-- fragment --> <dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Func</td><td>槽函数的完整签名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>添加或更新私有槽之后需要重新手动调用 qmake </dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="dobject_8h.html#a6b3eb59f9f5c2b7511246f15a0eb25c5" title="这个宏用于私有类中，它定义了 q_func() 这个函数用于返回公开类的对象，另外将公开类 声明为私有类的友元类...">D_DECLARE_PUBLIC</a> <a class="el" href="dobject_8h.html#a8b1f6c1673a4186b6629d554a7eff35c" title="这个宏用于私有类中，它定义了一个名字为 q 的变量存储 q_func() 的返回值。用于在私有 类中需要调用公开类�...">D_Q</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00033">33</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b1f6c1673a4186b6629d554a7eff35c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_Q</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_Q(Class)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>这个宏用于私有类中，它定义了一个名字为 q 的变量存储 q_func() 的返回值。用于在私有 类中需要调用公开类的成员函数时。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Class</td><td>公开类的类名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="dobject_8h.html#a6b3eb59f9f5c2b7511246f15a0eb25c5" title="这个宏用于私有类中，它定义了 q_func() 这个函数用于返回公开类的对象，另外将公开类 声明为私有类的友元类...">D_DECLARE_PUBLIC</a> <a class="el" href="dobject_8h.html#a56dbbbc6dddc25cfebbb5434a91bd774" title="同 D_Q，用在私有类加了 const 修饰符的成员函数中。 ">D_QC</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00030">30</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a56dbbbc6dddc25cfebbb5434a91bd774"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define D_QC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td>&#160;&#160;&#160;Q_Q(const Class)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>同 D_Q，用在私有类加了 const 修饰符的成员函数中。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Class</td><td>公开类的类名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="dobject_8h.html#a6b3eb59f9f5c2b7511246f15a0eb25c5" title="这个宏用于私有类中，它定义了 q_func() 这个函数用于返回公开类的对象，另外将公开类 声明为私有类的友元类...">D_DECLARE_PUBLIC</a> <a class="el" href="dobject_8h.html#a8b1f6c1673a4186b6629d554a7eff35c" title="这个宏用于私有类中，它定义了一个名字为 q 的变量存储 q_func() 的返回值。用于在私有 类中需要调用公开类�...">D_Q</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dobject_8h_source.html">dobject.h</a> 第 <a class="el" href="dobject_8h_source.html#l00032">32</a> 行定义.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_6c3d837d12de6918ecc70ece2c9d5940.html">dtkcore</a></li><li class="navelem"><a class="el" href="dir_119aa013467e95cb00c6469cad12208b.html">src</a></li><li class="navelem"><a class="el" href="dir_2a00c4d5b03017d49448c775b59ba35f.html">base</a></li><li class="navelem"><a class="el" href="dobject_8h.html">dobject.h</a></li>
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:34 , 为 Deepin Tool Kit使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

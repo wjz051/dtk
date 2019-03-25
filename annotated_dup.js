@@ -1,7 +1,15 @@
 var annotated_dup =
 [
+    [ "conanfile", null, [
+      [ "DtkcoreConan", "classconanfile_1_1_dtkcore_conan.html", "classconanfile_1_1_dtkcore_conan" ],
+      [ "DtkwidgetConan", "classconanfile_1_1_dtkwidget_conan.html", "classconanfile_1_1_dtkwidget_conan" ]
+    ] ],
     [ "Dtk", null, [
       [ "Core", null, [
+        [ "DUtil", null, [
+          [ "DNotifyData", "struct_dtk_1_1_core_1_1_d_util_1_1_d_notify_data.html", "struct_dtk_1_1_core_1_1_d_util_1_1_d_notify_data" ],
+          [ "DNotifySender", "class_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender.html", "class_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender" ]
+        ] ],
         [ "AbstractAppender", "class_dtk_1_1_core_1_1_abstract_appender.html", "class_dtk_1_1_core_1_1_abstract_appender" ],
         [ "AbstractStringAppender", "class_dtk_1_1_core_1_1_abstract_string_appender.html", "class_dtk_1_1_core_1_1_abstract_string_appender" ],
         [ "ConsoleAppender", "class_dtk_1_1_core_1_1_console_appender.html", "class_dtk_1_1_core_1_1_console_appender" ],
@@ -94,8 +102,6 @@ var annotated_dup =
         [ "DMainWindow", "class_dtk_1_1_widget_1_1_d_main_window.html", "class_dtk_1_1_widget_1_1_d_main_window" ],
         [ "DMovableTabWidget", "class_dtk_1_1_widget_1_1_d_movable_tab_widget.html", "class_dtk_1_1_widget_1_1_d_movable_tab_widget" ],
         [ "DMPRISControl", "class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html", "class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control" ],
-        [ "DOption", "class_dtk_1_1_widget_1_1_d_option.html", "class_dtk_1_1_widget_1_1_d_option" ],
-        [ "DOptionList", "class_dtk_1_1_widget_1_1_d_option_list.html", "class_dtk_1_1_widget_1_1_d_option_list" ],
         [ "DPageIndicator", "class_dtk_1_1_widget_1_1_d_page_indicator.html", "class_dtk_1_1_widget_1_1_d_page_indicator" ],
         [ "DPasswdEditAnimated", "class_dtk_1_1_widget_1_1_d_passwd_edit_animated.html", "class_dtk_1_1_widget_1_1_d_passwd_edit_animated" ],
         [ "DPasswordEdit", "class_dtk_1_1_widget_1_1_d_password_edit.html", "class_dtk_1_1_widget_1_1_d_password_edit" ],
@@ -103,8 +109,6 @@ var annotated_dup =
         [ "DPlatformWindowHandle", "class_dtk_1_1_widget_1_1_d_platform_window_handle.html", "class_dtk_1_1_widget_1_1_d_platform_window_handle" ],
         [ "DPushButton", "class_dtk_1_1_widget_1_1_d_push_button.html", "class_dtk_1_1_widget_1_1_d_push_button" ],
         [ "DRegionMonitor", "class_dtk_1_1_widget_1_1_d_region_monitor.html", "class_dtk_1_1_widget_1_1_d_region_monitor" ],
-        [ "DScrollArea", "class_dtk_1_1_widget_1_1_d_scroll_area.html", "class_dtk_1_1_widget_1_1_d_scroll_area" ],
-        [ "DScrollBar", "class_dtk_1_1_widget_1_1_d_scroll_bar.html", "class_dtk_1_1_widget_1_1_d_scroll_bar" ],
         [ "DSearchEdit", "class_dtk_1_1_widget_1_1_d_search_edit.html", "class_dtk_1_1_widget_1_1_d_search_edit" ],
         [ "DSegmentedControl", "class_dtk_1_1_widget_1_1_d_segmented_control.html", "class_dtk_1_1_widget_1_1_d_segmented_control" ],
         [ "DSegmentedHighlight", "class_dtk_1_1_widget_1_1_d_segmented_highlight.html", "class_dtk_1_1_widget_1_1_d_segmented_highlight" ],
@@ -112,7 +116,6 @@ var annotated_dup =
         [ "DSeparatorVertical", "class_dtk_1_1_widget_1_1_d_separator_vertical.html", "class_dtk_1_1_widget_1_1_d_separator_vertical" ],
         [ "DSettingsDialog", "class_dtk_1_1_widget_1_1_d_settings_dialog.html", "class_dtk_1_1_widget_1_1_d_settings_dialog" ],
         [ "DSettingsWidgetFactory", "class_dtk_1_1_widget_1_1_d_settings_widget_factory.html", "class_dtk_1_1_widget_1_1_d_settings_widget_factory" ],
-        [ "DShortcutEdit", "class_dtk_1_1_widget_1_1_d_shortcut_edit.html", "class_dtk_1_1_widget_1_1_d_shortcut_edit" ],
         [ "DShortcutEditLabel", "class_dtk_1_1_widget_1_1_d_shortcut_edit_label.html", "class_dtk_1_1_widget_1_1_d_shortcut_edit_label" ],
         [ "DSimpleListItem", "class_dtk_1_1_widget_1_1_d_simple_list_item.html", "class_dtk_1_1_widget_1_1_d_simple_list_item" ],
         [ "DSimpleListView", "class_dtk_1_1_widget_1_1_d_simple_list_view.html", "class_dtk_1_1_widget_1_1_d_simple_list_view" ],
@@ -162,7 +165,6 @@ var annotated_dup =
     [ "DDBusProperty", "class_d_d_bus_property.html", "class_d_d_bus_property" ],
     [ "DDBusSender", "class_d_d_bus_sender.html", "class_d_d_bus_sender" ],
     [ "DExpandGroup", "class_d_expand_group.html", null ],
-    [ "DMPRISControl", "class_d_m_p_r_i_s_control.html", null ],
     [ "DTextButton", "class_d_text_button.html", null ],
     [ "DVoxWidget", "class_d_vox_widget.html", null ],
     [ "PopupMenuStyle", "class_popup_menu_style.html", "class_popup_menu_style" ]

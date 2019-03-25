@@ -114,29 +114,255 @@ $(document).ready(function(){initNavTree('class_dtk_1_1_widget_1_1_d_window_grou
 <div class="title">Dtk::Widget::DWindowGroupLeader类 参考</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html" title="DWindowGroupLeader 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗�...">DWindowGroupLeader</a> 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗口都会被分配到 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a7ae9a9db658795a3bebdff2d67c55816" title="DWindowGroupLeader::clientLeaderId. ">DWindowGroupLeader::clientLeaderId</a> 这个组，且在窗口对应的本地窗口被创建时，会对 Qt::Dialog、Qt::Sheet、Qt::Tool、Qt::SplashScreen、Qt::ToolTip、Qt::Drawer、Qt::Popup 类型的窗口设置 WM_TRANSIENT_FOR 属性，对于此类型的窗口，如果没有手动调用 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#setTransientParent">QWindow::setTransientParent</a> ， 则会将其 WM_TRANSIENT_FOR 属性设置为所在组id，得到的效果就是：会保证此窗口显示到这个组所有其它窗口 之上。例子：  
+ <a href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#details">更多...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:a170c1b353a68f1561f69a8235a66be23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a170c1b353a68f1561f69a8235a66be23"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DWindowGroupLeader</b> (quint32 groupId=0)</td></tr>
+<tr class="memitem:a170c1b353a68f1561f69a8235a66be23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a170c1b353a68f1561f69a8235a66be23">DWindowGroupLeader</a> (quint32 groupId=0)</td></tr>
+<tr class="memdesc:a170c1b353a68f1561f69a8235a66be23"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a170c1b353a68f1561f69a8235a66be23" title="DWindowGroupLeader::DWindowGroupLeader. ">DWindowGroupLeader::DWindowGroupLeader</a>.  <a href="#a170c1b353a68f1561f69a8235a66be23">更多...</a><br /></td></tr>
 <tr class="separator:a170c1b353a68f1561f69a8235a66be23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab54782f96b4d7ffd4cc73ef9a643075a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab54782f96b4d7ffd4cc73ef9a643075a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addWindow</b> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> *window)</td></tr>
+<tr class="memitem:ac3074e8e225a0831eeb85da219c03564"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ac3074e8e225a0831eeb85da219c03564">~DWindowGroupLeader</a> ()</td></tr>
+<tr class="memdesc:ac3074e8e225a0831eeb85da219c03564"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ac3074e8e225a0831eeb85da219c03564" title="DWindowGroupLeader::~DWindowGroupLeader 对象销毁时会释放由自己自动创建的 groupLeaderId. ">DWindowGroupLeader::~DWindowGroupLeader</a> 对象销毁时会释放由自己自动创建的 groupLeaderId.  <a href="#ac3074e8e225a0831eeb85da219c03564">更多...</a><br /></td></tr>
+<tr class="separator:ac3074e8e225a0831eeb85da219c03564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5742419a649644e24b7841d3812710"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a1e5742419a649644e24b7841d3812710">groupLeaderId</a> () const </td></tr>
+<tr class="memdesc:a1e5742419a649644e24b7841d3812710"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a1e5742419a649644e24b7841d3812710" title="DWindowGroupLeader::groupLeaderId. ">DWindowGroupLeader::groupLeaderId</a>.  <a href="#a1e5742419a649644e24b7841d3812710">更多...</a><br /></td></tr>
+<tr class="separator:a1e5742419a649644e24b7841d3812710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae9a9db658795a3bebdff2d67c55816"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a7ae9a9db658795a3bebdff2d67c55816">clientLeaderId</a> () const </td></tr>
+<tr class="memdesc:a7ae9a9db658795a3bebdff2d67c55816"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a7ae9a9db658795a3bebdff2d67c55816" title="DWindowGroupLeader::clientLeaderId. ">DWindowGroupLeader::clientLeaderId</a>.  <a href="#a7ae9a9db658795a3bebdff2d67c55816">更多...</a><br /></td></tr>
+<tr class="separator:a7ae9a9db658795a3bebdff2d67c55816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54782f96b4d7ffd4cc73ef9a643075a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a">addWindow</a> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> *window)</td></tr>
+<tr class="memdesc:ab54782f96b4d7ffd4cc73ef9a643075a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow</a> 将窗口添加到这个组  <a href="#ab54782f96b4d7ffd4cc73ef9a643075a">更多...</a><br /></td></tr>
 <tr class="separator:ab54782f96b4d7ffd4cc73ef9a643075a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a630cfc7a39d25a72c7af382a949faa1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a630cfc7a39d25a72c7af382a949faa1e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeWindow</b> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> *window)</td></tr>
+<tr class="memitem:a630cfc7a39d25a72c7af382a949faa1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e">removeWindow</a> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> *window)</td></tr>
+<tr class="memdesc:a630cfc7a39d25a72c7af382a949faa1e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e" title="DWindowGroupLeader::removeWindow 将窗口从这个组中移除 ">DWindowGroupLeader::removeWindow</a> 将窗口从这个组中移除  <a href="#a630cfc7a39d25a72c7af382a949faa1e">更多...</a><br /></td></tr>
 <tr class="separator:a630cfc7a39d25a72c7af382a949faa1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f523bf81ce6bffe8bc8aba0c0db8fda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f523bf81ce6bffe8bc8aba0c0db8fda"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addWindow</b> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *window)</td></tr>
+<tr class="memitem:a6f523bf81ce6bffe8bc8aba0c0db8fda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a6f523bf81ce6bffe8bc8aba0c0db8fda">addWindow</a> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *window)</td></tr>
+<tr class="memdesc:a6f523bf81ce6bffe8bc8aba0c0db8fda"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow</a> 同 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow(QWindow *)</a>，这只是针对不同类型窗口对象的重载函数， 将 window-&gt;windowHandle() 作为参数传递给 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow(QWindow *)</a>  <a href="#a6f523bf81ce6bffe8bc8aba0c0db8fda">更多...</a><br /></td></tr>
 <tr class="separator:a6f523bf81ce6bffe8bc8aba0c0db8fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9353b60fad83d53e859edbdde11508d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9353b60fad83d53e859edbdde11508d9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeWindow</b> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *window)</td></tr>
+<tr class="memitem:a9353b60fad83d53e859edbdde11508d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a9353b60fad83d53e859edbdde11508d9">removeWindow</a> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *window)</td></tr>
+<tr class="memdesc:a9353b60fad83d53e859edbdde11508d9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e" title="DWindowGroupLeader::removeWindow 将窗口从这个组中移除 ">DWindowGroupLeader::removeWindow</a> 同 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e" title="DWindowGroupLeader::removeWindow 将窗口从这个组中移除 ">DWindowGroupLeader::removeWindow(QWindow *)</a>，这只是针对不同类型窗口对象的重载函数， 等价于 removeWindow(window-&gt;windowHandle())  <a href="#a9353b60fad83d53e859edbdde11508d9">更多...</a><br /></td></tr>
 <tr class="separator:a9353b60fad83d53e859edbdde11508d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<div class="textblock">
+<div class="textblock"><p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html" title="DWindowGroupLeader 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗�...">DWindowGroupLeader</a> 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗口都会被分配到 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a7ae9a9db658795a3bebdff2d67c55816" title="DWindowGroupLeader::clientLeaderId. ">DWindowGroupLeader::clientLeaderId</a> 这个组，且在窗口对应的本地窗口被创建时，会对 Qt::Dialog、Qt::Sheet、Qt::Tool、Qt::SplashScreen、Qt::ToolTip、Qt::Drawer、Qt::Popup 类型的窗口设置 WM_TRANSIENT_FOR 属性，对于此类型的窗口，如果没有手动调用 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#setTransientParent">QWindow::setTransientParent</a> ， 则会将其 WM_TRANSIENT_FOR 属性设置为所在组id，得到的效果就是：会保证此窗口显示到这个组所有其它窗口 之上。例子： </p>
+<div class="fragment"><div class="line"><a class="code" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a170c1b353a68f1561f69a8235a66be23">DWindowGroupLeader</a> leader;</div><div class="line"><a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> wa, wb;</div><div class="line"><a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> topWindow;</div><div class="line"></div><div class="line">leader.addWindow(&amp;wa);</div><div class="line">leader.addWindow(&amp;wb);</div><div class="line">leader.addWindow(&amp;topWindow);</div><div class="line"></div><div class="line">wa.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#title-prop">setTitle</a>(<span class="stringliteral">&quot;窗口wa&quot;</span>);</div><div class="line">wa.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#resize">resize</a>(300, 100);</div><div class="line">wa.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#show">show</a>();</div><div class="line">wb.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#title-prop">setTitle</a>(<span class="stringliteral">&quot;窗口wb&quot;</span>);</div><div class="line">wb.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#resize">resize</a>(300, 100);</div><div class="line">wb.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#show">show</a>();</div><div class="line">topWindow.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#title-prop">setTitle</a>(<span class="stringliteral">&quot;窗口topWindow&quot;</span>);</div><div class="line">topWindow.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#setFlag">setFlag</a>(Qt::Dialog);</div><div class="line">topWindow.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#resize">resize</a>(300, 300);</div><div class="line">topWindow.<a class="codeRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#show">show</a>();</div></div><!-- fragment --><p> 窗口topWindow一直处于窗口wa和wb上层 </p><div class="image">
+<img src="wa_wb_topWindow.gif" alt="wa_wb_topWindow.gif"/>
+</div>
+<p> 如果一个组内同时存在多个未设置过 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#setTransientParent">QWindow::setTransientParent</a> 的 Qt::Dialog（其它会自动设置 WM_TRANSIENT_FOR 属性的窗口也成立）类型的窗口，这些窗口之间不会互相影响显示顺序，具体的规则和 X11 ICCCM 标准一致。 </p><dl class="section see"><dt>参见</dt><dd><a href="https://tronche.com/gui/x/icccm/sec-4.html#WM_TRANSIENT_FOR">https://tronche.com/gui/x/icccm/sec-4.html#WM_TRANSIENT_FOR</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a7ae9a9db658795a3bebdff2d67c55816" title="DWindowGroupLeader::clientLeaderId. ">DWindowGroupLeader::clientLeaderId</a> </dd>
+<dd>
+<a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a2a98eb30c818274cba7188cf773e0b13" title="warning: Must call before QGuiApplication defined object ">DApplication::loadDXcbPlugin</a> </dd></dl>
+
 <p>在文件 <a class="el" href="dwindowgroupleader_8h_source.html">dwindowgroupleader.h</a> 第 <a class="el" href="dwindowgroupleader_8h_source.html#l00033">33</a> 行定义.</p>
-</div><hr/>该类的文档由以下文件生成:<ul>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a170c1b353a68f1561f69a8235a66be23"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dtk::Widget::DWindowGroupLeader::DWindowGroupLeader </td>
+          <td>(</td>
+          <td class="paramtype">quint32&#160;</td>
+          <td class="paramname"><em>groupId</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a170c1b353a68f1561f69a8235a66be23" title="DWindowGroupLeader::DWindowGroupLeader. ">DWindowGroupLeader::DWindowGroupLeader</a>. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">groupId</td><td>为0时会在需要时自动创建一个有效的 groupLeaderId </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a1e5742419a649644e24b7841d3812710" title="DWindowGroupLeader::groupLeaderId. ">DWindowGroupLeader::groupLeaderId</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00129">129</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3074e8e225a0831eeb85da219c03564"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dtk::Widget::DWindowGroupLeader::~DWindowGroupLeader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ac3074e8e225a0831eeb85da219c03564" title="DWindowGroupLeader::~DWindowGroupLeader 对象销毁时会释放由自己自动创建的 groupLeaderId. ">DWindowGroupLeader::~DWindowGroupLeader</a> 对象销毁时会释放由自己自动创建的 groupLeaderId. </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a1e5742419a649644e24b7841d3812710" title="DWindowGroupLeader::groupLeaderId. ">DWindowGroupLeader::groupLeaderId</a> </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00141">141</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="ab54782f96b4d7ffd4cc73ef9a643075a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DWindowGroupLeader::addWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> *&#160;</td>
+          <td class="paramname"><em>window</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow</a> 将窗口添加到这个组 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>警告</dt><dd>每个窗口只能有一个组，添加到新的组时，将不再受旧的组所带来的任何影响 </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00189">189</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f523bf81ce6bffe8bc8aba0c0db8fda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DWindowGroupLeader::addWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *&#160;</td>
+          <td class="paramname"><em>window</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow</a> 同 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow(QWindow *)</a>，这只是针对不同类型窗口对象的重载函数， 将 window-&gt;windowHandle() 作为参数传递给 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#ab54782f96b4d7ffd4cc73ef9a643075a" title="DWindowGroupLeader::addWindow 将窗口添加到这个组 ">DWindowGroupLeader::addWindow(QWindow *)</a> </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>警告</dt><dd>不要对非顶层窗口设置组，否则它会被设置 Qt::WA_NativeWindow 标志 </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00232">232</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ae9a9db658795a3bebdff2d67c55816"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 Dtk::Widget::DWindowGroupLeader::clientLeaderId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a7ae9a9db658795a3bebdff2d67c55816" title="DWindowGroupLeader::clientLeaderId. ">DWindowGroupLeader::clientLeaderId</a>. </p>
+<dl class="section return"><dt>返回</dt><dd>返回应用程序默认的组id </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00176">176</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e5742419a649644e24b7841d3812710"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 Dtk::Widget::DWindowGroupLeader::groupLeaderId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a1e5742419a649644e24b7841d3812710" title="DWindowGroupLeader::groupLeaderId. ">DWindowGroupLeader::groupLeaderId</a>. </p>
+<dl class="section return"><dt>返回</dt><dd>返回组的id，类似于 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html#winId">QWindow::winId</a> </dd></dl>
+<dl class="section warning"><dt>警告</dt><dd>如果没有一个有效的id，则会先创建一个新的组id </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00163">163</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a630cfc7a39d25a72c7af382a949faa1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DWindowGroupLeader::removeWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html">QWindow</a> *&#160;</td>
+          <td class="paramname"><em>window</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e" title="DWindowGroupLeader::removeWindow 将窗口从这个组中移除 ">DWindowGroupLeader::removeWindow</a> 将窗口从这个组中移除 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>警告</dt><dd>窗口被移除后将不再受此组带来的任何影响 </dd></dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00211">211</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9353b60fad83d53e859edbdde11508d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dtk::Widget::DWindowGroupLeader::removeWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html">QWidget</a> *&#160;</td>
+          <td class="paramname"><em>window</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e" title="DWindowGroupLeader::removeWindow 将窗口从这个组中移除 ">DWindowGroupLeader::removeWindow</a> 同 <a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html#a630cfc7a39d25a72c7af382a949faa1e" title="DWindowGroupLeader::removeWindow 将窗口从这个组中移除 ">DWindowGroupLeader::removeWindow(QWindow *)</a>，这只是针对不同类型窗口对象的重载函数， 等价于 removeWindow(window-&gt;windowHandle()) </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a> 第 <a class="el" href="dwindowgroupleader_8cpp_source.html#l00250">250</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
 <li>dtkwidget/src/widgets/<a class="el" href="dwindowgroupleader_8h_source.html">dwindowgroupleader.h</a></li>
 <li>dtkwidget/src/widgets/<a class="el" href="dwindowgroupleader_8cpp_source.html">dwindowgroupleader.cpp</a></li>
 </ul>
@@ -146,7 +372,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removeWindow</b> (<a 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Dtk</b></li><li class="navelem"><b>Widget</b></li><li class="navelem"><a class="el" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html">DWindowGroupLeader</a></li>
-    <li class="footer">生成于 2019年 一月 30日 星期三 10:16:58 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:42 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

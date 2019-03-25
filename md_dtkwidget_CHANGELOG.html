@@ -103,7 +103,72 @@ $(document).ready(function(){initNavTree('md_dtkwidget_CHANGELOG.html','');});
 <div class="title">CHANGELOG </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="2.0.9.9"></a> </p><h2>2.0.9.9 (2018-11-09)</h2>
+<div class="textblock"><p><a class="anchor" id="2.0.9.17"></a> </p><h2>2.0.9.17 (2019-02-26)</h2>
+<h4>Bug Fixes</h4>
+<ul>
+<li>minimize buttons of fix sized windows are disabled (<a href="https://github.com/linuxdeepin/dtkwidget/commit/f7d2974c005cc3e09749503aec5bc9b2cbf7af75">f7d2974c</a>)</li>
+<li>build failed on <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qt.html">Qt</a> 5.6.x (<a href="https://github.com/linuxdeepin/dtkwidget/commit/1ca45918dfc3546ab077ab613afd8f8cf64fd457">1ca45918</a>)</li>
+<li>move Q_DECL_DEPRECATED to front (<a href="https://github.com/linuxdeepin/dtkwidget/commit/c6d65f016eb7f0c498a7a92f2ffb139fabaa80a9">c6d65f01</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.16"></a> </p><h2>2.0.9.16 (2019-01-29)</h2>
+<h4>Bug Fixes</h4>
+<ul>
+<li>titlebar not shown in some case (<a href="https://github.com/linuxdeepin/dtkwidget/commit/c63bac174fa22ba762aa4d1291703eccbfb855e2">c63bac17</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.15"></a> </p><h2>2.0.9.15 (2019-01-25)</h2>
+<h4>Features</h4>
+<ul>
+<li>add groupLeaderId/clientLeaderId interfaces for DWindowGroupLeader (<a href="https://github.com/linuxdeepin/dtkwidget/commit/aa1ab5ad141b7ae3a2abf5d1dd69564038ed2f68">aa1ab5ad</a>)</li>
+<li><b>DDesktopServices:</b> support all sound effect (<a href="https://github.com/linuxdeepin/dtkwidget/commit/c1a2285c3a3fb54bf6c7c03220a89b028551e8da">c1a2285c</a>)</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+<li>change permissions of DStackWidget's function (<a href="https://github.com/linuxdeepin/dtkwidget/commit/f62bf04481a0feb5d99659a319140f159cf1b9be">f62bf044</a>)</li>
+<li>can not hide the window menu button (<a href="https://github.com/linuxdeepin/dtkwidget/commit/010c75d53417099132b85dc82d0768ad5c3520f3">010c75d5</a>)</li>
+<li><b>DDesktopServices:</b> keep old enum order (<a href="https://github.com/linuxdeepin/dtkwidget/commit/15eb21f79ab2adccd1dcf31ae5aa3d94654d4ec9">15eb21f7</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.14"></a> </p><h2>2.0.9.14 (2019-01-02)</h2>
+<h4>Bug Fixes</h4>
+<ul>
+<li>can not scroll view on DSettingDialog by touchscreen (<a href="https://github.com/linuxdeepin/dtkwidget/commit/651dee293bf1cf3de848eed496c3f6433712d8d5">651dee29</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.13"></a> </p><h2>2.0.9.13 (2018-12-28)</h2>
+<h4>Features</h4>
+<ul>
+<li>support touchscreen for DSettingDialog (<a href="https://github.com/linuxdeepin/dtkwidget/commit/74482ea685979e6953d5191233820cb1713a3098">74482ea6</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.12"></a> </p><h2>2.0.9.12 (2018-12-24)</h2>
+<h4>Features</h4>
+<ul>
+<li>move settings dialog radio to left (<a href="https://github.com/linuxdeepin/dtkwidget/commit/f7a33caaad5941516a19dacdde0441d4ae2d3e8e">f7a33caa</a>)</li>
+<li>support connan build (<a href="https://github.com/linuxdeepin/dtkwidget/commit/74f8f92817c51302b965c398c225bda752a450ee">74f8f928</a>)</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+<li>doc for <a class="el" href="class_d_text_button.html" title="一个 DDE 风格按钮控件。 ">DTextButton</a> (<a href="https://github.com/linuxdeepin/dtkwidget/commit/23160de65021718de268cfe715191610357d12e4">23160de6</a>)</li>
+<li>doc for <a class="el" href="class_d_expand_group.html" title="封装了一组 DBaseExpand 控件(当然也可以是其子类), 并保证同一时间只有一个 DBaseExpand 处于展开状态 ...">DExpandGroup</a> (<a href="https://github.com/linuxdeepin/dtkwidget/commit/597f25c16aaa1d0744b0ad405511845794209411">597f25c1</a>)</li>
+<li><b>DWindowManagerHelper:</b> return currentWorkspaceWindows is empty (<a href="https://github.com/linuxdeepin/dtkwidget/commit/ec478aa0ae4d9b4cdbba7f503d3f05b24334a3fc">ec478aa0</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.11"></a> </p><h2>2.0.9.11 (2018-12-14)</h2>
+<h4>Features</h4>
+<ul>
+<li>allowed set a expected icon size for DDialog::setIcon (<a href="https://github.com/linuxdeepin/dtkwidget/commit/a4d2aa060381fb13e8a99f069e212549e032bd1c">a4d2aa06</a>)</li>
+<li><b>DWindowManagerHelper:</b> return all windowId and current workspace windowId (<a href="https://github.com/linuxdeepin/dtkwidget/commit/d34401655ec1119fc0173df15af1ece41b23f2af">d3440165</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.10"></a> </p><h2>2.0.9.10 (2018-11-30)</h2>
+<h4>Bug Fixes</h4>
+<ul>
+<li>the dialog type window will be closed after pressing Super+D (<a href="https://github.com/linuxdeepin/dtkwidget/commit/251418bf2423da81fbce5731347fc05c5e23a646">251418bf</a>)</li>
+<li>workaround <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtapandholdgesture.html">QTapAndHoldGesture</a> comes late than right press in dde-daemon (<a href="https://github.com/linuxdeepin/dtkwidget/commit/2af710bec685739d5b3a2e113c3e2a860ce0197b">2af710be</a>)</li>
+<li><b>DPasswdEditAnimated:</b> modify parent for tip widget (<a href="https://github.com/linuxdeepin/dtkwidget/commit/b9edc9d36386fcd9537e0b5cafc734e1696fa294">b9edc9d3</a>)</li>
+<li><b>dtabbar:</b> horizontal dragging delays. (<a href="https://github.com/linuxdeepin/dtkwidget/commit/9efe4990c128e6a5a306057ae52abf614607c9a6">9efe4990</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>set <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtapandholdgesture.html#timeout">QTapAndHoldGesture::timeout</a> in DApplication (<a href="https://github.com/linuxdeepin/dtkwidget/commit/a3e23a7e233df7b22fa6d8340df80a7744bb8ab7">a3e23a7e</a>)</li>
+<li><b>DWindowManagerHelper:</b> add inteface: "windowManagerName" (<a href="https://github.com/linuxdeepin/dtkwidget/commit/d4c557f1d54beb77591b9a208bdbb201f20a376a">d4c557f1</a>)</li>
+</ul>
+<p><a class="anchor" id="2.0.9.9"></a> </p><h2>2.0.9.9 (2018-11-09)</h2>
 <h4>Features</h4>
 <ul>
 <li><b>DPasswdEditAnimated:</b> add updateAlertPosition() func. (<a href="https://github.com/linuxdeepin/dtkwidget/commit/1539439b1e5326ba54990c2b02c1ef915fa22d49">1539439b</a>)</li>
@@ -450,7 +515,7 @@ $(document).ready(function(){initNavTree('md_dtkwidget_CHANGELOG.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2019年 一月 30日 星期三 10:16:53 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:34 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

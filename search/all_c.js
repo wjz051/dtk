@@ -76,7 +76,7 @@ var searchData=
   ['licensedproducts',['licensedProducts',['https://doc.qt.io/qt-5/qlibraryinfo-obsolete.html#licensedProducts',1,'QLibraryInfo']]],
   ['licensee',['licensee',['https://doc.qt.io/qt-5/qlibraryinfo-obsolete.html#licensee',1,'QLibraryInfo']]],
   ['light',['light',['https://doc.qt.io/qt-5/qcolor-obsolete.html#light',1,'QColor::light()'],['https://doc.qt.io/qt-5/qpalette.html#light',1,'QPalette::light()']]],
-  ['lightcolor',['LightColor',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a24bb5c1f4606e25dcf34e87050b51fb9ae577be6923f4f2ac28e045872a8547cf',1,'Dtk::Widget::DBlurEffectWidget']]],
+  ['lightcolor',['LightColor',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a24bb5c1f4606e25dcf34e87050b51fb9aedc6cbf9c1819cba3f343ad2640dd7fb',1,'Dtk::Widget::DBlurEffectWidget']]],
   ['lighter',['lighter',['https://doc.qt.io/qt-5/qcolor.html#lighter',1,'QColor']]],
   ['lightness',['lightness',['https://doc.qt.io/qt-5/qcolor.html#lightness',1,'QColor']]],
   ['lightnessf',['lightnessF',['https://doc.qt.io/qt-5/qcolor.html#lightnessF',1,'QColor']]],

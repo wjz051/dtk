@@ -3,6 +3,7 @@ var searchData=
   ['manufacturer',['manufacturer',['https://doc.qt.io/qt-5/qscreen.html#manufacturer-prop',1,'QScreen']]],
   ['margin',['margin',['https://doc.qt.io/qt-5/qlayout-obsolete.html#margin-prop',1,'QLayout::margin()'],['https://doc.qt.io/qt-5/qlabel.html#margin-prop',1,'QLabel::margin()'],['../class_dtk_1_1_widget_1_1_d_arrow_rectangle.html#a077ef17152d2fb23d7989d6d215b71c0',1,'Dtk::Widget::DArrowRectangle::margin()']]],
   ['margins',['margins',['../class_dtk_1_1_widget_1_1_d_anchors_base.html#a607a39664bd1300d9d715333cf00d34d',1,'Dtk::Widget::DAnchorsBase::margins()'],['../class_dtk_1_1_widget_1_1_d_clip_effect_widget.html#af0b93bc86df3e53b65455e09011cb9f9',1,'Dtk::Widget::DClipEffectWidget::margins()'],['../class_dtk_1_1_widget_1_1_d_graphics_clip_effect.html#a1b97aedf1f34ce2e80109d75034d275f',1,'Dtk::Widget::DGraphicsClipEffect::margins()']]],
+  ['maskalpha',['maskAlpha',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a9d640f986135e948cc900ec03cfe027b',1,'Dtk::Widget::DBlurEffectWidget']]],
   ['maskcolor',['maskColor',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a292d4cae34b051fadf0ba9a16ce322c7',1,'Dtk::Widget::DBlurEffectWidget']]],
   ['maxcount',['maxCount',['https://doc.qt.io/qt-5/qcombobox.html#maxCount-prop',1,'QComboBox']]],
   ['maximized',['maximized',['https://doc.qt.io/qt-5/qwidget.html#maximized-prop',1,'QWidget']]],

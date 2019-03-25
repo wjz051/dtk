@@ -252,7 +252,7 @@ Logger *&#160;</td><td class="memItemRight" valign="bottom"><b>Dtk::Core::logger
 </div><div class="memdoc">
 
 <p>Check the assertion. </p>
-<p>This macro is a convinient and recommended to use way to call Logger::writeAssert() function. It uses the preprocessor macros (as the <a class="el" href="_logger_8h.html#a35bf78e74128341795a2c9ae2e2979bf" title="Writes the debug log record. ">dDebug()</a> does) to fill the necessary arguments of the Logger::writeAssert() call. It also uses undocumented but rather mature and stable <code>qt_noop()</code> function (which does nothing) when the assertion is true.</p>
+<p>This macro is a convenient and recommended to use way to call Logger::writeAssert() function. It uses the preprocessor macros (as the <a class="el" href="_logger_8h.html#a35bf78e74128341795a2c9ae2e2979bf" title="Writes the debug log record. ">dDebug()</a> does) to fill the necessary arguments of the Logger::writeAssert() call. It also uses undocumented but rather mature and stable <code>qt_noop()</code> function (which does nothing) when the assertion is true.</p>
 <p>Example: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;bool b = checkSomething();</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;...</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;dAssert(b == true);</div></div><!-- fragment --><dl class="section see"><dt>参见</dt><dd>Dtk::Logger::writeAssert() </dd></dl>
 
 <p>在文件 <a class="el" href="_logger_8h_source.html">Logger.h</a> 第 <a class="el" href="_logger_8h_source.html#l00051">51</a> 行定义.</p>
@@ -602,8 +602,8 @@ Dtk::Logger::write() </dd></dl>
 </div><div class="memdoc">
 
 <p>Writes the trace log record. </p>
-<p>This macro is the convinient way to call Logger::write(). It uses the common preprocessor macros <code><b>FILE</b></code>, <code><b>LINE</b></code> and the standard <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qt.html">Qt</a> <code>Q_FUNC_INFO</code> macros to automatically determine the needed parameters to call Logger::write().</p>
-<dl class="section note"><dt>注解</dt><dd>This and other (<a class="el" href="_logger_8h.html#a5ef639e4aafdca49682e976f74ee8d6e" title="Writes the info log record. ">dInfo()</a> etc...) macros uses the variadic macro arguments to give convinient usage form for the different versions of Logger::write() (using the <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a> or const char* argument or returning the <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qdebug.html">QDebug</a> class instance). Not all compilers will support this. Please, consider reviewing your compiler documentation to ensure it support <b>VA_ARGS</b> macro.</dd></dl>
+<p>This macro is the convenient way to call Logger::write(). It uses the common preprocessor macros <code><b>FILE</b></code>, <code><b>LINE</b></code> and the standard <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qt.html">Qt</a> <code>Q_FUNC_INFO</code> macros to automatically determine the needed parameters to call Logger::write().</p>
+<dl class="section note"><dt>注解</dt><dd>This and other (<a class="el" href="_logger_8h.html#a5ef639e4aafdca49682e976f74ee8d6e" title="Writes the info log record. ">dInfo()</a> etc...) macros uses the variadic macro arguments to give convenient usage form for the different versions of Logger::write() (using the <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a> or const char* argument or returning the <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qdebug.html">QDebug</a> class instance). Not all compilers will support this. Please, consider reviewing your compiler documentation to ensure it support <b>VA_ARGS</b> macro.</dd></dl>
 <dl class="section see"><dt>参见</dt><dd>Dtk::Logger::LogLevel </dd>
 <dd>
 Dtk::Logger::write() </dd></dl>
@@ -677,7 +677,7 @@ Dtk::Logger::write() </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c3d837d12de6918ecc70ece2c9d5940.html">dtkcore</a></li><li class="navelem"><a class="el" href="dir_119aa013467e95cb00c6469cad12208b.html">src</a></li><li class="navelem"><a class="el" href="dir_a9bb0758876d611e3df677ee8ca2e122.html">log</a></li><li class="navelem"><a class="el" href="_logger_8h.html">Logger.h</a></li>
-    <li class="footer">生成于 2019年 一月 30日 星期三 10:16:53 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:34 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

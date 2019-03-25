@@ -124,6 +124,7 @@ $(document).ready(function(){initNavTree('class_dtk_1_1_widget_1_1_d_application
 <li>在 FORCE_RASTER_WIDGETS 宏生效的情况下，默认设置 Qt::AA_ForceRasterWidgets 以减少 glx 相关库的加载，减少程序启动时间；</li>
 <li>自动根据 applicationName 和 系统 locale 加载对应的翻译文件；</li>
 <li>会根据系统gsettings中 com.deepin.dde.dapplication 的 qpixmapCacheLimit 值来设置 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpixmapcache.html#cacheLimit">QPixmapCache::cacheLimit</a> ；</li>
+<li>会根据系统gsettings中 com.deepin.dde.touchscreen longpress-duration 的值来设置 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtapandholdgesture.html#timeout">QTapAndHoldGesture::timeout</a> ；</li>
 <li>方便地通过 setSingleInstance 来实现程序的单实例。 </li>
 </ul>
  
@@ -137,7 +138,7 @@ $(document).ready(function(){initNavTree('class_dtk_1_1_widget_1_1_d_application
 <area shape="rect" id="node3" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qguiapplication.html" title="QGuiApplication" alt="" coords="10,155,133,181"/>
 <area shape="rect" id="node4" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qcoreapplication.html" title="QCoreApplication" alt="" coords="5,80,137,107"/>
 <area shape="rect" id="node5" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="35,5,108,32"/>
-<area shape="rect" id="node6" href="class_dtk_1_1_core_1_1_d_object.html" title="Dtk::Core::DObject" alt="" coords="147,229,289,256"/>
+<area shape="rect" id="node6" href="class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="147,229,289,256"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <div class="dynheader">
@@ -149,7 +150,7 @@ Dtk::Widget::DApplication 的协作图:</div>
 <area shape="rect" id="node3" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qguiapplication.html" title="QGuiApplication" alt="" coords="10,157,133,184"/>
 <area shape="rect" id="node4" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qcoreapplication.html" title="QCoreApplication" alt="" coords="5,81,137,108"/>
 <area shape="rect" id="node5" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="35,5,108,32"/>
-<area shape="rect" id="node6" href="class_dtk_1_1_core_1_1_d_object.html" title="Dtk::Core::DObject" alt="" coords="203,247,345,273"/>
+<area shape="rect" id="node6" href="class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="203,247,345,273"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <table class="memberdecls">
@@ -1035,10 +1036,11 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 <tr class="separator:disconnectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_dtk_1_1_core_1_1_d_object"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_dtk_1_1_core_1_1_d_object')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_dtk_1_1_core_1_1_d_object.html">Dtk::Core::DObject</a></td></tr>
 <tr class="memitem:adbed6e66a1393a6045fb24e50300db7f inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbed6e66a1393a6045fb24e50300db7f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DObject</b> (<a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_object.html#adbed6e66a1393a6045fb24e50300db7f">DObject</a> (<a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+<tr class="memdesc:adbed6e66a1393a6045fb24e50300db7f inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">只有在不需要数据成员的派生类中才会使用 <br /></td></tr>
 <tr class="separator:adbed6e66a1393a6045fb24e50300db7f inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64d70b82c64f7d7e71d4775854b25206"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DObject</b> (DObjectPrivate &amp;dd, <a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+<tr class="memitem:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_object.html#a64d70b82c64f7d7e71d4775854b25206">DObject</a> (DObjectPrivate &amp;dd, <a class="el" href="class_dtk_1_1_core_1_1_d_object.html">DObject</a> *parent=nullptr)</td></tr>
+<tr class="memdesc:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">在派生类中比较常用的构造函数  <a href="#a64d70b82c64f7d7e71d4775854b25206">更多...</a><br /></td></tr>
 <tr class="separator:a64d70b82c64f7d7e71d4775854b25206 inherit pro_methods_class_dtk_1_1_core_1_1_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -1141,8 +1143,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <li>在 FORCE_RASTER_WIDGETS 宏生效的情况下，默认设置 Qt::AA_ForceRasterWidgets 以减少 glx 相关库的加载，减少程序启动时间；</li>
 <li>自动根据 applicationName 和 系统 locale 加载对应的翻译文件；</li>
 <li>会根据系统gsettings中 com.deepin.dde.dapplication 的 qpixmapCacheLimit 值来设置 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpixmapcache.html#cacheLimit">QPixmapCache::cacheLimit</a> ；</li>
+<li>会根据系统gsettings中 com.deepin.dde.touchscreen longpress-duration 的值来设置 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtapandholdgesture.html#timeout">QTapAndHoldGesture::timeout</a> ；</li>
 <li>方便地通过 setSingleInstance 来实现程序的单实例。 </li>
 </ul>
+<dl class="section note"><dt>注解</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html" title="DApplication 是 DTK 中用于替换 QCoreApplication 相关功能实现的类。 继承自 QApplication ，并在此之上添...">DApplication</a> 设置的 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtapandholdgesture.html#timeout">QTapAndHoldGesture::timeout</a> 会比 gsettings 中的值小 100，用来绕过 Dock 长按松开容易导致应用启动的问题，详细解释见 见代码注释或者 <a href="https://github.com/linuxdeepin/internal-discussion/issues/430">https://github.com/linuxdeepin/internal-discussion/issues/430</a></dd></dl>
 <dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#ae26f0b914ee917e02bcf2d8b40896584" title="DApplication::loadTranslator 加载程序的翻译文件。 使用这个函数需要保证翻译文件必须正确命名: 例如程序�...">loadTranslator</a>, <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#ae788bd3d17b18dc747e2065f82a3337b" title="DApplication::setSingleInstance setSingleInstance 用于将程序 设置成单实例。 ">setSingleInstance</a>. </dd></dl>
 
 <p>在文件 <a class="el" href="dapplication_8h_source.html">dapplication.h</a> 第 <a class="el" href="dapplication_8h_source.html#l00040">40</a> 行定义.</p>
@@ -1204,7 +1208,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00344">344</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00357">357</a> 行定义.</p>
 
 </div>
 </div>
@@ -1225,7 +1229,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a7e348b19463bc6043529d8cf2ec5379a" title="DApplication::aboutDialog 返回一个基于当前程序信息的关于对话框。 此对话框可以通过 DApplication::setAb...">DApplication::aboutDialog</a> 返回一个基于当前程序信息的关于对话框。 此对话框可以通过 <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#aea6eb22e0a3fb3ac155663044514fa3c" title="DApplication::setAboutDialog 为当前程序设置一个关于对话框。 ">DApplication::setAboutDialog</a> 进行设置，如果没有设置就使用此函数进行获取， 系统会创建一个新的关于对话框。 </p>
 <dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#aea6eb22e0a3fb3ac155663044514fa3c" title="DApplication::setAboutDialog 为当前程序设置一个关于对话框。 ">setAboutDialog</a> </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00812">812</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00845">845</a> 行定义.</p>
 
 </div>
 </div>
@@ -1253,7 +1257,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a5b8ffafceecc9e24823a4cd2bf129de1" title="DApplication::isDXcbPlatform 检查当前程序是否使用了dxcb平台插件。 ">DApplication::isDXcbPlatform</a> 检查当前程序是否使用了dxcb平台插件。 </p>
 <dl class="section return"><dt>返回</dt><dd>正在使用返回 true，否则返回 false。 </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00559">559</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00592">592</a> 行定义.</p>
 
 </div>
 </div>
@@ -1282,7 +1286,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a2a98eb30c818274cba7188cf773e0b13" title="warning: Must call before QGuiApplication defined object ">DApplication::loadDXcbPlugin</a> 强制程序使用的平台插件到dxcb。 这个函数的工作原理是通过设置 QT_QPA_PLATFORM 来影响平台插件的加载，所以此函数 必须在 <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html" title="DApplication 是 DTK 中用于替换 QCoreApplication 相关功能实现的类。 继承自 QApplication ，并在此之上添...">DApplication</a> 实例创建前进行调用。</p>
 <dl class="section return"><dt>返回</dt><dd>设置成功返回 true，否则返回 false。 </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00541">541</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00574">574</a> 行定义.</p>
 
 </div>
 </div>
@@ -1314,7 +1318,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>返回</dt><dd>加载成功返回 true，否则返回 false。 </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00509">509</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00542">542</a> 行定义.</p>
 
 </div>
 </div>
@@ -1334,7 +1338,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>productIcon 属性是程序的产品图标， 主要用于在关于对话框中进行展示。 </p>
 <dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a807252e623d371d0a04f5abc8a74452f" title="productName属性是程序的产品名称， 产品名称不同与 applicationName ，应该是类似如“深度终端”，而不是 d...">productName</a>, <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a7e348b19463bc6043529d8cf2ec5379a" title="DApplication::aboutDialog 返回一个基于当前程序信息的关于对话框。 此对话框可以通过 DApplication::setAb...">aboutDialog</a> </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00658">658</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00691">691</a> 行定义.</p>
 
 </div>
 </div>
@@ -1354,7 +1358,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>productName属性是程序的产品名称， 产品名称不同与 applicationName ，应该是类似如“深度终端”，而不是 deepin-terminal， 这个名称主要用于在程序的关于对话框中进行展示。 如果没有手动通过 setProductName 来设置，会尝试使用 <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qguiapplication.html#applicationDisplayName-prop">QApplication::applicationDisplayName</a> 来充当产品名称。 </p>
 <dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#affb7a0cace841de40dd8c7ae48f6a810" title="productIcon 属性是程序的产品图标， 主要用于在关于对话框中进行展示。 ">productIcon</a>, <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a7e348b19463bc6043529d8cf2ec5379a" title="DApplication::aboutDialog 返回一个基于当前程序信息的关于对话框。 此对话框可以通过 DApplication::setAb...">aboutDialog</a> </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00626">626</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00659">659</a> 行定义.</p>
 
 </div>
 </div>
@@ -1382,7 +1386,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a7b70e79e02f0e8e442b2740a2d1a02bb" title="DApplication::registerDDESession 用于跟 startdde 进行通信，告知 startdde 进程已经启动成功。 ...">DApplication::registerDDESession</a> 用于跟 startdde 进行通信，告知 startdde 进程已经启动成功。 </p>
 <dl class="section note"><dt>注解</dt><dd>只有DDE系统组件需要使用此函数，普通应用无需使用。 </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00590">590</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00623">623</a> 行定义.</p>
 
 </div>
 </div>
@@ -1403,7 +1407,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#aea6eb22e0a3fb3ac155663044514fa3c" title="DApplication::setAboutDialog 为当前程序设置一个关于对话框。 ">DApplication::setAboutDialog</a> 为当前程序设置一个关于对话框。 </p>
 <dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html#a7e348b19463bc6043529d8cf2ec5379a" title="DApplication::aboutDialog 返回一个基于当前程序信息的关于对话框。 此对话框可以通过 DApplication::setAb...">aboutDialog</a> </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00832">832</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00865">865</a> 行定义.</p>
 
 </div>
 </div>
@@ -1431,7 +1435,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <dl class="section note"><dt>注解</dt><dd>一般情况下单实例的实现使用 QSystemSemaphore，如果你的程序需要在沙箱 环境如 flatpak 中运行，可选的一套方案是通过 DTK_DBUS_SINGLEINSTANCE 这个 编译宏来控制单实例使用 DBus 方案。</dd></dl>
 <dl class="section return"><dt>返回</dt><dd>设置成功返回 true，否则返回 false。 </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00455">455</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00488">488</a> 行定义.</p>
 
 </div>
 </div>
@@ -1469,7 +1473,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>返回</dt><dd>设置成功返回 true，否则返回 false。 </dd></dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00468">468</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00501">501</a> 行定义.</p>
 
 </div>
 </div>
@@ -1495,7 +1499,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00411">411</a> 行定义.</p>
+<p>在文件 <a class="el" href="dapplication_8cpp_source.html">dapplication.cpp</a> 第 <a class="el" href="dapplication_8cpp_source.html#l00444">444</a> 行定义.</p>
 
 </div>
 </div>
@@ -1509,7 +1513,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Dtk</b></li><li class="navelem"><b>Widget</b></li><li class="navelem"><a class="el" href="class_dtk_1_1_widget_1_1_d_application.html">DApplication</a></li>
-    <li class="footer">生成于 2019年 一月 30日 星期三 10:16:53 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:35 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
