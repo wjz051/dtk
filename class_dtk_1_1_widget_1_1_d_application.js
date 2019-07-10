@@ -20,6 +20,7 @@ var class_dtk_1_1_widget_1_1_d_application =
     [ "notify", "class_dtk_1_1_widget_1_1_d_application.html#ab44f69cfd41d5a1cbe099230c076a851", null ],
     [ "productIcon", "class_dtk_1_1_widget_1_1_d_application.html#affb7a0cace841de40dd8c7ae48f6a810", null ],
     [ "productName", "class_dtk_1_1_widget_1_1_d_application.html#a807252e623d371d0a04f5abc8a74452f", null ],
+    [ "screenDevicePixelRatioChanged", "class_dtk_1_1_widget_1_1_d_application.html#a9f0f7b779367b9bd85e4e87fab4399ba", null ],
     [ "setAboutDialog", "class_dtk_1_1_widget_1_1_d_application.html#aea6eb22e0a3fb3ac155663044514fa3c", null ],
     [ "setApplicationAcknowledgementPage", "class_dtk_1_1_widget_1_1_d_application.html#a21e3bdc444de596439ac80c202979bca", null ],
     [ "setApplicationAcknowledgementVisible", "class_dtk_1_1_widget_1_1_d_application.html#a2e1d23f2b19d6988f4a8c43f3d954cc5", null ],

@@ -178,9 +178,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>doubleClicked</b> ()<
 <tr class="memitem:a90dd6688b3cb8ca0d2f81f340f8228a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90dd6688b3cb8ca0d2f81f340f8228a6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>mousePressed</b> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qt.html#MouseButton-enum">Qt::MouseButtons</a> buttons)</td></tr>
 <tr class="separator:a90dd6688b3cb8ca0d2f81f340f8228a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fe7aab53d62129980a0599d9ad7be67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4fe7aab53d62129980a0599d9ad7be67"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mouseMoving</b> (Qt::MouseButton botton)</td></tr>
-<tr class="separator:a4fe7aab53d62129980a0599d9ad7be67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d92a66bb03b6c0ee10488d9c2dc550d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d92a66bb03b6c0ee10488d9c2dc550d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mouseMoving</b> (Qt::MouseButton button)</td></tr>
+<tr class="separator:a6d92a66bb03b6c0ee10488d9c2dc550d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
@@ -231,6 +231,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resize</b> (int <a cl
 <tr class="memitem:aa56e4c66fd902ae801c5baff51c5a829"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa56e4c66fd902ae801c5baff51c5a829"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resize</b> (const <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qsize.html">QSize</a> &amp;)</td></tr>
 <tr class="separator:aa56e4c66fd902ae801c5baff51c5a829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac464395576b0fff566ac378ec8097fba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac464395576b0fff566ac378ec8097fba"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>menuIsVisible</b> () const </td></tr>
+<tr class="separator:ac464395576b0fff566ac378ec8097fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47657fdb46d1f0852a0b0e83e109e271"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47657fdb46d1f0852a0b0e83e109e271"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setMenuVisible</b> (bool <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html#visible-prop">visible</a>)</td></tr>
+<tr class="separator:a47657fdb46d1f0852a0b0e83e109e271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa0f2a42002f4ed41e25a5d1eb21cba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abaa0f2a42002f4ed41e25a5d1eb21cba"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>menuIsDisabled</b> () const </td></tr>
+<tr class="separator:abaa0f2a42002f4ed41e25a5d1eb21cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e41b546852dd79db57f73ad48fee4f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e41b546852dd79db57f73ad48fee4f9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setMenuDisabled</b> (bool disabled)</td></tr>
+<tr class="separator:a1e41b546852dd79db57f73ad48fee4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba0467f099c2b788e7bed148eb26c8ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_widget_1_1_d_titlebar.html#aba0467f099c2b788e7bed148eb26c8ea">setDisableFlags</a> (<a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qt.html#WindowType-enum">Qt::WindowFlags</a> flags)</td></tr>
 <tr class="memdesc:aba0467f099c2b788e7bed148eb26c8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置需要被禁用的按钮，仅仅是在界面上禁用按钮，还是可以通过事件等机制来调用对应接口。  <a href="#aba0467f099c2b788e7bed148eb26c8ea">更多...</a><br /></td></tr>
 <tr class="separator:aba0467f099c2b788e7bed148eb26c8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1626,7 +1638,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 <p>可以通过自定义控件来在标题栏上显示复杂的组合控件</p>
 <dl class="section see"><dt>参见</dt><dd><a class="el" href="class_dtk_1_1_widget_1_1_d_titlebar.html#ac73e0dcbb095b9a96b3c7a7e59b395a4" title="设置标题栏上的自定义控件 ">Dtk::Widget::DTitlebar::setCustomWidget()</a> </dd></dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00603">603</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00617">617</a> 行定义.</p>
 
 </div>
 </div>
@@ -1646,7 +1658,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 <p>获取和标题栏关联的应用查询菜单。 </p>
 <dl class="section return"><dt>返回</dt><dd>如该标题栏没有设置菜单，这里会返回空，但是如该使用 <a class="el" href="class_dtk_1_1_widget_1_1_d_application.html" title="DApplication 是 DTK 中用于替换 QCoreApplication 相关功能实现的类。 继承自 QApplication ，并在此之上添...">Dtk::Widget::DApplication</a> , 那么这里一般会自动创建一个程序菜单。 </dd></dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00560">560</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00574">574</a> 行定义.</p>
 
 </div>
 </div>
@@ -1672,7 +1684,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00934">934</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00948">948</a> 行定义.</p>
 
 </div>
 </div>
@@ -1706,7 +1718,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00818">818</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00832">832</a> 行定义.</p>
 
 </div>
 </div>
@@ -1743,7 +1755,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00741">741</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00755">755</a> 行定义.</p>
 
 </div>
 </div>
@@ -1787,7 +1799,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00761">761</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00775">775</a> 行定义.</p>
 
 </div>
 </div>
@@ -1813,7 +1825,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l01013">1013</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l01051">1051</a> 行定义.</p>
 
 </div>
 </div>
@@ -1847,7 +1859,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00802">802</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00816">816</a> 行定义.</p>
 
 </div>
 </div>
@@ -1881,7 +1893,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00869">869</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00883">883</a> 行定义.</p>
 
 </div>
 </div>
@@ -1907,7 +1919,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00575">575</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00589">589</a> 行定义.</p>
 
 </div>
 </div>
@@ -1941,7 +1953,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00832">832</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00846">846</a> 行定义.</p>
 
 </div>
 </div>
@@ -1975,7 +1987,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
   </dd>
 </dl>
 
-<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00851">851</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtitlebar_8cpp_source.html">dtitlebar.cpp</a> 第 <a class="el" href="dtitlebar_8cpp_source.html#l00865">865</a> 行定义.</p>
 
 </div>
 </div>
@@ -1989,7 +2001,7 @@ typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxy
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Dtk</b></li><li class="navelem"><b>Widget</b></li><li class="navelem"><a class="el" href="class_dtk_1_1_widget_1_1_d_titlebar.html">DTitlebar</a></li>
-    <li class="footer">生成于 2019年 三月 25日 星期一 08:27:41 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2019年 七月 10日 星期三 11:16:39 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

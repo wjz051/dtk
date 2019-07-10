@@ -81,6 +81,7 @@ var searchData=
   ['bluebuffersize',['blueBufferSize',['https://doc.qt.io/qt-5/qsurfaceformat.html#blueBufferSize',1,'QSurfaceFormat']]],
   ['bluef',['blueF',['https://doc.qt.io/qt-5/qcolor.html#blueF',1,'QColor']]],
   ['bluesize',['blueSize',['https://doc.qt.io/qt-5/qpixelformat.html#blueSize',1,'QPixelFormat']]],
+  ['blurenabled',['blurEnabled',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#acb747e2d2fbf2d1ba2fb9f604bcc4cc8',1,'Dtk::Widget::DBlurEffectWidget']]],
   ['blurhints',['blurHints',['https://doc.qt.io/qt-5/qgraphicsblureffect.html#blurHints-prop',1,'QGraphicsBlurEffect::blurHints()'],['https://doc.qt.io/qt-5/qgraphicsblureffect.html#blurHints-prop',1,'QGraphicsBlurEffect::blurHints() const const'],['https://doc.qt.io/qt-5/qgraphicsblureffect.html#BlurHint-enum',1,'QGraphicsBlurEffect::BlurHints()']]],
   ['blurhintschanged',['blurHintsChanged',['https://doc.qt.io/qt-5/qgraphicsblureffect.html#blurHintsChanged',1,'QGraphicsBlurEffect']]],
   ['blurmode',['BlurMode',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a6a272fb3147a7b49c45cac2e77cb0769',1,'Dtk::Widget::DBlurEffectWidget']]],

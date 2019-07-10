@@ -10,6 +10,7 @@ var searchData=
   ['batchsize',['batchSize',['https://doc.qt.io/qt-5/qlistview.html#batchSize-prop',1,'QListView']]],
   ['blendmode',['blendMode',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#aedc188e6eb1a6e9736ec20dc5dd1c1e9',1,'Dtk::Widget::DBlurEffectWidget']]],
   ['blockcount',['blockCount',['https://doc.qt.io/qt-5/qtextdocument.html#blockCount-prop',1,'QTextDocument::blockCount()'],['https://doc.qt.io/qt-5/qplaintextedit.html#blockCount-prop',1,'QPlainTextEdit::blockCount()']]],
+  ['blurenabled',['blurEnabled',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#acb747e2d2fbf2d1ba2fb9f604bcc4cc8',1,'Dtk::Widget::DBlurEffectWidget']]],
   ['blurhints',['blurHints',['https://doc.qt.io/qt-5/qgraphicsblureffect.html#blurHints-prop',1,'QGraphicsBlurEffect']]],
   ['blurradius',['blurRadius',['https://doc.qt.io/qt-5/qgraphicsblureffect.html#blurRadius-prop',1,'QGraphicsBlurEffect::blurRadius()'],['https://doc.qt.io/qt-5/qgraphicsdropshadoweffect.html#blurRadius-prop',1,'QGraphicsDropShadowEffect::blurRadius()']]],
   ['blurrectxradius',['blurRectXRadius',['../class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#ab1cb4fe5bd469783d360ddacb713377b',1,'Dtk::Widget::DBlurEffectWidget']]],

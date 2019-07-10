@@ -303,7 +303,7 @@ var searchData=
   ['dobject_2eh',['dobject.h',['../dobject_8h.html',1,'']]],
   ['docklocationchanged',['dockLocationChanged',['https://doc.qt.io/qt-5/qdockwidget.html#dockLocationChanged',1,'QDockWidget']]],
   ['docknestingenabled',['dockNestingEnabled',['https://doc.qt.io/qt-5/qmainwindow.html#dockNestingEnabled-prop',1,'QMainWindow']]],
-  ['dockoptions',['DockOptions',['https://doc.qt.io/qt-5/qmainwindow.html#DockOption-enum',1,'QMainWindow::DockOptions()'],['https://doc.qt.io/qt-5/qmainwindow.html#dockOptions-prop',1,'QMainWindow::dockOptions()'],['https://doc.qt.io/qt-5/qmainwindow.html#dockOptions-prop',1,'QMainWindow::dockOptions() const const']]],
+  ['dockoptions',['dockOptions',['https://doc.qt.io/qt-5/qmainwindow.html#dockOptions-prop',1,'QMainWindow::dockOptions()'],['https://doc.qt.io/qt-5/qmainwindow.html#dockOptions-prop',1,'QMainWindow::dockOptions() const const'],['https://doc.qt.io/qt-5/qmainwindow.html#DockOption-enum',1,'QMainWindow::DockOptions()']]],
   ['dockwidgetarea',['dockWidgetArea',['https://doc.qt.io/qt-5/qmainwindow.html#dockWidgetArea',1,'QMainWindow']]],
   ['dockwidgetareas',['DockWidgetAreas',['https://doc.qt.io/qt-5/qt.html#DockWidgetArea-enum',1,'Qt']]],
   ['dockwidgetfeatures',['DockWidgetFeatures',['https://doc.qt.io/qt-5/qdockwidget.html#DockWidgetFeature-enum',1,'QDockWidget']]],

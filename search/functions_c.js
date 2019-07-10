@@ -260,7 +260,7 @@ var searchData=
   ['movetotopright',['moveToTopRight',['../class_dtk_1_1_widget_1_1_d_abstract_dialog.html#a5505b0c422ebf0017225a7843c7fcfe6',1,'Dtk::Widget::DAbstractDialog']]],
   ['movetotoprightbyrect',['moveToTopRightByRect',['../class_dtk_1_1_widget_1_1_d_abstract_dialog.html#a47316f85e8758192c613cf39f8e0bf39',1,'Dtk::Widget::DAbstractDialog']]],
   ['moveverticalcenter',['moveVerticalCenter',['../class_dtk_1_1_widget_1_1_d_anchors_base.html#a6024e1dfe9252aab03a10a2cd4e59dae',1,'Dtk::Widget::DAnchorsBase']]],
-  ['movewindow',['moveWindow',['../class_dtk_1_1_widget_1_1_d_borderless_widget.html#a9571119c1e0c766e48781c45c5409736',1,'Dtk::Widget::DBorderlessWidget']]],
+  ['movewindow',['moveWindow',['../class_dtk_1_1_widget_1_1_d_borderless_widget.html#aa48abc560ec0f5932fc013e1438f7d4a',1,'Dtk::Widget::DBorderlessWidget']]],
   ['movie',['movie',['https://doc.qt.io/qt-5/qlabel.html#movie',1,'QLabel']]],
   ['mprisacquired',['mprisAcquired',['../class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html#a7861d1f8e5cfed7d32041f9f6c6dd2b5',1,'Dtk::Widget::DMPRISControl']]],
   ['mprischanged',['mprisChanged',['../class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html#a67fad7b8a4e768915bdab50ccd0a5307',1,'Dtk::Widget::DMPRISControl']]],

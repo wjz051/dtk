@@ -35,16 +35,17 @@ var NAVTREEINDEX =
 [
 ".html",
 "class_dtk_1_1_core_1_1_d_standard_paths.html#ab50c2e4b74af6519874ab2345e397ccaad5036290828788546d418d40d3692cf5",
-"class_dtk_1_1_widget_1_1_d_anchors_base.html#a57be9dc62e9abbd66c8d924c0e221359",
-"class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a1f1cb56759cfbe825a268eb12348e8d5",
-"class_dtk_1_1_widget_1_1_d_crumb_edit.html#a7c7b8f32895ed54066fd4aa4c0e2dae4a76551104dfd5f98eedb5d76d37a4692c",
-"class_dtk_1_1_widget_1_1_d_graphics_glow_effect.html#a2b3377e38db58e9c7047eab04965e67d",
-"class_dtk_1_1_widget_1_1_d_list_widget.html#a1f0eb89614d9218852c474fbde7c2ba1",
-"class_dtk_1_1_widget_1_1_d_platform_window_handle.html#a0322baef7e98d51332cf097466bb3db9",
-"class_dtk_1_1_widget_1_1_d_simple_list_view.html#a911665d6a9cebdacd0dad31942bc2f44",
-"class_dtk_1_1_widget_1_1_d_tab_bar.html#a81c6e74a39fba44aa16ddb18a8100144",
-"class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a42d89cb2e586634bf4118d2c4a160b9e",
-"dsearchedit_8h_source.html"
+"class_dtk_1_1_widget_1_1_d_anchors_base.html#a5751962c4002700bbfa42801d02a6ff2",
+"class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a0152846ad73880c767f6934ea5745ec2",
+"class_dtk_1_1_widget_1_1_d_crumb_edit.html#a6ad55344ba1062d4a1ff33fd048c6540",
+"class_dtk_1_1_widget_1_1_d_graphics_clip_effect.html#a796b90f9c2e8e2b0d8f98e9952b36293",
+"class_dtk_1_1_widget_1_1_d_list_view.html#ae0833d67144f711c887cc773433e6d8c",
+"class_dtk_1_1_widget_1_1_d_picture_sequence_view.html#a80e9d43430d142e88d808a163304bd21",
+"class_dtk_1_1_widget_1_1_d_simple_list_view.html#a75b1a50bd4e365fa1bb66da77f8e67d0",
+"class_dtk_1_1_widget_1_1_d_tab_bar.html#a6169daf728bb4da8436390442a39bd93",
+"class_dtk_1_1_widget_1_1_d_window_close_button.html#a32c82f3ce5b9bd83aa526ba1c70b8ded",
+"dpicturesequenceview_8cpp_source.html",
+"struct_dtk_1_1_widget_1_1_pop.html"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

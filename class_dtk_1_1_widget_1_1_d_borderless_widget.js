@@ -36,7 +36,7 @@ var class_dtk_1_1_widget_1_1_d_borderless_widget =
     [ "mouseReleaseEvent", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#ac0239882e0f31c0d1659a163dc9ef07e", null ],
     [ "move", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#a12f1d25d37cd06458c95b032f9416ae0", null ],
     [ "move", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#af1d1f6f45a4a39843d03a22a945198a2", null ],
-    [ "moveWindow", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#a9571119c1e0c766e48781c45c5409736", null ],
+    [ "moveWindow", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#aa48abc560ec0f5932fc013e1438f7d4a", null ],
     [ "normalGeometry", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#a60cd1c9da598d4be71e1b7e0053c1f05", null ],
     [ "optionClicked", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#ae97a0b1200f8bc6e0697558b66093b3c", null ],
     [ "paintEvent", "class_dtk_1_1_widget_1_1_d_borderless_widget.html#a33b88d3a34e4f07d5c60482404981e50", null ],

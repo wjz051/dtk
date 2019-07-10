@@ -29,6 +29,7 @@ var class_dtk_1_1_widget_1_1_d_abstract_dialog =
     [ "setDisplayPosition", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#a1048601db223c55cfe12b32e930614f1", null ],
     [ "setGeometry", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#a92ded120aeea2bd0526772d45c243a23", null ],
     [ "setGeometry", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#acaa4db1381f462ef513dbab17b3c333d", null ],
+    [ "showEvent", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#ae611b6c25790c1ab11064721df82751c", null ],
     [ "sizeChanged", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#ae3a4ef30cb5a1a718ba44ab15afd99cf", null ],
     [ "backgroundColor", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#a9148fca0a0f0c7f611c4f7a45061e297", null ],
     [ "borderColor", "class_dtk_1_1_widget_1_1_d_abstract_dialog.html#acbd8f6d0c3210d3784db88f06dd134a7", null ],

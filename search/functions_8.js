@@ -262,6 +262,7 @@ var searchData=
   ['isenableddxcb',['isEnabledDXcb',['../class_dtk_1_1_widget_1_1_d_platform_window_handle.html#a698a537a1c6f7206686563a73898933e',1,'Dtk::Widget::DPlatformWindowHandle::isEnabledDXcb(const QWidget *widget)'],['../class_dtk_1_1_widget_1_1_d_platform_window_handle.html#ab2fb1e4b8f098ee1a5ecd835f619c278',1,'Dtk::Widget::DPlatformWindowHandle::isEnabledDXcb(const QWindow *window)']]],
   ['isenabledto',['isEnabledTo',['https://doc.qt.io/qt-5/qwidget.html#isEnabledTo',1,'QWidget']]],
   ['isenabledtotlw',['isEnabledToTLW',['https://doc.qt.io/qt-5/qwidget-obsolete.html#isEnabledToTLW',1,'QWidget']]],
+  ['isenablenotitlebar',['isEnableNoTitlebar',['../class_dtk_1_1_widget_1_1_d_platform_window_handle.html#a89afc866a80eaac3095005c360b555af',1,'Dtk::Widget::DPlatformWindowHandle']]],
   ['isenddocument',['isEndDocument',['https://doc.qt.io/qt-5/qxmlstreamreader.html#isEndDocument',1,'QXmlStreamReader']]],
   ['isendelement',['isEndElement',['https://doc.qt.io/qt-5/qxmlstreamreader.html#isEndElement',1,'QXmlStreamReader']]],
   ['isentityreference',['isEntityReference',['https://doc.qt.io/qt-5/qxmlstreamreader.html#isEntityReference',1,'QXmlStreamReader']]],

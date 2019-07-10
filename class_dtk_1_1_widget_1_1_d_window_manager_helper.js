@@ -31,11 +31,14 @@ var class_dtk_1_1_widget_1_1_d_window_manager_helper =
     [ "hasBlurWindowChanged", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a7bc80e057c7dc11aa0fe74ee97a4afe2", null ],
     [ "hasComposite", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a6730b370ed00cd7a7c1e74347293d7cb", null ],
     [ "hasCompositeChanged", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a8e096b344b8b889404237452927ab730", null ],
+    [ "hasNoTitlebar", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#ad461a5d0307386ad661366c880f0f2d0", null ],
+    [ "hasNoTitlebarChanged", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a104bf84210a6e1a0db07af4c9d8eb57c", null ],
     [ "windowListChanged", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a57d1f8de6f6bdc49c998cebd65d9216b", null ],
     [ "windowManagerChanged", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a86452f3f68eb3bbdbd4c33dbb770c0fd", null ],
     [ "windowManagerName", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a163bbc3b61d900dcded9175a7c754fea", null ],
     [ "windowManagerNameString", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a5c3152e4e44c1cfb1128afd3cefe5970", null ],
     [ "windowMotifWMHintsChanged", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#af04caf84e3ba480477b26547f4f01459", null ],
     [ "hasBlurWindow", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a3d67180cd4890411b5e2e067aa87e335", null ],
-    [ "hasComposite", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#ac3ac18b228e733181ffb73bc47b038d1", null ]
+    [ "hasComposite", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#ac3ac18b228e733181ffb73bc47b038d1", null ],
+    [ "hasNoTitlebar", "class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a3e8f3a03875331ea9945b0fa89f20121", null ]
 ];
