@@ -1,0 +1,10 @@
+digraph "Dtk::Widget::DAnchors&lt; T &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="Dtk::Widget::DAnchors\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Dtk::Widget::DAnchorsBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_anchors_base.html",tooltip="DAnchorsBase 提供了一种指定 QWidget 与其它 QWidget 之间的关系来确定 其位置的方法 "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtcore.tags$qobject.html"];
+}

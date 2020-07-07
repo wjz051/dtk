@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['changelog',['CHANGELOG',['../md_dtkcore_CHANGELOG.html',1,'']]],
-  ['changelog',['CHANGELOG',['../md_dtkwidget_CHANGELOG.html',1,'']]]
+  ['changelog',['CHANGELOG',['../md_dtkcore__c_h_a_n_g_e_l_o_g.html',1,'']]],
+  ['changelog',['CHANGELOG',['../md_dtkwidget__c_h_a_n_g_e_l_o_g.html',1,'']]]
 ];

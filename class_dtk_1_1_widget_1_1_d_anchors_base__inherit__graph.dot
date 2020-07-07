@@ -1,0 +1,10 @@
+digraph "Dtk::Widget::DAnchorsBase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="Dtk::Widget::DAnchorsBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtcore.tags$qobject.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Dtk::Widget::DAnchors\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_anchors.html",tooltip="DAnchors 是一个模板类，在 DAnchorsBase 的基础上保存了一个控件指针， 将控件和锚定绑定在一起使用，相当�..."];
+}

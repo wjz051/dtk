@@ -1,6 +1,0 @@
-<map id="Dtk::Widget::DForeignWindow" name="Dtk::Widget::DForeignWindow">
-<area shape="rect" id="node2" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qwindow.html" title="QWindow" alt="" coords="53,80,132,107"/>
-<area shape="rect" id="node3" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qobject.html" title="QObject" alt="" coords="5,5,79,32"/>
-<area shape="rect" id="node4" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qsurface.html" title="QSurface" alt="" coords="103,5,184,32"/>
-<area shape="rect" id="node5" href="$class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="157,80,298,107"/>
-</map>

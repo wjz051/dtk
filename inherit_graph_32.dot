@@ -1,0 +1,7 @@
+digraph "类继承关系图"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Dtk::Widget::DWindowGroup\lLeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_window_group_leader.html",tooltip="DWindowGroupLeader 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗�..."];
+}

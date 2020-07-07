@@ -1,0 +1,27 @@
+digraph "Dtk::Widget::DImageButton"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Dtk::Widget::DImageButton",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtwidgets.tags$qlabel.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtwidgets.tags$qframe.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtwidgets.tags$qwidget.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtcore.tags$qobject.html"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QPaintDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtgui.tags$qpaintdevice.html"];
+  Node6 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Dtk::Core::DObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_d_object.html",tooltip="deepin-tool-kit 中所有公开类的祖先类。 "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Dtk::Widget::DWindowClose\lButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_window_close_button.html",tooltip="DWindowCloseButton 类是 DTK 窗口统一的关闭按钮控件。 "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Dtk::Widget::DWindowMaxButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_window_max_button.html",tooltip="DWindowMaxButton 类是 DTK 窗口统一的最大化/恢复按钮控件。 它有两种状态，一种表示窗口已经进入最大化状�..."];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Dtk::Widget::DWindowMinButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_window_min_button.html",tooltip="DWindowMinButton 类是 DTK 窗口统一的最小化按钮控件。 "];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Dtk::Widget::DWindowOption\lButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_widget_1_1_d_window_option_button.html",tooltip="DWindowOptionButton 类是 DTK 窗口统一的菜单按钮控件。 点击按钮后，默认会显示程序主菜单，包含“关于”�..."];
+}

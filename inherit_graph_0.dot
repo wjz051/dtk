@@ -1,0 +1,11 @@
+digraph "类继承关系图"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node205 [label="ConanFile",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node205 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="conanfile.DtkcoreConan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconanfile_1_1_dtkcore_conan.html"];
+  Node205 -> Node207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="conanfile.DtkwidgetConan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classconanfile_1_1_dtkwidget_conan.html"];
+}

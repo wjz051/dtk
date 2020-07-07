@@ -1,7 +1,0 @@
-<map id="Dtk::Widget::DBaseExpand" name="Dtk::Widget::DBaseExpand">
-<area shape="rect" id="node5" href="$class_dtk_1_1_widget_1_1_d_arrow_line_expand.html" title="一个美观的可展开的控件DArrowLineExpand 继承自 DBaseExpand 并提供了了 ArrowHeaderLine (一个带有箭头标�..." alt="" coords="5,237,228,263"/>
-<area shape="rect" id="node6" href="$class_dtk_1_1_widget_1_1_d_switch_line_expand.html" title="DSwitchLineExpand 类提供了一种通过开关按钮来展开/合上显示内容的控件。 控件由标题栏和内容两部分组成，�..." alt="" coords="252,229,432,271"/>
-<area shape="rect" id="node2" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qwidget.html" title="QWidget" alt="" coords="191,80,266,107"/>
-<area shape="rect" id="node3" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qobject.html" title="QObject" alt="" coords="135,5,208,32"/>
-<area shape="rect" id="node4" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qpaintdevice.html" title="QPaintDevice" alt="" coords="233,5,339,32"/>
-</map>

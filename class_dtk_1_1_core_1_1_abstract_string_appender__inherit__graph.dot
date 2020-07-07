@@ -1,0 +1,16 @@
+digraph "Dtk::Core::AbstractStringAppender"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="Dtk::Core::AbstractString\lAppender",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Dtk::Core::AbstractAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_abstract_appender.html",tooltip="The AbstractAppender class provides an abstract base class for writing a log entries. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Dtk::Core::ConsoleAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_console_appender.html",tooltip="ConsoleAppender is the simple appender that writes the log records to the std::cerr output stream..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Dtk::Core::FileAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_file_appender.html",tooltip="Simple appender that writes the log records to the plain text file. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Dtk::Core::RollingFileAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_rolling_file_appender.html",tooltip="The RollingFileAppender class extends FileAppender so that the underlying file is rolled over at a us..."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Dtk::Core::OutputDebugAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_output_debug_appender.html",tooltip="Appender that writes the log records to the Microsoft Debug Log "];
+}

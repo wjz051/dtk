@@ -12,8 +12,8 @@ var class_dtk_1_1_widget_1_1_d_arrow_button =
       [ "ArrowRight", "class_dtk_1_1_widget_1_1_d_arrow_button.html#a9d5cc5fb3f8a80d51da1608fe8bcb34aa951eaa5294e9079c9dc20156a11cd2f9", null ]
     ] ],
     [ "DArrowButton", "class_dtk_1_1_widget_1_1_d_arrow_button.html#a1ed7b79f95c43e523e75870f3ad7ea3a", null ],
-    [ "arrowDirection", "class_dtk_1_1_widget_1_1_d_arrow_button.html#a294df8079921a528cc3acfe815779df5", null ],
-    [ "buttonState", "class_dtk_1_1_widget_1_1_d_arrow_button.html#a0783475b024f77d704b0f5e02fcbe7e4", null ],
+    [ "arrowDirection", "class_dtk_1_1_widget_1_1_d_arrow_button.html#abd7c0729fb2260cf319ca817875e9a89", null ],
+    [ "buttonState", "class_dtk_1_1_widget_1_1_d_arrow_button.html#ac6e4701e9b3058d9bfec19fc5d08447f", null ],
     [ "enterEvent", "class_dtk_1_1_widget_1_1_d_arrow_button.html#aa82377ad605509cda91c45efa4ce384a", null ],
     [ "leaveEvent", "class_dtk_1_1_widget_1_1_d_arrow_button.html#aa510b7e4c06a86a41f3b95c2c9c44ce9", null ],
     [ "mouseEnter", "class_dtk_1_1_widget_1_1_d_arrow_button.html#a065acde9edc63028b4e3293d89a69541", null ],

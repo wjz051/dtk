@@ -274,7 +274,7 @@ var searchData=
   ['qmacnativewidget',['QMacNativeWidget',['https://doc.qt.io/qt-5/qmacnativewidget.html',1,'']]],
   ['qmainwindow',['QMainWindow',['https://doc.qt.io/qt-5/qmainwindow.html',1,'']]],
   ['qmap',['QMap',['https://doc.qt.io/qt-5/qmap.html',1,'']]],
-  ['qmap_3c_20int_2c_20dtk_3a_3awidget_3a_3adbaseexpand_20_2a_20_3e',['QMap&lt; int, Dtk::Widget::DBaseExpand * &gt;',['https://doc.qt.io/qt-5/qmap.html',1,'']]],
+  ['qmap_3c_20int_2c_20dtk_3a_3awidget_3a_3adbaseexpand_20_2a_3e',['QMap&lt; int, Dtk::Widget::DBaseExpand *&gt;',['https://doc.qt.io/qt-5/qmap.html',1,'']]],
   ['qmapiterator',['QMapIterator',['https://doc.qt.io/qt-5/qmapiterator.html',1,'']]],
   ['qmargins',['QMargins',['https://doc.qt.io/qt-5/qmargins.html',1,'']]],
   ['qmarginsf',['QMarginsF',['https://doc.qt.io/qt-5/qmarginsf.html',1,'']]],

@@ -2,9 +2,9 @@ var class_dtk_1_1_widget_1_1_d_base_expand =
 [
     [ "DBaseExpand", "class_dtk_1_1_widget_1_1_d_base_expand.html#a0a961093666f7b22df0e7cd82f564ca7", null ],
     [ "~DBaseExpand", "class_dtk_1_1_widget_1_1_d_base_expand.html#ad0c3806a92c0a5f50f39e5d61d750866", null ],
-    [ "expand", "class_dtk_1_1_widget_1_1_d_base_expand.html#a79b0b357e6f58004aeae510dd28f98c0", null ],
+    [ "expand", "class_dtk_1_1_widget_1_1_d_base_expand.html#a0fcc9f41c3e9de2bede76ec6cd19589f", null ],
     [ "expandChange", "class_dtk_1_1_widget_1_1_d_base_expand.html#afe49a1e62bdae8c3ce6f73c0d186c557", null ],
-    [ "getContent", "class_dtk_1_1_widget_1_1_d_base_expand.html#a50a1471c6d011700d65181c052fd129a", null ],
+    [ "getContent", "class_dtk_1_1_widget_1_1_d_base_expand.html#a5cb0e6f55bb359067fef4370c1ca35f5", null ],
     [ "resizeEvent", "class_dtk_1_1_widget_1_1_d_base_expand.html#addd291108eb7e5ba77f3c0ec0b3f95ee", null ],
     [ "setAnimationDuration", "class_dtk_1_1_widget_1_1_d_base_expand.html#a1b7a9d74b68b2fdda38ff3dd5d000d6d", null ],
     [ "setAnimationEasingCurve", "class_dtk_1_1_widget_1_1_d_base_expand.html#aa4e8370be12c3e7e544352b221165431", null ],

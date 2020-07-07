@@ -11,7 +11,7 @@ var class_dtk_1_1_core_1_1_logger =
     [ "Logger", "class_dtk_1_1_core_1_1_logger.html#a8bf632cb87800101031e5c19773cca38", null ],
     [ "Logger", "class_dtk_1_1_core_1_1_logger.html#ae2f834f683f7379d92de6e413c5acb8b", null ],
     [ "~Logger", "class_dtk_1_1_core_1_1_logger.html#ab4eea40e26ce45df1c18058f97d1b11e", null ],
-    [ "defaultCategory", "class_dtk_1_1_core_1_1_logger.html#a64705b1e429da552723b60b23f452979", null ],
+    [ "defaultCategory", "class_dtk_1_1_core_1_1_logger.html#a4a372bad2146536722eafc6a8c086c9c", null ],
     [ "logToGlobalInstance", "class_dtk_1_1_core_1_1_logger.html#a87f67b2b6ed4ffec4096ffd5e118beca", null ],
     [ "registerAppender", "class_dtk_1_1_core_1_1_logger.html#a2bcdf12779fa8567bb2079edf027662d", null ],
     [ "registerCategoryAppender", "class_dtk_1_1_core_1_1_logger.html#a95ef2b960342e8153edd908b2f05029c", null ],

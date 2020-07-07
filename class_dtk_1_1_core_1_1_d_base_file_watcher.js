@@ -9,7 +9,7 @@ var class_dtk_1_1_core_1_1_d_base_file_watcher =
     [ "fileDeleted", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#adb359c414da8d42bfd636f39e37ce16e", null ],
     [ "fileModified", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#a007d440afeebc915da6e8142e804c964", null ],
     [ "fileMoved", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#a6f6e4ac25c2a4658a6a05efd8bd5a446", null ],
-    [ "fileUrl", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#a1b0bfeddd60d564d53c8a8e757574c1f", null ],
+    [ "fileUrl", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#aaaafca02100e83a24d1c10ef3c771d71", null ],
     [ "restartWatcher", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#a50c523b302e5e7ba1faae12305a56a42", null ],
     [ "setEnabledSubfileWatcher", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#aca5b89f7fbc62821ef09054d508802ab", null ],
     [ "startWatcher", "class_dtk_1_1_core_1_1_d_base_file_watcher.html#a52553bcef3e99c2e10db7f07a7976d66", null ],

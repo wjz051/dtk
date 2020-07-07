@@ -1,0 +1,10 @@
+digraph "Dtk::Core::ConsoleAppender"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="Dtk::Core::ConsoleAppender",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Dtk::Core::AbstractString\lAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_abstract_string_appender.html",tooltip="The AbstractStringAppender class provides a convenient base for appenders working with plain text for..."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Dtk::Core::AbstractAppender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_abstract_appender.html",tooltip="The AbstractAppender class provides an abstract base class for writing a log entries. "];
+}

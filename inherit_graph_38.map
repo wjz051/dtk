@@ -1,7 +1,0 @@
-<map id="类继承关系图" name="类继承关系图">
-<area shape="rect" id="node1" href="$class_dtk_1_1_widget_1_1_d_style_option.html" title="dcxb插件通过DStyleOption来控制控件的样式 " alt="" coords="160,21,347,47"/>
-<area shape="rect" id="node2" href="$class_dtk_1_1_widget_1_1_d_style_option_line_edit.html" title="Dtk::Widget::DLineEdit使用的样式配置 " alt="" coords="395,5,581,47"/>
-<area shape="rect" id="node3" href="$class_dtk_1_1_widget_1_1_d_style_option_suggest_button.html" title="Dtk::Widget::DSuggestButton使用的样式配置 " alt="" coords="395,71,581,112"/>
-<area shape="rect" id="node4" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qstyleoption.html" title="QStyleOption" alt="" coords="5,78,112,105"/>
-<area shape="rect" id="node5" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qstyleoptionbutton.html" title="QStyleOptionButton" alt="" coords="179,78,328,105"/>
-</map>

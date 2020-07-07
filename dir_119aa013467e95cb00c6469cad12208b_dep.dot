@@ -1,0 +1,18 @@
+digraph "dtkcore/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6c3d837d12de6918ecc70ece2c9d5940 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dtkcore" fontname="Helvetica", fontsize="10", URL="dir_6c3d837d12de6918ecc70ece2c9d5940.html"]
+  subgraph clusterdir_119aa013467e95cb00c6469cad12208b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_119aa013467e95cb00c6469cad12208b.html"];
+    dir_119aa013467e95cb00c6469cad12208b [shape=plaintext label="src"];
+    dir_2a00c4d5b03017d49448c775b59ba35f [shape=box label="base" color="red" fillcolor="white" style="filled" URL="dir_2a00c4d5b03017d49448c775b59ba35f.html"];
+    dir_0042825c3373077a1bb5c2c193c9a5d9 [shape=box label="filesystem" color="red" fillcolor="white" style="filled" URL="dir_0042825c3373077a1bb5c2c193c9a5d9.html"];
+    dir_a9bb0758876d611e3df677ee8ca2e122 [shape=box label="log" color="black" fillcolor="white" style="filled" URL="dir_a9bb0758876d611e3df677ee8ca2e122.html"];
+    dir_b139647a82957c914ec7834b2f76cfad [shape=box label="settings" color="red" fillcolor="white" style="filled" URL="dir_b139647a82957c914ec7834b2f76cfad.html"];
+    dir_c143c85c7a1492fba24ed3201ee58289 [shape=box label="util" color="black" fillcolor="white" style="filled" URL="dir_c143c85c7a1492fba24ed3201ee58289.html"];
+  }
+  }
+  dir_0042825c3373077a1bb5c2c193c9a5d9->dir_2a00c4d5b03017d49448c775b59ba35f [headlabel="3", labeldistance=1.5 headhref="dir_000004_000002.html"];
+}

@@ -1,9 +1,0 @@
-<map id="Dtk::Widget::ArrowHeaderLine" name="Dtk::Widget::ArrowHeaderLine">
-<area shape="rect" id="node2" href="$class_dtk_1_1_widget_1_1_d_header_line.html" title="可以使用 DHeaderLine 类快速创建标题行控件。 " alt="" coords="18,379,205,405"/>
-<area shape="rect" id="node3" href="$class_dtk_1_1_widget_1_1_d_base_line.html" title="可以使用 DBaseLine 类快速创建具有位于左右两侧的两个控件的行控件。 " alt="" coords="26,304,197,331"/>
-<area shape="rect" id="node4" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qlabel.html" title="QLabel" alt="" coords="78,229,145,256"/>
-<area shape="rect" id="node5" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qframe.html" title="QFrame" alt="" coords="75,155,147,181"/>
-<area shape="rect" id="node6" href="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags$qwidget.html" title="QWidget" alt="" coords="74,80,149,107"/>
-<area shape="rect" id="node7" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qobject.html" title="QObject" alt="" coords="17,5,91,32"/>
-<area shape="rect" id="node8" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qpaintdevice.html" title="QPaintDevice" alt="" coords="115,5,222,32"/>
-</map>

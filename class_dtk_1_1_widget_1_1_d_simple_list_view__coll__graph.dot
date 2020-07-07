@@ -1,0 +1,25 @@
+digraph "Dtk::Widget::DSimpleListView"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="Dtk::Widget::DSimpleListView",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtwidgets.tags$qwidget.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtcore.tags$qobject.html"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QPaintDevice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtgui.tags$qpaintdevice.html"];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Dtk::Core::DObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_d_object.html",tooltip="deepin-tool-kit 中所有公开类的祖先类。 "];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" d_d_ptr" ,fontname="Helvetica"];
+  Node10 [label="QScopedPointer\< DObjectPrivate \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" frameColor" ,fontname="Helvetica"];
+  Node11 [label="QColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtgui.tags$qcolor.html"];
+  Node12 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" searchColor\ntitleColor\ntitleLineColor\nbackgroundColor\ntitleAreaColor\nscrollbarColor" ,fontname="Helvetica"];
+  Node12 [label="QString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtcore.tags$qstring.html"];
+  Node13 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" arrowUpLightHoverImage\narrowDownLightNormalImage\narrowUpNormalImage\narrowUpLightNormalImage\narrowUpLightPressImage\narrowDownPressImage\narrowUpPressImage\narrowUpHoverImage\narrowDownDarkPressImage\narrowUpDarkHoverImage\n..." ,fontname="Helvetica"];
+  Node13 [label="QPixmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtgui.tags$qpixmap.html"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" columnVisibles" ,fontname="Helvetica"];
+  Node14 [label="QList\< bool \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/home/xmuli/project/dtk/tags/qtcore.tags$qlist.html"];
+}

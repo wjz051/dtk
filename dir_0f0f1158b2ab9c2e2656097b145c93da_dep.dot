@@ -1,0 +1,11 @@
+digraph "dtkwidget/src/widgets" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7e9cf0e2371012f8aca5a790419dfe62 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_7e9cf0e2371012f8aca5a790419dfe62.html"]
+  dir_0f0f1158b2ab9c2e2656097b145c93da [shape=box, label="widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0f0f1158b2ab9c2e2656097b145c93da.html"];
+  }
+  dir_6c3d837d12de6918ecc70ece2c9d5940 [shape=box label="dtkcore" fillcolor="white" style="filled" color="red" URL="dir_6c3d837d12de6918ecc70ece2c9d5940.html"];
+  dir_0f0f1158b2ab9c2e2656097b145c93da->dir_6c3d837d12de6918ecc70ece2c9d5940 [headlabel="38", labeldistance=1.5 headhref="dir_000018_000000.html"];
+}

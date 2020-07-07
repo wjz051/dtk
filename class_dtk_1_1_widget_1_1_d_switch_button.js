@@ -1,10 +1,10 @@
 var class_dtk_1_1_widget_1_1_d_switch_button =
 [
     [ "DSwitchButton", "class_dtk_1_1_widget_1_1_d_switch_button.html#a3ca08e2e11f42fd05b85bd7a45e6f808", null ],
-    [ "checked", "class_dtk_1_1_widget_1_1_d_switch_button.html#a4b1d5413cd9325641f294c2ea44b07da", null ],
+    [ "checked", "class_dtk_1_1_widget_1_1_d_switch_button.html#aad3c067dc4b0c16280abe34955d1e9a6", null ],
     [ "checkedChanged", "class_dtk_1_1_widget_1_1_d_switch_button.html#af450b733c1434e7ca7fcc6ec1298ed92", null ],
-    [ "disabledBackground", "class_dtk_1_1_widget_1_1_d_switch_button.html#a83c04760fbaef249c6f8bc632f5edb30", null ],
-    [ "enabledBackground", "class_dtk_1_1_widget_1_1_d_switch_button.html#af4d66d0f689924a210177b2509777275", null ],
+    [ "disabledBackground", "class_dtk_1_1_widget_1_1_d_switch_button.html#a3d9d5861bff39d6fceb93257473659cf", null ],
+    [ "enabledBackground", "class_dtk_1_1_widget_1_1_d_switch_button.html#aea2783e3ca101ca8302a64204bbb2a2a", null ],
     [ "mousePressEvent", "class_dtk_1_1_widget_1_1_d_switch_button.html#ab78313c512b5929982b478068b06a055", null ],
     [ "paintEvent", "class_dtk_1_1_widget_1_1_d_switch_button.html#aeeda850f31c37c33105e03dc7bfe80d2", null ],
     [ "setChecked", "class_dtk_1_1_widget_1_1_d_switch_button.html#a40b9699c3d66e5484ab2e57d7197de32", null ],
