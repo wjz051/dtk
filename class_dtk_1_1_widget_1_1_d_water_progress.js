@@ -7,7 +7,7 @@ var class_dtk_1_1_widget_1_1_d_water_progress =
     [ "setValue", "class_dtk_1_1_widget_1_1_d_water_progress.html#a3f98f937071e6e1a8015549e23c8c7bc", null ],
     [ "start", "class_dtk_1_1_widget_1_1_d_water_progress.html#a1af8ba73b0247255ac1268e5ddc99728", null ],
     [ "stop", "class_dtk_1_1_widget_1_1_d_water_progress.html#a98f2890f1db6c6bb11abb68a8dbff3f1", null ],
-    [ "value", "class_dtk_1_1_widget_1_1_d_water_progress.html#a8cff4ed1921878190422a67386011471", null ],
+    [ "value", "class_dtk_1_1_widget_1_1_d_water_progress.html#ad4d88e2d661c0f4a24cfaeef375d9af3", null ],
     [ "valueChanged", "class_dtk_1_1_widget_1_1_d_water_progress.html#a419b85d4d9a9c2dc5b1c9dfd7770aa69", null ],
     [ "value", "class_dtk_1_1_widget_1_1_d_water_progress.html#abc224edeb99ac9573198a709a41ff502", null ]
 ];

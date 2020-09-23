@@ -1,7 +1,0 @@
-digraph "类继承关系图"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node0 [label="Dtk::Core::DRecentManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dtk_1_1_core_1_1_d_recent_manager.html",tooltip="DRecentManager 是用来管理最近文件列表的类，提供了添加与删除文件项。遵循 freedesktop 标准，在本地 shar..."];
-}

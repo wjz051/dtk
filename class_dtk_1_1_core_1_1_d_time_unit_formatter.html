@@ -3,8 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.13"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
 <title>Deepin Tool Kit: Dtk::Core::DTimeUnitFormatter类 参考</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -15,10 +14,14 @@
 <script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript">
   $(document).ready(initResizable);
+  $(window).load(resizeHeight);
 </script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -29,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Deepin Tool Kit
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">2020.9</span>
    </div>
    <div id="projectbrief">Deepin Tool Kit is the toolkit used to built deepin style Apps</div>
   </td>
@@ -38,19 +41,42 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 制作者 Doxygen 1.8.13 -->
+<!-- 制作者 Doxygen 1.8.11 -->
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'搜索');
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-$(function() {
-  initMenu('',true,false,'search.php','搜索');
-  $(document).ready(function() { init_search(); });
-});
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -98,6 +124,7 @@ $(document).ready(function(){initNavTree('class_dtk_1_1_core_1_1_d_time_unit_for
 <div class="dyncontent">
 <div class="center"><img src="class_dtk_1_1_core_1_1_d_time_unit_formatter__inherit__graph.png" border="0" usemap="#_dtk_1_1_core_1_1_d_time_unit_formatter_inherit__map" alt="Inheritance graph"/></div>
 <map name="_dtk_1_1_core_1_1_d_time_unit_formatter_inherit__map" id="_dtk_1_1_core_1_1_d_time_unit_formatter_inherit__map">
+<area shape="rect" id="node2" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html" title="DAbstractUnitFormatter 类是对拥有相同类型数据管理的接口类 接口定义了最大值、最小值、转换单位和单位对�..." alt="" coords="26,5,206,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <div class="dynheader">
@@ -105,6 +132,7 @@ Dtk::Core::DTimeUnitFormatter 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_dtk_1_1_core_1_1_d_time_unit_formatter__coll__graph.png" border="0" usemap="#_dtk_1_1_core_1_1_d_time_unit_formatter_coll__map" alt="Collaboration graph"/></div>
 <map name="_dtk_1_1_core_1_1_d_time_unit_formatter_coll__map" id="_dtk_1_1_core_1_1_d_time_unit_formatter_coll__map">
+<area shape="rect" id="node2" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html" title="DAbstractUnitFormatter 类是对拥有相同类型数据管理的接口类 接口定义了最大值、最小值、转换单位和单位对�..." alt="" coords="26,5,206,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <table class="memberdecls">
@@ -119,39 +147,39 @@ Public 类型</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:a387ca08a4bf863c34b449e9dfa97ee34"><td class="memItemLeft" align="right" valign="top"><a id="a387ca08a4bf863c34b449e9dfa97ee34"></a>
+<tr class="memitem:a387ca08a4bf863c34b449e9dfa97ee34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a387ca08a4bf863c34b449e9dfa97ee34"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html#a387ca08a4bf863c34b449e9dfa97ee34">DTimeUnitFormatter</a> ()</td></tr>
 <tr class="memdesc:a387ca08a4bf863c34b449e9dfa97ee34"><td class="mdescLeft">&#160;</td><td class="mdescRight">DTimeUnitFormatter的构造函数 <br /></td></tr>
 <tr class="separator:a387ca08a4bf863c34b449e9dfa97ee34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add8728441c4c1edd123a8d7152db6d39"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/xmuli/project/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html#add8728441c4c1edd123a8d7152db6d39">unitStr</a> (int unitId) const override</td></tr>
+<tr class="memitem:add8728441c4c1edd123a8d7152db6d39"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html#add8728441c4c1edd123a8d7152db6d39">unitStr</a> (int unitId) const override</td></tr>
 <tr class="memdesc:add8728441c4c1edd123a8d7152db6d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据枚举返回对应单位的缩写  <a href="#add8728441c4c1edd123a8d7152db6d39">更多...</a><br /></td></tr>
 <tr class="separator:add8728441c4c1edd123a8d7152db6d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html">Dtk::Core::DAbstractUnitFormatter</a></td></tr>
-<tr class="memitem:abb21caeeb1e6e410f945a47f5f6315dc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a id="abb21caeeb1e6e410f945a47f5f6315dc"></a>
+<tr class="memitem:abb21caeeb1e6e410f945a47f5f6315dc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb21caeeb1e6e410f945a47f5f6315dc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#abb21caeeb1e6e410f945a47f5f6315dc">DAbstractUnitFormatter</a> ()</td></tr>
 <tr class="memdesc:abb21caeeb1e6e410f945a47f5f6315dc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html" title="DAbstractUnitFormatter 类是对拥有相同类型数据管理的接口类 接口定义了最大值、最小值、转换单位和单位对�...">DAbstractUnitFormatter</a> 的构造函数 <br /></td></tr>
 <tr class="separator:abb21caeeb1e6e410f945a47f5f6315dc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1b109f286ed63556a6ce160538a334 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a id="a4b1b109f286ed63556a6ce160538a334"></a>
+<tr class="memitem:a4b1b109f286ed63556a6ce160538a334 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b1b109f286ed63556a6ce160538a334"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a4b1b109f286ed63556a6ce160538a334">~DAbstractUnitFormatter</a> ()</td></tr>
 <tr class="memdesc:a4b1b109f286ed63556a6ce160538a334 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html" title="DAbstractUnitFormatter 类是对拥有相同类型数据管理的接口类 接口定义了最大值、最小值、转换单位和单位对�...">DAbstractUnitFormatter</a> 的析构函数 <br /></td></tr>
 <tr class="separator:a4b1b109f286ed63556a6ce160538a334 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7da1d4cf5e7e905d1f810d75ca1254ac inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a7da1d4cf5e7e905d1f810d75ca1254ac">formatAs</a> (qreal value, int currentUnit, const int targetUnit) const</td></tr>
-<tr class="memdesc:a7da1d4cf5e7e905d1f810d75ca1254ac inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">将传入的值从当前转换单位转换到目标单位上，返回转换过的值 如果当前转换单位小于目标单位，值会被缩小，反之会放大，当前转换单位也会被缩小和放大，直至当前转换单位等于目标单位。  <a href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a7da1d4cf5e7e905d1f810d75ca1254ac">更多...</a><br /></td></tr>
-<tr class="separator:a7da1d4cf5e7e905d1f810d75ca1254ac inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25cf2c0224835e320331c3161fd0c09 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/xmuli/project/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpair.html">QPair</a>&lt; qreal, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#af25cf2c0224835e320331c3161fd0c09">format</a> (const qreal value, const int unit) const</td></tr>
-<tr class="memdesc:af25cf2c0224835e320331c3161fd0c09 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">将值转换到最合适的单位上  <a href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#af25cf2c0224835e320331c3161fd0c09">更多...</a><br /></td></tr>
-<tr class="separator:af25cf2c0224835e320331c3161fd0c09 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b4dba2c1d382dd52c7feb5a285a8479 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/xmuli/project/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlist.html">QList</a>&lt; <a class="elRef" doxygen="/home/xmuli/project/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpair.html">QPair</a>&lt; qreal, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a2b4dba2c1d382dd52c7feb5a285a8479">formatAsUnitList</a> (const qreal value, int unit) const</td></tr>
-<tr class="memdesc:a2b4dba2c1d382dd52c7feb5a285a8479 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">是 <a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#af25cf2c0224835e320331c3161fd0c09" title="将值转换到最合适的单位上 ">format()</a> ，但是包含了完整的转换数据  <a href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a2b4dba2c1d382dd52c7feb5a285a8479">更多...</a><br /></td></tr>
-<tr class="separator:a2b4dba2c1d382dd52c7feb5a285a8479 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac0c0b0644d94e62fc090e3b99208cc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a7ac0c0b0644d94e62fc090e3b99208cc">formatAs</a> (qreal value, int currentUnit, const int targetUnit) const </td></tr>
+<tr class="memdesc:a7ac0c0b0644d94e62fc090e3b99208cc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">将传入的值从当前转换单位转换到目标单位上，返回转换过的值 如果当前转换单位小于目标单位，值会被缩小，反之会放大，当前转换单位也会被缩小和放大，直至当前转换单位等于目标单位。  <a href="#a7ac0c0b0644d94e62fc090e3b99208cc">更多...</a><br /></td></tr>
+<tr class="separator:a7ac0c0b0644d94e62fc090e3b99208cc inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd07d0293685025ee86fc9e7f1216483 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpair.html">QPair</a>&lt; qreal, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#afd07d0293685025ee86fc9e7f1216483">format</a> (const qreal value, const int unit) const </td></tr>
+<tr class="memdesc:afd07d0293685025ee86fc9e7f1216483 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">将值转换到最合适的单位上  <a href="#afd07d0293685025ee86fc9e7f1216483">更多...</a><br /></td></tr>
+<tr class="separator:afd07d0293685025ee86fc9e7f1216483 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6313ff163603d7dab10bf46382f73a78 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlist.html">QList</a>&lt; <a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpair.html">QPair</a>&lt; qreal, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a6313ff163603d7dab10bf46382f73a78">formatAsUnitList</a> (const qreal value, int unit) const </td></tr>
+<tr class="memdesc:a6313ff163603d7dab10bf46382f73a78 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">是 <a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#afd07d0293685025ee86fc9e7f1216483" title="将值转换到最合适的单位上 ">format()</a> ，但是包含了完整的转换数据  <a href="#a6313ff163603d7dab10bf46382f73a78">更多...</a><br /></td></tr>
+<tr class="separator:a6313ff163603d7dab10bf46382f73a78 inherit pub_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected 成员函数</h2></td></tr>
-<tr class="memitem:a3ed1baa52d1c0e06aef7c6f0ba75f9c4"><td class="memItemLeft" align="right" valign="top"><a id="a3ed1baa52d1c0e06aef7c6f0ba75f9c4"></a>
+<tr class="memitem:a3ed1baa52d1c0e06aef7c6f0ba75f9c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ed1baa52d1c0e06aef7c6f0ba75f9c4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html#a3ed1baa52d1c0e06aef7c6f0ba75f9c4">unitMax</a> () const override</td></tr>
 <tr class="memdesc:a3ed1baa52d1c0e06aef7c6f0ba75f9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回最大时间单位的枚举 <br /></td></tr>
 <tr class="separator:a3ed1baa52d1c0e06aef7c6f0ba75f9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b6b3eb04f8d9aa6b2f8172503ad0d7"><td class="memItemLeft" align="right" valign="top"><a id="a20b6b3eb04f8d9aa6b2f8172503ad0d7"></a>
+<tr class="memitem:a20b6b3eb04f8d9aa6b2f8172503ad0d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20b6b3eb04f8d9aa6b2f8172503ad0d7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html#a20b6b3eb04f8d9aa6b2f8172503ad0d7">unitMin</a> () const override</td></tr>
 <tr class="memdesc:a20b6b3eb04f8d9aa6b2f8172503ad0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回最小时间单位的枚举 <br /></td></tr>
 <tr class="separator:a20b6b3eb04f8d9aa6b2f8172503ad0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,23 +187,21 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memdesc:ab42cba7fdd1d477851a25f61e2457e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据枚举返回对应的单位进制  <a href="#ab42cba7fdd1d477851a25f61e2457e73">更多...</a><br /></td></tr>
 <tr class="separator:ab42cba7fdd1d477851a25f61e2457e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html">Dtk::Core::DAbstractUnitFormatter</a></td></tr>
-<tr class="memitem:a4d9d7fe338752a1e8e8ae6e5a12ea879 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a id="a4d9d7fe338752a1e8e8ae6e5a12ea879"></a>
-virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a4d9d7fe338752a1e8e8ae6e5a12ea879">unitValueMax</a> (int unitId) const</td></tr>
-<tr class="memdesc:a4d9d7fe338752a1e8e8ae6e5a12ea879 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回列表中根据当前设置的转换单位的最大值 <br /></td></tr>
-<tr class="separator:a4d9d7fe338752a1e8e8ae6e5a12ea879 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab081f8db537a70c68df05ddb881f58bb inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a id="ab081f8db537a70c68df05ddb881f58bb"></a>
-virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#ab081f8db537a70c68df05ddb881f58bb">unitValueMin</a> (int unitId) const</td></tr>
-<tr class="memdesc:ab081f8db537a70c68df05ddb881f58bb inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回列表中根据当前设置的转换单位的最小值 <br /></td></tr>
-<tr class="separator:ab081f8db537a70c68df05ddb881f58bb inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b98b53e1279ac4b75ed29e9e0dcdc02 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b98b53e1279ac4b75ed29e9e0dcdc02"></a>
+virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a5b98b53e1279ac4b75ed29e9e0dcdc02">unitValueMax</a> (int unitId) const </td></tr>
+<tr class="memdesc:a5b98b53e1279ac4b75ed29e9e0dcdc02 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回列表中根据当前设置的转换单位的最大值 <br /></td></tr>
+<tr class="separator:a5b98b53e1279ac4b75ed29e9e0dcdc02 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75108d3d29af9fc610c477fc40b23f63 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75108d3d29af9fc610c477fc40b23f63"></a>
+virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a75108d3d29af9fc610c477fc40b23f63">unitValueMin</a> (int unitId) const </td></tr>
+<tr class="memdesc:a75108d3d29af9fc610c477fc40b23f63 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回列表中根据当前设置的转换单位的最小值 <br /></td></tr>
+<tr class="separator:a75108d3d29af9fc610c477fc40b23f63 inherit pro_methods_class_dtk_1_1_core_1_1_d_abstract_unit_formatter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>DTimeUnitFormatter是用来获取时间单位的类, 通过枚举值 获取不同类型时间单位的进制 </p>
 
-<p class="definition">在文件 <a class="el" href="dtimeunitformatter_8h_source.html">dtimeunitformatter.h</a> 第 <a class="el" href="dtimeunitformatter_8h_source.html#l00026">26</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtimeunitformatter_8h_source.html">dtimeunitformatter.h</a> 第 <a class="el" href="dtimeunitformatter_8h_source.html#l00026">26</a> 行定义.</p>
 </div><h2 class="groupheader">成员枚举类型说明</h2>
-<a id="a9e6584592385affd85e9c31ce6b752eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e6584592385affd85e9c31ce6b752eb">&#9670;&nbsp;</a></span>TimeUnits</h2>
-
+<a class="anchor" id="a9e6584592385affd85e9c31ce6b752eb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -186,24 +212,26 @@ virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </div><div class="memdoc">
 <p>时间单位的枚举 </p>
 <table class="fieldtable">
-<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a9e6584592385affd85e9c31ce6b752eba16e54b4cad5ad18e3f6bc1b4e9da89ad"></a>Seconds&#160;</td><td class="fielddoc"><p>返回分钟单位的进制 </p>
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a class="anchor" id="a9e6584592385affd85e9c31ce6b752eba16e54b4cad5ad18e3f6bc1b4e9da89ad"></a>Seconds&#160;</td><td class="fielddoc">
+<p>返回分钟单位的进制 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9e6584592385affd85e9c31ce6b752ebadc3de4abd0c09bf9de94c063257e5a79"></a>Minute&#160;</td><td class="fielddoc"><p>返回秒单位的进制 </p>
+<tr><td class="fieldname"><a class="anchor" id="a9e6584592385affd85e9c31ce6b752ebadc3de4abd0c09bf9de94c063257e5a79"></a>Minute&#160;</td><td class="fielddoc">
+<p>返回秒单位的进制 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9e6584592385affd85e9c31ce6b752eba0650634ed29075b9327e7fc60c990040"></a>Hour&#160;</td><td class="fielddoc"><p>返回小时单位的进制 </p>
+<tr><td class="fieldname"><a class="anchor" id="a9e6584592385affd85e9c31ce6b752eba0650634ed29075b9327e7fc60c990040"></a>Hour&#160;</td><td class="fielddoc">
+<p>返回小时单位的进制 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9e6584592385affd85e9c31ce6b752eba5762139856ffce6be4e51c17a033ad1b"></a>Day&#160;</td><td class="fielddoc"><p>返回天单位的进制 </p>
+<tr><td class="fieldname"><a class="anchor" id="a9e6584592385affd85e9c31ce6b752eba5762139856ffce6be4e51c17a033ad1b"></a>Day&#160;</td><td class="fielddoc">
+<p>返回天单位的进制 </p>
 </td></tr>
 </table>
 
-<p class="definition">在文件 <a class="el" href="dtimeunitformatter_8h_source.html">dtimeunitformatter.h</a> 第 <a class="el" href="dtimeunitformatter_8h_source.html#l00031">31</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtimeunitformatter_8h_source.html">dtimeunitformatter.h</a> 第 <a class="el" href="dtimeunitformatter_8h_source.html#l00031">31</a> 行定义.</p>
 
 </div>
 </div>
 <h2 class="groupheader">成员函数说明</h2>
-<a id="ab42cba7fdd1d477851a25f61e2457e73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab42cba7fdd1d477851a25f61e2457e73">&#9670;&nbsp;</a></span>unitConvertRate()</h2>
-
+<a class="anchor" id="ab42cba7fdd1d477851a25f61e2457e73"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -236,13 +264,11 @@ virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 
 <p>实现了 <a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a3d188520a6465ef85418f878383bb174">Dtk::Core::DAbstractUnitFormatter</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="dtimeunitformatter_8cpp_source.html">dtimeunitformatter.cpp</a> 第 <a class="el" href="dtimeunitformatter_8cpp_source.html#l00063">63</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtimeunitformatter_8cpp_source.html">dtimeunitformatter.cpp</a> 第 <a class="el" href="dtimeunitformatter_8cpp_source.html#l00063">63</a> 行定义.</p>
 
 </div>
 </div>
-<a id="add8728441c4c1edd123a8d7152db6d39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add8728441c4c1edd123a8d7152db6d39">&#9670;&nbsp;</a></span>unitStr()</h2>
-
+<a class="anchor" id="add8728441c4c1edd123a8d7152db6d39"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -250,7 +276,7 @@ virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/xmuli/project/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a> Dtk::Core::DTimeUnitFormatter::unitStr </td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a> Dtk::Core::DTimeUnitFormatter::unitStr </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>unitId</em></td><td>)</td>
@@ -271,11 +297,11 @@ virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>返回</dt><dd><a class="elRef" doxygen="/home/xmuli/project/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a> 对应单位的缩写 </dd></dl>
+<dl class="section return"><dt>返回</dt><dd><a class="elRef" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstring.html">QString</a> 对应单位的缩写 </dd></dl>
 
 <p>实现了 <a class="el" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a5e6b983eee1f5c4e6639a284d61e6a40">Dtk::Core::DAbstractUnitFormatter</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="dtimeunitformatter_8cpp_source.html">dtimeunitformatter.cpp</a> 第 <a class="el" href="dtimeunitformatter_8cpp_source.html#l00082">82</a> 行定义.</p>
+<p>在文件 <a class="el" href="dtimeunitformatter_8cpp_source.html">dtimeunitformatter.cpp</a> 第 <a class="el" href="dtimeunitformatter_8cpp_source.html#l00082">82</a> 行定义.</p>
 
 </div>
 </div>
@@ -289,9 +315,9 @@ virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Dtk</b></li><li class="navelem"><b>Core</b></li><li class="navelem"><a class="el" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html">DTimeUnitFormatter</a></li>
-    <li class="footer">生成于 2020年 七月 7日 星期二 19:15:43 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2020年 九月 23日 星期三 07:30:51 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
 </div>
 </body>

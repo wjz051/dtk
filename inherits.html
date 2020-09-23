@@ -3,8 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.13"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
 <title>Deepin Tool Kit: 类继承关系</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -15,10 +14,14 @@
 <script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript">
   $(document).ready(initResizable);
+  $(window).load(resizeHeight);
 </script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -29,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Deepin Tool Kit
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">2020.9</span>
    </div>
    <div id="projectbrief">Deepin Tool Kit is the toolkit used to built deepin style Apps</div>
   </td>
@@ -38,19 +41,42 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 制作者 Doxygen 1.8.13 -->
+<!-- 制作者 Doxygen 1.8.11 -->
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'搜索');
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-$(function() {
-  initMenu('',true,false,'search.php','搜索');
-  $(document).ready(function() { init_search(); });
-});
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li class="current"><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -88,168 +114,538 @@ $(document).ready(function(){initNavTree('hierarchy.html','');});
 <div class="textblock">
 <p><a href="hierarchy.html">浏览类继承关系表</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#conanfile_8_dtkcore_conan"/>
+<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#___d_gui_application_helper"/>
+<map name="___d_gui_application_helper" id="___d_gui_application_helper">
+<area shape="rect" id="node1" href="class___d_gui_application_helper.html" title="_DGuiApplicationHelper" alt="" coords="5,5,177,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#chameleon_1_1_chameleon_style"/>
+<map name="chameleon_1_1_chameleon_style" id="chameleon_1_1_chameleon_style">
+<area shape="rect" id="node2" href="classchameleon_1_1_chameleon_style.html" title="chameleon::ChameleonStyle" alt="" coords="117,5,324,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#conanfile_8_dtkcore_conan"/>
 <map name="conanfile_8_dtkcore_conan" id="conanfile_8_dtkcore_conan">
+<area shape="rect" id="node2" href="classconanfile_1_1_dtkcore_conan.html" title="conanfile.DtkcoreConan" alt="" coords="142,5,317,32"/>
+<area shape="rect" id="node3" href="classconanfile_1_1_dtkwidget_conan.html" title="conanfile.DtkwidgetConan" alt="" coords="136,56,323,83"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#_d_circle_progress"/>
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#_d_circle_progress"/>
 <map name="_d_circle_progress" id="_d_circle_progress">
+<area shape="rect" id="node1" href="class_d_circle_progress.html" title="可以使用 DCircleProgress 类快速创建环形进度条控件。 " alt="" coords="5,5,128,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#_d_d_bus_caller"/>
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#_d_d_bus_caller"/>
 <map name="_d_d_bus_caller" id="_d_d_bus_caller">
+<area shape="rect" id="node1" href="class_d_d_bus_caller.html" title="DDBusCaller" alt="" coords="5,5,108,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#_d_d_bus_data"/>
+<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#_d_d_bus_data"/>
 <map name="_d_d_bus_data" id="_d_d_bus_data">
+<area shape="rect" id="node1" href="class_d_d_bus_data.html" title="DDBusData" alt="" coords="5,5,103,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#_d_d_bus_property"/>
+<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#_d_d_bus_property"/>
 <map name="_d_d_bus_property" id="_d_d_bus_property">
+<area shape="rect" id="node1" href="class_d_d_bus_property.html" title="DDBusProperty" alt="" coords="5,5,125,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#_d_d_bus_sender"/>
+<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#_d_d_bus_sender"/>
 <map name="_d_d_bus_sender" id="_d_d_bus_sender">
+<area shape="rect" id="node1" href="class_d_d_bus_sender.html" title="DDBusSender" alt="" coords="5,5,117,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#_d_expand_group"/>
+<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#_d_expand_group"/>
 <map name="_d_expand_group" id="_d_expand_group">
+<area shape="rect" id="node1" href="class_d_expand_group.html" title="封装了一组 DBaseExpand 控件(当然也可以是其子类), 并保证同一时间只有一个 DBaseExpand 处于展开状态 ..." alt="" coords="5,5,124,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#_d_text_button"/>
+<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#_d_platform_handle_1_1_w_m_blur_area"/>
+<map name="_d_platform_handle_1_1_w_m_blur_area" id="_d_platform_handle_1_1_w_m_blur_area">
+<area shape="rect" id="node1" href="struct_d_platform_handle_1_1_w_m_blur_area.html" title="DPlatformHandle::WMBlurArea" alt="" coords="5,5,221,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#dstyle_1_1_color_utils"/>
+<map name="dstyle_1_1_color_utils" id="dstyle_1_1_color_utils">
+<area shape="rect" id="node1" href="classdstyle_1_1_color_utils.html" title="dstyle::ColorUtils" alt="" coords="5,5,135,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#dstyle_1_1_common_helper"/>
+<map name="dstyle_1_1_common_helper" id="dstyle_1_1_common_helper">
+<area shape="rect" id="node1" href="classdstyle_1_1_common_helper.html" title="dstyle::CommonHelper" alt="" coords="5,5,175,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#dstyle_1_1_geometry_utils"/>
+<map name="dstyle_1_1_geometry_utils" id="dstyle_1_1_geometry_utils">
+<area shape="rect" id="node1" href="classdstyle_1_1_geometry_utils.html" title="dstyle::GeometryUtils" alt="" coords="5,5,165,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#dstyle_1_1_hi_d_p_i_helper"/>
+<map name="dstyle_1_1_hi_d_p_i_helper" id="dstyle_1_1_hi_d_p_i_helper">
+<area shape="rect" id="node1" href="classdstyle_1_1_hi_d_p_i_helper.html" title="dstyle::HiDPIHelper" alt="" coords="5,5,149,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#dstyle_1_1_style_private"/>
+<map name="dstyle_1_1_style_private" id="dstyle_1_1_style_private">
+<area shape="rect" id="node2" href="classdstyle_1_1_style_private.html" title="dstyle::StylePrivate" alt="" coords="220,5,364,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#_d_svg_renderer"/>
+<map name="_d_svg_renderer" id="_d_svg_renderer">
+<area shape="rect" id="node1" href="class_d_svg_renderer.html" title="提供了将SVG文件的内容绘制到绘制设备上的方法。 SVG图形可以在构造 DSvgRenderer 时加载，也可以稍后使用lo..." alt="" coords="5,5,119,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#_d_text_button"/>
 <map name="_d_text_button" id="_d_text_button">
+<area shape="rect" id="node1" href="class_d_text_button.html" title="一个 DDE 风格按钮控件。 " alt="" coords="5,5,105,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_abstract_appender"/>
+<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_abstract_appender"/>
 <map name="_dtk_1_1_core_1_1_abstract_appender" id="_dtk_1_1_core_1_1_abstract_appender">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_abstract_appender.html" title="The AbstractAppender class provides an abstract base class for writing a log entries. " alt="" coords="5,56,212,83"/>
+<area shape="rect" id="node2" href="class_dtk_1_1_core_1_1_abstract_string_appender.html" title="The AbstractStringAppender class provides a convenient base for appenders working with plain text for..." alt="" coords="260,49,443,90"/>
+<area shape="rect" id="node3" href="class_dtk_1_1_core_1_1_console_appender.html" title="ConsoleAppender is the simple appender that writes the log records to the std::cerr output stream..." alt="" coords="509,5,711,32"/>
+<area shape="rect" id="node4" href="class_dtk_1_1_core_1_1_file_appender.html" title="Simple appender that writes the log records to the plain text file. " alt="" coords="524,56,696,83"/>
+<area shape="rect" id="node6" href="class_dtk_1_1_core_1_1_output_debug_appender.html" title="Appender that writes the log records to the Microsoft Debug Log. " alt="" coords="491,107,729,133"/>
+<area shape="rect" id="node5" href="class_dtk_1_1_core_1_1_rolling_file_appender.html" title="The RollingFileAppender class extends FileAppender so that the underlying file is rolled over at a us..." alt="" coords="777,56,989,83"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_cute_message_logger"/>
+<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_cute_message_logger"/>
 <map name="_dtk_1_1_core_1_1_cute_message_logger" id="_dtk_1_1_core_1_1_cute_message_logger">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_cute_message_logger.html" title="Dtk::Core::CuteMessageLogger" alt="" coords="5,5,227,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_abstract_unit_formatter"/>
+<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_abstract_unit_formatter"/>
 <map name="_dtk_1_1_core_1_1_d_abstract_unit_formatter" id="_dtk_1_1_core_1_1_d_abstract_unit_formatter">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html" title="DAbstractUnitFormatter 类是对拥有相同类型数据管理的接口类 接口定义了最大值、最小值、转换单位和单位对�..." alt="" coords="5,23,185,65"/>
+<area shape="rect" id="node2" href="class_dtk_1_1_core_1_1_d_disk_size_formatter.html" title="DDiskSizeFormatter 是用来获取磁盘容量单位的类, 通过枚举值 获取不同类型磁盘容量的单位 ..." alt="" coords="235,5,453,32"/>
+<area shape="rect" id="node3" href="class_dtk_1_1_core_1_1_d_time_unit_formatter.html" title="DTimeUnitFormatter是用来获取时间单位的类, 通过枚举值 获取不同类型时间单位的进制 " alt="" coords="233,56,455,83"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_log_manager"/>
+<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_log_manager"/>
 <map name="_dtk_1_1_core_1_1_d_log_manager" id="_dtk_1_1_core_1_1_d_log_manager">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_log_manager.html" title="DLogManager is the deepin user application log manager. " alt="" coords="5,5,184,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_path_buf"/>
+<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_path_buf"/>
 <map name="_dtk_1_1_core_1_1_d_path_buf" id="_dtk_1_1_core_1_1_d_path_buf">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_path_buf.html" title="Dtk::Core::DPathBuf是一个用于跨平台拼接路径的辅助类。 它能够方便的写出链式结构的路径拼接代码。 DPathB..." alt="" coords="5,5,155,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_recent_data"/>
+<tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_recent_data"/>
 <map name="_dtk_1_1_core_1_1_d_recent_data" id="_dtk_1_1_core_1_1_d_recent_data">
+<area shape="rect" id="node1" href="struct_dtk_1_1_core_1_1_d_recent_data.html" title="文件信息结构体 " alt="" coords="5,5,180,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_recent_manager"/>
+<tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_recent_manager"/>
 <map name="_dtk_1_1_core_1_1_d_recent_manager" id="_dtk_1_1_core_1_1_d_recent_manager">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_recent_manager.html" title="DRecentManager 是用来管理最近文件列表的类，提供了添加与删除文件项。遵循 freedesktop 标准，在本地 shar..." alt="" coords="5,5,204,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_singleton_3_01_t_01_4"/>
+<tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_singleton_3_01_t_01_4"/>
 <map name="_dtk_1_1_core_1_1_d_singleton_3_01_t_01_4" id="_dtk_1_1_core_1_1_d_singleton_3_01_t_01_4">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_singleton.html" title="Dtk::Core::DSingleton\&lt; T \&gt;" alt="" coords="5,5,203,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_standard_paths"/>
+<tr><td><img src="inherit_graph_25.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_standard_paths"/>
 <map name="_dtk_1_1_core_1_1_d_standard_paths" id="_dtk_1_1_core_1_1_d_standard_paths">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_standard_paths.html" title="DStandardPaths提供兼容Snap/Dtk标准的路径模式。DStandardPaths实现了Qt的QStandardPaths主要接口。 ..." alt="" coords="5,5,200,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_sys_info"/>
+<tr><td><img src="inherit_graph_26.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_sys_info"/>
 <map name="_dtk_1_1_core_1_1_d_sys_info" id="_dtk_1_1_core_1_1_d_sys_info">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_sys_info.html" title="Dtk::Core::DSysInfo" alt="" coords="5,5,152,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_util_1_1_d_notify_data"/>
+<tr><td><img src="inherit_graph_27.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_util_1_1_d_notify_data"/>
 <map name="_dtk_1_1_core_1_1_d_util_1_1_d_notify_data" id="_dtk_1_1_core_1_1_d_util_1_1_d_notify_data">
+<area shape="rect" id="node1" href="struct_dtk_1_1_core_1_1_d_util_1_1_d_notify_data.html" title="Dtk::Core::DUtil::DNotifyData" alt="" coords="5,5,212,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender"/>
+<tr><td><img src="inherit_graph_28.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender"/>
 <map name="_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender" id="_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_util_1_1_d_notify_sender.html" title="Dtk::Core::DUtil::DNotify\lSender" alt="" coords="5,5,181,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_logger"/>
+<tr><td><img src="inherit_graph_29.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_logger"/>
 <map name="_dtk_1_1_core_1_1_logger" id="_dtk_1_1_core_1_1_logger">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_logger.html" title="Very simple but rather powerful component which may be used for logging your application activities..." alt="" coords="5,5,140,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_logger_timing_helper"/>
+<tr><td><img src="inherit_graph_30.png" border="0" alt="" usemap="#_dtk_1_1_core_1_1_logger_timing_helper"/>
 <map name="_dtk_1_1_core_1_1_logger_timing_helper" id="_dtk_1_1_core_1_1_logger_timing_helper">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_logger_timing_helper.html" title="Dtk::Core::LoggerTimingHelper" alt="" coords="5,5,224,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1___dtk_build_version"/>
+<tr><td><img src="inherit_graph_31.png" border="0" alt="" usemap="#_dtk_1_1_gui_1_1_d_window_group_leader"/>
+<map name="_dtk_1_1_gui_1_1_d_window_group_leader" id="_dtk_1_1_gui_1_1_d_window_group_leader">
+<area shape="rect" id="node1" href="class_dtk_1_1_gui_1_1_d_window_group_leader.html" title="DWindowGroupLeader 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗�..." alt="" coords="5,5,227,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_32.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1___dtk_build_version"/>
 <map name="_dtk_1_1_widget_1_1___dtk_build_version" id="_dtk_1_1_widget_1_1___dtk_build_version">
+<area shape="rect" id="node1" href="class_dtk_1_1_widget_1_1___dtk_build_version.html" title="Dtk::Widget::_DtkBuildVersion" alt="" coords="5,5,216,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition_1_1_transition_info"/>
+<tr><td><img src="inherit_graph_33.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition_1_1_transition_info"/>
 <map name="_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition_1_1_transition_info" id="_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition_1_1_transition_info">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition_1_1_transition_info.html" title="Dtk::Widget::DAbstractStack\lWidgetTransition::TransitionInfo" alt="" coords="5,5,221,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_anchor_info"/>
+<tr><td><img src="inherit_graph_34.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_anchor_info"/>
 <map name="_dtk_1_1_widget_1_1_d_anchor_info" id="_dtk_1_1_widget_1_1_d_anchor_info">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_d_anchor_info.html" title="DAnchorInfo 用于记录“锚线”的锚定信息：被锚定的 DAnchorsBase 对象、 锚定的类型、目标“锚线”的信息 ..." alt="" coords="5,5,187,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_25.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_desktop_services"/>
+<tr><td><img src="inherit_graph_35.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_desktop_services"/>
 <map name="_dtk_1_1_widget_1_1_d_desktop_services" id="_dtk_1_1_widget_1_1_d_desktop_services">
+<area shape="rect" id="node1" href="class_dtk_1_1_widget_1_1_d_desktop_services.html" title="Dtk::Widget::DDesktopServices" alt="" coords="5,5,225,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_26.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_combo_box_options"/>
+<tr><td><img src="inherit_graph_36.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_combo_box_options"/>
 <map name="_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_combo_box_options" id="_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_combo_box_options">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_combo_box_options.html" title="Dtk::Widget::DFileDialog\l::DComboBoxOptions" alt="" coords="5,5,179,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_27.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_line_edit_options"/>
+<tr><td><img src="inherit_graph_37.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_line_edit_options"/>
 <map name="_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_line_edit_options" id="_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_line_edit_options">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_d_file_dialog_1_1_d_line_edit_options.html" title="Dtk::Widget::DFileDialog\l::DLineEditOptions" alt="" coords="5,5,179,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_28.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_hi_d_p_i_helper"/>
+<tr><td><img src="inherit_graph_38.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_hi_d_p_i_helper"/>
 <map name="_dtk_1_1_widget_1_1_d_hi_d_p_i_helper" id="_dtk_1_1_widget_1_1_d_hi_d_p_i_helper">
+<area shape="rect" id="node1" href="class_dtk_1_1_widget_1_1_d_hi_d_p_i_helper.html" title="The DHiDPIHelper class provides helper to help applications support hiDPI. " alt="" coords="5,5,195,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_29.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_list_widget"/>
+<tr><td><img src="inherit_graph_39.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_list_widget"/>
 <map name="_dtk_1_1_widget_1_1_d_list_widget" id="_dtk_1_1_widget_1_1_d_list_widget">
+<area shape="rect" id="node2" href="class_dtk_1_1_widget_1_1_d_list_widget.html" title="基于widget的列表控件。 " alt="" coords="151,5,329,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_30.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area"/>
+<tr><td><img src="inherit_graph_40.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area"/>
 <map name="_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area" id="_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_d_platform_window_handle_1_1_w_m_blur_area.html" title="描述窗口背景模糊区域的数据结构，包含位置、大小、圆角半径等信息 " alt="" coords="5,5,220,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_31.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_dtk_build_version"/>
+<tr><td><img src="inherit_graph_41.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_dtk_build_version"/>
 <map name="_dtk_1_1_widget_1_1_dtk_build_version" id="_dtk_1_1_widget_1_1_dtk_build_version">
+<area shape="rect" id="node1" href="class_dtk_1_1_widget_1_1_dtk_build_version.html" title="Dtk::Widget::DtkBuildVersion" alt="" coords="5,5,208,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_32.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_window_group_leader"/>
+<tr><td><img src="inherit_graph_42.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_d_window_group_leader"/>
 <map name="_dtk_1_1_widget_1_1_d_window_group_leader" id="_dtk_1_1_widget_1_1_d_window_group_leader">
+<area shape="rect" id="node1" href="class_dtk_1_1_widget_1_1_d_window_group_leader.html" title="DWindowGroupLeader 用于设置窗口所在的组，可以把多个窗口加到同一个组。在dxcb平台上，所有未指定组的 窗�..." alt="" coords="5,5,204,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_33.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_pop"/>
+<tr><td><img src="inherit_graph_43.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_pop"/>
 <map name="_dtk_1_1_widget_1_1_pop" id="_dtk_1_1_widget_1_1_pop">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_pop.html" title="Dtk::Widget::Pop" alt="" coords="5,5,132,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_34.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_video_format_proxy"/>
+<tr><td><img src="inherit_graph_44.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_video_format_proxy"/>
 <map name="_dtk_1_1_widget_1_1_video_format_proxy" id="_dtk_1_1_widget_1_1_video_format_proxy">
+<area shape="rect" id="node2" href="class_dtk_1_1_widget_1_1_video_format_proxy.html" title="DVideoWidget使用的封装视频帧的代理类 " alt="" coords="224,5,409,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_35.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_x_utils_1_1_mwm_hints"/>
+<tr><td><img src="inherit_graph_45.png" border="0" alt="" usemap="#_dtk_1_1_widget_1_1_x_utils_1_1_mwm_hints"/>
 <map name="_dtk_1_1_widget_1_1_x_utils_1_1_mwm_hints" id="_dtk_1_1_widget_1_1_x_utils_1_1_mwm_hints">
+<area shape="rect" id="node1" href="struct_dtk_1_1_widget_1_1_x_utils_1_1_mwm_hints.html" title="Dtk::Widget::XUtils\l::MwmHints" alt="" coords="5,5,144,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_36.png" border="0" alt="" usemap="#_d_vox_widget"/>
+<tr><td><img src="inherit_graph_46.png" border="0" alt="" usemap="#_d_vox_widget"/>
 <map name="_d_vox_widget" id="_d_vox_widget">
+<area shape="rect" id="node1" href="class_d_vox_widget.html" title="是设置成垂直方向的DBoxWidget " alt="" coords="5,5,104,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_37.png" border="0" alt="" usemap="#_q_rect"/>
+<tr><td><img src="inherit_graph_47.png" border="0" alt="" usemap="#_d_window_handle"/>
+<map name="_d_window_handle" id="_d_window_handle">
+<area shape="rect" id="node1" href="class_d_window_handle.html" title="一个和Qt dxcb平台插件交互的工具类，实质性的功能皆在dxcb插件中实现，此插件目前只 支持X11平台，在其它平..." alt="" coords="5,5,129,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_48.png" border="0" alt="" usemap="#_d_window_handle_1_1_w_m_blur_area"/>
+<map name="_d_window_handle_1_1_w_m_blur_area" id="_d_window_handle_1_1_w_m_blur_area">
+<area shape="rect" id="node1" href="struct_d_window_handle_1_1_w_m_blur_area.html" title="描述窗口背景模糊区域的数据结构，包含位置、大小、圆角半径等信息 " alt="" coords="5,5,215,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_49.png" border="0" alt="" usemap="#_image_entry"/>
+<map name="_image_entry" id="_image_entry">
+<area shape="rect" id="node2" href="class_image_entry.html" title="ImageEntry" alt="" coords="232,5,327,32"/>
+<area shape="rect" id="node3" href="class_dir_image_entry.html" title="DirImageEntry" alt="" coords="375,5,488,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_50.png" border="0" alt="" usemap="#_q_deepin_file_dialog_helper"/>
+<map name="_q_deepin_file_dialog_helper" id="_q_deepin_file_dialog_helper">
+<area shape="rect" id="node2" href="class_q_deepin_file_dialog_helper.html" title="QDeepinFileDialogHelper" alt="" coords="241,5,420,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_51.png" border="0" alt="" usemap="#_q_deepin_theme"/>
+<map name="_q_deepin_theme" id="_q_deepin_theme">
+<area shape="rect" id="node2" href="class_q_deepin_theme.html" title="QDeepinTheme" alt="" coords="207,5,328,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_52.png" border="0" alt="" usemap="#_q_deepin_theme_plugin"/>
+<map name="_q_deepin_theme_plugin" id="_q_deepin_theme_plugin">
+<area shape="rect" id="node2" href="class_q_deepin_theme_plugin.html" title="QDeepinThemePlugin" alt="" coords="221,5,380,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_53.png" border="0" alt="" usemap="#_q_icon_engine"/>
+<map name="_q_icon_engine" id="_q_icon_engine">
+<area shape="rect" id="node1" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qiconengine.html" title="QIconEngine" alt="" coords="5,81,107,108"/>
+<area shape="rect" id="node2" href="class_d_builtin_icon_engine.html" title="DBuiltinIconEngine" alt="" coords="155,5,295,32"/>
+<area shape="rect" id="node3" href="class_d_icon_engine.html" title="DIconEngine" alt="" coords="174,56,275,83"/>
+<area shape="rect" id="node4" href="class_d_icon_proxy_engine.html" title="DIconProxyEngine" alt="" coords="157,107,293,133"/>
+<area shape="rect" id="node5" href="class_q_svg_icon_engine.html" title="QSvgIconEngine" alt="" coords="162,157,287,184"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_54.png" border="0" alt="" usemap="#_q_image_i_o_handler"/>
+<map name="_q_image_i_o_handler" id="_q_image_i_o_handler">
+<area shape="rect" id="node1" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qimageiohandler.html" title="QImageIOHandler" alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="class_q_svg_i_o_handler.html" title="QSvgIOHandler" alt="" coords="188,5,307,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_55.png" border="0" alt="" usemap="#_q_palette"/>
+<map name="_q_palette" id="_q_palette">
+<area shape="rect" id="node1" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpalette.html" title="QPalette" alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node2" href="class_d_palette.html" title="DPalette提供了修改的 QPalette 类 " alt="" coords="129,5,205,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_56.png" border="0" alt="" usemap="#_q_rect"/>
 <map name="_q_rect" id="_q_rect">
+<area shape="rect" id="node1" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qrect.html" title="QRect" alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node2" href="class_dtk_1_1_widget_1_1_d_anchors_rect.html" title="Dtk::Widget::DAnchorsRect" alt="" coords="112,5,304,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_38.png" border="0" alt="" usemap="#_q_style_option"/>
+<tr><td><img src="inherit_graph_57.png" border="0" alt="" usemap="#_q_shared_data"/>
+<map name="_q_shared_data" id="_q_shared_data">
+<area shape="rect" id="node1" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qshareddata.html" title="QSharedData" alt="" coords="5,31,115,57"/>
+<area shape="rect" id="node2" href="struct_d_palette_data.html" title="DPaletteData" alt="" coords="194,5,301,32"/>
+<area shape="rect" id="node3" href="class_q_svg_icon_engine_private.html" title="QSvgIconEnginePrivate" alt="" coords="163,56,332,83"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_58.png" border="0" alt="" usemap="#_q_style_option"/>
 <map name="_q_style_option" id="_q_style_option">
+<area shape="rect" id="node1" href="class_dtk_1_1_widget_1_1_d_style_option.html" title="dcxb插件通过DStyleOption来控制控件的样式 " alt="" coords="160,21,347,47"/>
+<area shape="rect" id="node2" href="class_dtk_1_1_widget_1_1_d_style_option_line_edit.html" title="Dtk::Widget::DLineEdit使用的样式配置 " alt="" coords="395,5,581,47"/>
+<area shape="rect" id="node3" href="class_dtk_1_1_widget_1_1_d_style_option_suggest_button.html" title="Dtk::Widget::DSuggestButton使用的样式配置 " alt="" coords="395,71,581,112"/>
+<area shape="rect" id="node4" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstyleoption.html" title="QStyleOption" alt="" coords="5,78,112,105"/>
+<area shape="rect" id="node5" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstyleoptionbutton.html" title="QStyleOptionButton" alt="" coords="179,78,328,105"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_39.png" border="0" alt="" usemap="#_q_text_format"/>
+<tr><td><img src="inherit_graph_59.png" border="0" alt="" usemap="#_q_svg_i_o_handler_private"/>
+<map name="_q_svg_i_o_handler_private" id="_q_svg_i_o_handler_private">
+<area shape="rect" id="node1" href="class_q_svg_i_o_handler_private.html" title="QSvgIOHandlerPrivate" alt="" coords="5,5,168,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_60.png" border="0" alt="" usemap="#_q_text_format"/>
 <map name="_q_text_format" id="_q_text_format">
+<area shape="rect" id="node1" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtextformat.html" title="QTextFormat" alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtextcharformat.html" title="QTextCharFormat" alt="" coords="156,5,289,32"/>
+<area shape="rect" id="node3" href="class_dtk_1_1_widget_1_1_d_crumb_text_format.html" title="表示标签输入控件所含标签的文字样式 " alt="" coords="337,5,564,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_40.png" border="0" alt="" usemap="#_q_text_object_interface"/>
+<tr><td><img src="inherit_graph_61.png" border="0" alt="" usemap="#_q_text_object_interface"/>
 <map name="_q_text_object_interface" id="_q_text_object_interface">
+<area shape="rect" id="node1" href="class_dtk_1_1_core_1_1_d_object.html" title="deepin&#45;tool&#45;kit 中所有公开类的祖先类。 " alt="" coords="247,2797,388,2823"/>
+<area shape="rect" id="node2" href="class_d_foreign_window.html" title="一个用于获取本地窗口信息的类，继承于 QWindow，支持 QWindow::geometry QWindow::x QWindow::y QWindow::w..." alt="" coords="533,618,659,645"/>
+<area shape="rect" id="node3" href="class_d_region_monitor.html" title="一个在指定区域内监视鼠标键盘动作的类 " alt="" coords="535,2214,657,2241"/>
+<area shape="rect" id="node4" href="class_d_taskbar_control.html" title="DTaskbarControl" alt="" coords="533,2265,659,2291"/>
+<area shape="rect" id="node5" href="class_d_thumbnail_provider.html" title="缩略图生成类 　 " alt="" coords="521,1578,671,1605"/>
+<area shape="rect" id="node6" href="class_dtk_1_1_core_1_1_d_base_file_watcher.html" title="DBaseFileWatcher 类提供了一系列接口可供监视文件和目录的变动。 " alt="" coords="495,1746,697,1773"/>
+<area shape="rect" id="node8" href="class_dtk_1_1_core_1_1_d_file_system_watcher.html" title="The DFileSystemWatcher class provides an interface for monitoring files and directories for modificat..." alt="" coords="486,2315,706,2342"/>
+<area shape="rect" id="node9" href="class_dtk_1_1_core_1_1_d_file_watcher_manager.html" title="DFileWatcherManager 类可以帮助管理一系列 DFileWatcher 文件监视器，并在文件变动时发送信号通知。 ..." alt="" coords="483,2366,709,2393"/>
+<area shape="rect" id="node10" href="class_dtk_1_1_gui_1_1_d_window_manager_helper.html" title="提供与窗口管理器交互的接口，同 DPlatformWindowHandle 依赖 dxcb 插件。 dxcb 插件抽象出所有需要和X11平�..." alt="" coords="499,1797,693,1839"/>
+<area shape="rect" id="node12" href="class_dtk_1_1_widget_1_1_d_abstract_dialog.html" title="可以使用 DAbstractDialog 类创建符合 DDE 风格的对话框窗口。 " alt="" coords="777,3614,984,3641"/>
+<area shape="rect" id="node17" href="class_dtk_1_1_widget_1_1_d_abstract_stack_widget_transition.html" title="Dtk::Widget::DAbstractStack\lWidgetTransition" alt="" coords="495,1863,697,1904"/>
+<area shape="rect" id="node19" href="class_dtk_1_1_widget_1_1_d_application.html" title="DApplication 是 DTK 中用于替换 QCoreApplication 相关功能实现的类。 继承自 QApplication ，并在此之上添..." alt="" coords="1075,1799,1257,1826"/>
+<area shape="rect" id="node20" href="class_dtk_1_1_widget_1_1_d_arrow_rectangle.html" title="DArrowRectangle 提供了可以在四个边中的任意一个边显示箭头的矩形控件 " alt="" coords="491,3867,701,3894"/>
+<area shape="rect" id="node21" href="class_dtk_1_1_widget_1_1_d_blur_effect_widget.html" title="用于实现主窗口或控件背景的实时模糊效果。 " alt="" coords="509,3548,683,3589"/>
+<area shape="rect" id="node22" href="class_dtk_1_1_widget_1_1_d_borderless_widget.html" title="DBorderlessWidget 是DTK中用于提供无边框的功能的类，主要用于Windows。 在Windows和Linux图形环境下，窗口..." alt="" coords="505,3431,687,3472"/>
+<area shape="rect" id="node24" href="class_dtk_1_1_widget_1_1_d_box_widget.html" title="DBoxWidget提供了一个自适应子控件大小的Widget. " alt="" coords="791,2822,971,2849"/>
+<area shape="rect" id="node27" href="class_dtk_1_1_widget_1_1_d_circle_progress.html" title="Dtk::Widget::DCircleProgress" alt="" coords="494,3918,698,3945"/>
+<area shape="rect" id="node28" href="class_dtk_1_1_widget_1_1_d_clip_effect_widget.html" title="用于裁剪窗口的绘制内容 " alt="" coords="510,3969,682,4011"/>
+<area shape="rect" id="node29" href="class_dtk_1_1_widget_1_1_d_crumb_edit.html" title="标签输入控件。 " alt="" coords="1371,2955,1551,2982"/>
+<area shape="rect" id="node30" href="class_dtk_1_1_widget_1_1_d_double_spin_box.html" title="类似 DDoubleSpinBox 。 " alt="" coords="1061,3025,1271,3051"/>
+<area shape="rect" id="node31" href="class_dtk_1_1_widget_1_1_d_file_icon_provider.html" title="Dtk::Widget::DFileIconProvider" alt="" coords="491,2046,701,2073"/>
+<area shape="rect" id="node32" href="class_dtk_1_1_widget_1_1_d_flow_layout.html" title="DFlowLayout 类提供了一个简便的流布局。 " alt="" coords="505,846,687,873"/>
+<area shape="rect" id="node33" href="class_dtk_1_1_widget_1_1_d_foreign_window.html" title="一个用于获取本地窗口信息的类，继承于 QWindow，支持 QWindow::geometry QWindow::x QWindow::y QWindow::w..." alt="" coords="493,415,699,442"/>
+<area shape="rect" id="node34" href="class_dtk_1_1_widget_1_1_d_graphics_clip_effect.html" title="用于裁剪窗口的绘制内容 " alt="" coords="500,2148,692,2189"/>
+<area shape="rect" id="node35" href="class_dtk_1_1_widget_1_1_d_image_button.html" title="在Deepin的程序设计中，用到了大量基于图片的按钮，而Qt的QPushButton不能方便的只使用图片， 每个项目都存�..." alt="" coords="1068,3333,1264,3359"/>
+<area shape="rect" id="node40" href="class_dtk_1_1_widget_1_1_d_line_edit.html" title="DLineEdit提供了一个修改过的QLineEdit样式 " alt="" coords="799,2721,962,2747"/>
+<area shape="rect" id="node44" href="class_dtk_1_1_widget_1_1_d_list_view.html" title="一个用于展示一列数据的控件 " alt="" coords="1666,3066,1830,3093"/>
+<area shape="rect" id="node45" href="class_dtk_1_1_widget_1_1_d_loading_indicator.html" title="DLoadingIndicator 类提供了一种用来显示“加载中”动画的控件。使用者通过设置 DLoadingIndicator::imageSo..." alt="" coords="1352,2742,1571,2769"/>
+<area shape="rect" id="node46" href="class_dtk_1_1_widget_1_1_d_main_window.html" title="The DMainWindow class provides a main application window. " alt="" coords="785,3462,976,3489"/>
+<area shape="rect" id="node47" href="class_dtk_1_1_widget_1_1_d_m_p_r_i_s_control.html" title="DMPRISControl 封装了MPRIS协议，提供了上一曲、下一曲、暂停播放、恢复播放和显示歌曲名和封面的功能。 ..." alt="" coords="781,3126,980,3153"/>
+<area shape="rect" id="node48" href="class_dtk_1_1_widget_1_1_d_page_indicator.html" title="DPageIndicator 类提供了一种用来指示一组元素中当前可见元素索引的控件。控件会显示了一系列的点，代表一组..." alt="" coords="497,4035,695,4062"/>
+<area shape="rect" id="node49" href="class_dtk_1_1_widget_1_1_d_passwd_edit_animated.html" title="带有动画的密码输入框。 " alt="" coords="789,3177,972,3219"/>
+<area shape="rect" id="node50" href="class_dtk_1_1_widget_1_1_d_picture_sequence_view.html" title="将图片序列绘制为动画，通过定时器刷新来实现动画效果。 " alt="" coords="1336,2610,1587,2637"/>
+<area shape="rect" id="node51" href="class_dtk_1_1_widget_1_1_d_push_button.html" title="封装了三种状态的QPushButton，可以自动在不同状态更换图标，不需要自己控制。 " alt="" coords="1073,4390,1259,4417"/>
+<area shape="rect" id="node52" href="class_dtk_1_1_widget_1_1_d_region_monitor.html" title="Dtk::Widget::DRegionMonitor" alt="" coords="495,2417,697,2443"/>
+<area shape="rect" id="node53" href="class_dtk_1_1_widget_1_1_d_segmented_control.html" title="DSegmentedControl 类提供了一种类似标签页的控件。 它由一系列的 Segment 构成，每一个 Segment 可以被设置..." alt="" coords="479,4086,713,4113"/>
+<area shape="rect" id="node54" href="class_dtk_1_1_widget_1_1_d_simple_list_view.html" title="DSimpleListView 是 deepin 基于 QWidget 从零绘制的列表控件。 " alt="" coords="492,3665,700,3691"/>
+<area shape="rect" id="node55" href="class_dtk_1_1_widget_1_1_d_spin_box.html" title="Deepin风格的QSpinBox。 " alt="" coords="1083,3075,1249,3102"/>
+<area shape="rect" id="node56" href="class_dtk_1_1_widget_1_1_d_spinner.html" title="可以使用 DSpinner 类快速创建用于指示加载中状态的旋转等待图标动画控件。 " alt="" coords="515,3715,677,3742"/>
+<area shape="rect" id="node57" href="class_dtk_1_1_widget_1_1_d_stack_widget.html" title="一个可定制切换动画的容器控件 " alt="" coords="500,4137,692,4163"/>
+<area shape="rect" id="node58" href="class_dtk_1_1_widget_1_1_d_suggest_button.html" title="这个控件提供了DTK中默认的按钮样式. " alt="" coords="1061,4441,1271,4467"/>
+<area shape="rect" id="node59" href="class_dtk_1_1_widget_1_1_d_switch_button.html" title="DSwitchButton提供了切换样式的控件 用户可以打开和关闭一些功能 " alt="" coords="782,3243,979,3270"/>
+<area shape="rect" id="node60" href="class_dtk_1_1_widget_1_1_d_tab_bar.html" title="DTabBar 是一个标签栏控件，是在 QTabBar 基础之上进行扩展增强。 " alt="" coords="518,3614,674,3641"/>
+<area shape="rect" id="node61" href="class_dtk_1_1_widget_1_1_d_text_edit.html" title="Dtk::Widget::DTextEdit" alt="" coords="1380,3047,1543,3074"/>
+<area shape="rect" id="node62" href="class_dtk_1_1_widget_1_1_d_theme_manager.html" title="DThemeManager 类提供了管理控件主题文件的工具函数。在 DTK 中，目前只有 light 和 dark 两种风格的主题，�..." alt="" coords="489,1527,703,1554"/>
+<area shape="rect" id="node63" href="class_dtk_1_1_widget_1_1_d_thumbnail_provider.html" title="Dtk::Widget::DThumbnailProvider" alt="" coords="481,1695,711,1722"/>
+<area shape="rect" id="node64" href="class_dtk_1_1_widget_1_1_d_tick_effect.html" title="这个类提供了跑马灯效果，可以让控件的内容滚动起来 " alt="" coords="509,2097,683,2123"/>
+<area shape="rect" id="node65" href="class_dtk_1_1_widget_1_1_d_titlebar.html" title="Dtitlebar是Dtk程序通用的标题栏组件，用于实现标题栏的高度定制化。 " alt="" coords="801,3294,961,3321"/>
+<area shape="rect" id="node66" href="class_dtk_1_1_widget_1_1_d_toast.html" title="提供应用内通知的 Tooltip，类似安卓的 Toast。 " alt="" coords="807,3411,954,3438"/>
+<area shape="rect" id="node67" href="class_dtk_1_1_widget_1_1_d_trash_manager.html" title="Dtk::Widget::DTrashManager" alt="" coords="495,1929,697,1955"/>
+<area shape="rect" id="node69" href="class_dtk_1_1_widget_1_1_d_video_widget.html" title="DVideoWidget类提供了呈现视频的小部件 为了给循环播放提供更好的用户体验，视频的最后一帧将会被保留，同时..." alt="" coords="500,3766,692,3793"/>
+<area shape="rect" id="node70" href="class_dtk_1_1_widget_1_1_d_water_progress.html" title="可以使用 DWaterProgress 类快速创建圆形容器内水位高低指示进度的动画控件。 " alt="" coords="493,3817,699,3843"/>
+<area shape="rect" id="node71" href="class_dtk_1_1_widget_1_1_d_window_manager_helper.html" title="提供与窗口管理器交互的接口，同 DPlatformWindowHandle 依赖 dxcb 插件。 dxcb 插件抽象出所有需要和X11平�..." alt="" coords="488,1980,704,2021"/>
+<area shape="rect" id="node7" href="class_dtk_1_1_core_1_1_d_file_watcher.html" title="DFileWatcher 类提供了对 DBaseFileWatcher 接口的实现，可供监视文件和目录的变动。 " alt="" coords="795,1746,966,1773"/>
+<area shape="rect" id="node11" href="class_dtk_1_1_gui_1_1_d_window_manager_helper__.html" title="Dtk::Gui::DWindowManager\lHelper_" alt="" coords="783,1797,978,1839"/>
+<area shape="rect" id="node13" href="class_dtk_1_1_widget_1_1_d_dialog.html" title="可以使用 DDialog 类快速创建符合 DDE 风格的简要对话框窗口。 " alt="" coords="1089,3614,1243,3641"/>
+<area shape="rect" id="node16" href="class_dtk_1_1_widget_1_1_d_settings_dialog.html" title="为使用DSettings的Dtk程序提供一个通用的设置对话框，这个对话框可以通过json配置文件来自动生成。 ..." alt="" coords="1063,3126,1269,3153"/>
+<area shape="rect" id="node14" href="class_dtk_1_1_widget_1_1_d_about_dialog.html" title="DAboutDialog 类提供了应用程序的关于对话框，规范所有 deepin 应用关于窗口设计规范，符合 Deepin 风格。 ..." alt="" coords="1366,3563,1557,3590"/>
+<area shape="rect" id="node15" href="class_dtk_1_1_widget_1_1_d_input_dialog.html" title="快速创建一个获取可输入数据的对话框 " alt="" coords="1369,3614,1554,3641"/>
+<area shape="rect" id="node18" href="class_dtk_1_1_widget_1_1_d_slide_stack_widget_transition.html" title="Dtk::Widget::DSlideStack\lWidgetTransition" alt="" coords="791,1863,971,1904"/>
+<area shape="rect" id="node23" href="class_dtk_1_1_widget_1_1_d_borderless_window.html" title="DBorderlessWindow 是DBorderlessWidget的派生类，提供了简化的接口 " alt="" coords="790,3345,971,3387"/>
+<area shape="rect" id="node25" href="class_dtk_1_1_widget_1_1_d_h_box_widget.html" title="是设置成水平方向的DBoxWidget " alt="" coords="1071,2974,1261,3001"/>
+<area shape="rect" id="node26" href="class_dtk_1_1_widget_1_1_d_v_box_widget.html" title="Dtk::Widget::DVBoxWidget" alt="" coords="1071,2923,1261,2950"/>
+<area shape="rect" id="node36" href="class_dtk_1_1_widget_1_1_d_window_close_button.html" title="DWindowCloseButton 类是 DTK 窗口统一的关闭按钮控件。 " alt="" coords="1364,3359,1559,3400"/>
+<area shape="rect" id="node37" href="class_dtk_1_1_widget_1_1_d_window_max_button.html" title="DWindowMaxButton 类是 DTK 窗口统一的最大化/恢复按钮控件。 它有两种状态，一种表示窗口已经进入最大化状�..." alt="" coords="1347,3425,1576,3451"/>
+<area shape="rect" id="node38" href="class_dtk_1_1_widget_1_1_d_window_min_button.html" title="DWindowMinButton 类是 DTK 窗口统一的最小化按钮控件。 " alt="" coords="1349,3242,1574,3269"/>
+<area shape="rect" id="node39" href="class_dtk_1_1_widget_1_1_d_window_option_button.html" title="DWindowOptionButton 类是 DTK 窗口统一的菜单按钮控件。 点击按钮后，默认会显示程序主菜单，包含“关于”�..." alt="" coords="1360,3293,1563,3335"/>
+<area shape="rect" id="node41" href="class_dtk_1_1_widget_1_1_d_file_chooser_edit.html" title="带有选择文件按钮的文本编辑框 " alt="" coords="1061,2721,1271,2747"/>
+<area shape="rect" id="node42" href="class_dtk_1_1_widget_1_1_d_ipv4_line_edit.html" title="类DIpv4LineEdit是专门用于输入ipv4格式文本的编辑框。 " alt="" coords="1071,2771,1261,2798"/>
+<area shape="rect" id="node43" href="class_dtk_1_1_widget_1_1_d_password_edit.html" title="DPasswordEdit提供了一个让用户输入的密码框 " alt="" coords="1068,2822,1264,2849"/>
+<area shape="rect" id="node68" href="class_dtk_1_1_widget_1_1_d_trash_manager__.html" title="Dtk::Widget::DTrashManager_" alt="" coords="776,1929,985,1955"/>
+<area shape="rect" id="node72" href="class_dtk_1_1_widget_1_1_d_window_manager_helper__.html" title="Dtk::Widget::DWindowManager\lHelper_" alt="" coords="773,1980,989,2021"/>
+<area shape="rect" id="node74" href="class_d_file_drag.html" title="继承自QDrag，一般在文件拖拽发送方 mouseMoveEvent 中发起拖拽，设置发送数据 " alt="" coords="555,86,637,113"/>
+<area shape="rect" id="node75" href="class_d_file_drag_client.html" title="提供拖拽文件时与文件发送方交互的接口。 " alt="" coords="258,86,377,113"/>
+<area shape="rect" id="node76" href="class_d_file_drag_server.html" title="提供拖拽文件时与文件接收方交互的接口。 " alt="" coords="255,137,380,163"/>
+<area shape="rect" id="node77" href="class_d_gui_application_helper.html" title="DGuiApplicationHelper 应用程序的 GUI ，如主题、调色板等 " alt="" coords="235,35,400,62"/>
+<area shape="rect" id="node78" href="class_d_native_settings.html" title="一个用于本地设置的类 " alt="" coords="254,238,381,265"/>
+<area shape="rect" id="node79" href="class_d_platform_theme.html" title="一个提供窗口主题的类 " alt="" coords="531,238,661,265"/>
+<area shape="rect" id="node80" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qfileiconprovider.html" title="QFileIconProvider" alt="" coords="252,2046,383,2073"/>
+<area shape="rect" id="node81" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlayoutitem.html" title="QLayoutItem" alt="" coords="31,390,135,417"/>
+<area shape="rect" id="node82" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlayout.html" title="QLayout" alt="" coords="280,390,355,417"/>
+<area shape="rect" id="node83" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qobject.html" title="QObject" alt="" coords="46,1223,119,1250"/>
+<area shape="rect" id="node84" href="class_auto_scale_window_object.html" title="AutoScaleWindowObject" alt="" coords="230,441,405,467"/>
+<area shape="rect" id="node85" href="class_d_dnd_client_signal_relay.html" title="DDndClientSignalRelay" alt="" coords="234,491,401,518"/>
+<area shape="rect" id="node86" href="class_d_dnd_source_interface.html" title="DDndSourceInterface" alt="" coords="238,542,397,569"/>
+<area shape="rect" id="node87" href="class_d_platform_handle.html" title="DPlatformHandle" alt="" coords="252,593,383,619"/>
+<area shape="rect" id="node88" href="classdstyle_1_1_palette_extended.html" title="dstyle::PaletteExtended" alt="" coords="231,643,403,670"/>
+<area shape="rect" id="node89" href="class_d_theme_settings.html" title="DThemeSettings" alt="" coords="253,694,382,721"/>
+<area shape="rect" id="node90" href="class_dtk_1_1_core_1_1_d_settings.html" title="DSettings是设计上为Dtk的应用程序提供统一的配置存储以及界面生成工具的基础库。 DSetting使用json作为应用..." alt="" coords="241,846,394,873"/>
+<area shape="rect" id="node91" href="class_dtk_1_1_core_1_1_d_settings_backend.html" title="DSettingsBackend是一个纯虚类, 用来描述DSettings的存储接口。 " alt="" coords="213,1333,421,1359"/>
+<area shape="rect" id="node94" href="class_dtk_1_1_core_1_1_d_settings_group.html" title="一组DSettings选项的集合，也可以包含子组。 " alt="" coords="221,1586,413,1613"/>
+<area shape="rect" id="node95" href="class_dtk_1_1_core_1_1_d_settings_option.html" title="DSettingsOption是DSettings的基本单元，用于存放一对键&#45;值数据。 " alt="" coords="220,1637,415,1663"/>
+<area shape="rect" id="node96" href="class_dtk_1_1_widget_1_1_crumb_object_interface.html" title="Dtk::Widget::CrumbObject\lInterface" alt="" coords="224,4163,411,4204"/>
+<area shape="rect" id="node97" href="class_dtk_1_1_widget_1_1_d_anchors_base.html" title="DAnchorsBase 提供了一种指定 QWidget 与其它 QWidget 之间的关系来确定 其位置的方法 " alt="" coords="219,1434,416,1461"/>
+<area shape="rect" id="node99" href="class_dtk_1_1_widget_1_1_d_enhanced_widget.html" title="Dtk::Widget::DEnhancedWidget" alt="" coords="208,1049,427,1075"/>
+<area shape="rect" id="node100" href="class_dtk_1_1_widget_1_1_d_expand_group.html" title="Dtk::Widget::DExpandGroup" alt="" coords="218,1099,417,1126"/>
+<area shape="rect" id="node101" href="class_dtk_1_1_widget_1_1_d_platform_window_handle.html" title="一个和Qt dxcb平台插件交互的工具类，实质性的功能皆在dxcb插件中实现，此插件目前只 支持X11平台，在其它平..." alt="" coords="210,1151,425,1192"/>
+<area shape="rect" id="node102" href="class_dtk_1_1_widget_1_1_d_settings_widget_factory.html" title="DSettingsWidgetFactory是一个用于构造Deepin风格的设置对话框的控件。 &#160;对于每种控件，均由一个id和对应的�..." alt="" coords="213,1216,422,1257"/>
+<area shape="rect" id="node103" href="class_dtk_1_1_widget_1_1_d_simple_list_item.html" title="DSimpleListItem 是 DSimpleListView 的接口，得到 DSimpleListView 传递过来的 QPainter、列信息、表格矩形..." alt="" coords="213,1282,421,1309"/>
+<area shape="rect" id="node104" href="class_dtk_1_1_widget_1_1_filter_mouse_move.html" title="Dtk::Widget::FilterMouseMove" alt="" coords="213,1738,422,1765"/>
+<area shape="rect" id="node105" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractanimation.html" title="QAbstractAnimation" alt="" coords="242,745,393,771"/>
+<area shape="rect" id="node111" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractitemmodel.html" title="QAbstractItemModel" alt="" coords="241,1485,394,1511"/>
+<area shape="rect" id="node114" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qcoreapplication.html" title="QCoreApplication" alt="" coords="251,795,383,822"/>
+<area shape="rect" id="node117" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qdrag.html" title="QDrag" alt="" coords="286,187,349,214"/>
+<area shape="rect" id="node118" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qgraphicseffect.html" title="QGraphicsEffect" alt="" coords="255,2097,379,2123"/>
+<area shape="rect" id="node120" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qiconengineplugin.html" title="QIconEnginePlugin" alt="" coords="248,897,387,923"/>
+<area shape="rect" id="node123" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qimageioplugin.html" title="QImageIOPlugin" alt="" coords="256,947,379,974"/>
+<area shape="rect" id="node125" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qiodevice.html" title="QIODevice" alt="" coords="273,998,361,1025"/>
+<area shape="rect" id="node127" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstyle.html" title="QStyle" alt="" coords="285,289,349,315"/>
+<area shape="rect" id="node133" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qstyleplugin.html" title="QStylePlugin" alt="" coords="266,1383,369,1410"/>
+<area shape="rect" id="node136" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qthread.html" title="QThread" alt="" coords="279,1687,355,1714"/>
+<area shape="rect" id="node137" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwidget.html" title="QWidget" alt="" coords="280,4111,355,4138"/>
+<area shape="rect" id="node189" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qwindow.html" title="QWindow" alt="" coords="278,339,357,366"/>
+<area shape="rect" id="node92" href="class_dtk_1_1_core_1_1_g_settings_backend.html" title="Storage backend of DSettings use gsettings. " alt="" coords="492,1223,700,1250"/>
+<area shape="rect" id="node93" href="class_dtk_1_1_core_1_1_q_setting_backend.html" title="Storage DSetttings to an QSettings. " alt="" coords="495,1274,697,1301"/>
+<area shape="rect" id="node98" href="class_dtk_1_1_widget_1_1_d_anchors.html" title="DAnchors 是一个模板类，在 DAnchorsBase 的基础上保存了一个控件指针， 将控件和锚定绑定在一起使用，相当�..." alt="" coords="495,1426,697,1453"/>
+<area shape="rect" id="node106" href="classdstyle_1_1_d_style_animation.html" title="dstyle::DStyleAnimation" alt="" coords="509,745,683,771"/>
+<area shape="rect" id="node107" href="classdstyle_1_1_d_blend_style_animation.html" title="dstyle::DBlendStyleAnimation" alt="" coords="775,745,986,771"/>
+<area shape="rect" id="node108" href="classdstyle_1_1_d_number_style_animation.html" title="dstyle::DNumberStyleAnimation" alt="" coords="767,694,994,721"/>
+<area shape="rect" id="node110" href="classdstyle_1_1_d_progress_style_animation.html" title="dstyle::DProgressStyleAnimation" alt="" coords="765,795,996,822"/>
+<area shape="rect" id="node109" href="classdstyle_1_1_d_scrollbar_style_animation.html" title="dstyle::DScrollbarStyleAnimation" alt="" coords="1051,694,1281,721"/>
+<area shape="rect" id="node112" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractlistmodel.html" title="QAbstractListModel" alt="" coords="523,1477,669,1503"/>
+<area shape="rect" id="node113" href="class_dtk_1_1_widget_1_1_d_variant_list_model.html" title="Dtk::Widget::DVariantList\lModel" alt="" coords="791,1469,971,1511"/>
+<area shape="rect" id="node115" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qguiapplication.html" title="QGuiApplication" alt="" coords="535,795,657,822"/>
+<area shape="rect" id="node116" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qapplication.html" title="QApplication" alt="" coords="829,1131,932,1158"/>
+<area shape="rect" id="node119" href="class_dtk_1_1_widget_1_1_d_graphics_glow_effect.html" title="控件发散效果，同时也是Dtk默认的窗口特效。 " alt="" coords="497,1629,695,1671"/>
+<area shape="rect" id="node121" href="class_d_builtin_icon_engine_plugin.html" title="DBuiltinIconEnginePlugin" alt="" coords="507,897,685,923"/>
+<area shape="rect" id="node122" href="class_q_svg_icon_plugin.html" title="QSvgIconPlugin" alt="" coords="536,947,656,974"/>
+<area shape="rect" id="node124" href="class_q_svg_plugin.html" title="QSvgPlugin" alt="" coords="549,998,643,1025"/>
+<area shape="rect" id="node126" href="class_dtk_1_1_core_1_1_log_device.html" title="Dtk::Core::LogDevice" alt="" coords="518,1049,674,1075"/>
+<area shape="rect" id="node128" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qcommonstyle.html" title="QCommonStyle" alt="" coords="535,289,657,315"/>
+<area shape="rect" id="node129" href="classdstyle_1_1_style.html" title="dstyle::Style" alt="" coords="831,314,931,341"/>
+<area shape="rect" id="node130" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qproxystyle.html" title="QProxyStyle" alt="" coords="831,263,930,290"/>
+<area shape="rect" id="node131" href="class_norwegian_wood_style.html" title="[0] " alt="" coords="1089,238,1243,265"/>
+<area shape="rect" id="node132" href="class_popup_menu_style.html" title="PopupMenuStyle" alt="" coords="1101,289,1231,315"/>
+<area shape="rect" id="node134" href="class_chameleon_style_plugin.html" title="ChameleonStylePlugin" alt="" coords="513,1375,679,1402"/>
+<area shape="rect" id="node135" href="class_d_style_plugin.html" title="DStylePlugin" alt="" coords="545,1325,647,1351"/>
+<area shape="rect" id="node138" href="class_dtk_1_1_widget_1_1_d_base_expand.html" title="一个美观的可展开的控件 " alt="" coords="500,4609,692,4635"/>
+<area shape="rect" id="node141" href="class_dtk_1_1_widget_1_1_d_movable_tab_widget.html" title="Dtk::Widget::DMovableTab\lWidget" alt="" coords="503,4441,689,4483"/>
+<area shape="rect" id="node142" href="class_dtk_1_1_widget_1_1_d_separator_horizontal.html" title="DSeparatorHorizontal 类提供了通用的横向分割线，可以应用在任何基于 QWidget 的控件上。 ..." alt="" coords="475,4507,717,4534"/>
+<area shape="rect" id="node143" href="class_dtk_1_1_widget_1_1_d_separator_vertical.html" title="DSeparatorVertical 类提供了通用的纵向分割线，可以应用在任何基于 QWidget 的控件上。 ..." alt="" coords="484,4659,708,4686"/>
+<area shape="rect" id="node144" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractbutton.html" title="QAbstractButton" alt="" coords="531,4761,661,4787"/>
+<area shape="rect" id="node153" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractslider.html" title="QAbstractSlider" alt="" coords="535,4390,657,4417"/>
+<area shape="rect" id="node156" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractspinbox.html" title="QAbstractSpinBox" alt="" coords="527,4289,665,4315"/>
+<area shape="rect" id="node159" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qdialog.html" title="QDialog" alt="" coords="560,4558,632,4585"/>
+<area shape="rect" id="node162" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qframe.html" title="QFrame" alt="" coords="560,4238,632,4265"/>
+<area shape="rect" id="node183" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlineedit.html" title="QLineEdit" alt="" coords="555,4187,637,4214"/>
+<area shape="rect" id="node184" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qmainwindow.html" title="QMainWindow" alt="" coords="541,4339,651,4366"/>
+<area shape="rect" id="node186" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtabbar.html" title="QTabBar" alt="" coords="559,4811,633,4838"/>
+<area shape="rect" id="node188" href="class_test_taskbar_window.html" title="TestTaskbarWindow" alt="" coords="525,4710,667,4737"/>
+<area shape="rect" id="node139" href="class_dtk_1_1_widget_1_1_d_arrow_line_expand.html" title="一个美观的可展开的控件DArrowLineExpand 继承自 DBaseExpand 并提供了了 ArrowHeaderLine (一个带有箭头标�..." alt="" coords="769,4593,992,4619"/>
+<area shape="rect" id="node140" href="class_dtk_1_1_widget_1_1_d_switch_line_expand.html" title="DSwitchLineExpand 类提供了一种通过开关按钮来展开/合上显示内容的控件。 控件由标题栏和内容两部分组成，�..." alt="" coords="791,4644,971,4685"/>
+<area shape="rect" id="node145" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpushbutton.html" title="QPushButton" alt="" coords="827,4761,934,4787"/>
+<area shape="rect" id="node150" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtoolbutton.html" title="QToolButton" alt="" coords="831,4710,930,4737"/>
+<area shape="rect" id="node146" href="class_dtk_1_1_widget_1_1_d_base_button.html" title="DBaseButton 提供 deepin 风格的 QPushButton。 " alt="" coords="1072,4887,1260,4914"/>
+<area shape="rect" id="node147" href="class_dtk_1_1_widget_1_1_d_icon_button.html" title="Dtk::Widget::DIconButton" alt="" coords="1075,4735,1257,4762"/>
+<area shape="rect" id="node148" href="class_dtk_1_1_widget_1_1_d_link_button.html" title="提供了一个QPushButton的样式，和显示在网页上的链接一样。 " alt="" coords="1075,4786,1257,4813"/>
+<area shape="rect" id="node149" href="class_dtk_1_1_widget_1_1_d_text_button.html" title="Dtk::Widget::DTextButton" alt="" coords="1075,4837,1257,4863"/>
+<area shape="rect" id="node151" href="class_dtk_1_1_widget_1_1_d_segmented_highlight.html" title="DSegmentedHighlight 类代表了 DSegmentedControl 中当前选中（即高亮）的部分。 " alt="" coords="1044,4634,1288,4661"/>
+<area shape="rect" id="node152" href="class_dtk_1_1_widget_1_1_d_tab_bar_add_button.html" title="Dtk::Widget::DTabBarAddButton" alt="" coords="1054,4685,1278,4711"/>
+<area shape="rect" id="node154" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qslider.html" title="QSlider" alt="" coords="847,4441,915,4467"/>
+<area shape="rect" id="node155" href="class_dtk_1_1_widget_1_1_d_slider.html" title="DSlider 是基于 QSlider 之上扩展的控件。 " alt="" coords="1091,4491,1241,4518"/>
+<area shape="rect" id="node157" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qdoublespinbox.html" title="QDoubleSpinBox" alt="" coords="816,3513,945,3539"/>
+<area shape="rect" id="node158" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qspinbox.html" title="QSpinBox" alt="" coords="839,3563,923,3590"/>
+<area shape="rect" id="node160" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qfiledialog.html" title="QFileDialog" alt="" coords="835,4542,927,4569"/>
+<area shape="rect" id="node161" href="class_dtk_1_1_widget_1_1_d_file_dialog.html" title="DFileDialog 类提供了一个可供用户选择文件或目录的对话框. " alt="" coords="1079,4542,1253,4569"/>
+<area shape="rect" id="node163" href="class_drop_area.html" title="DropArea" alt="" coords="839,4086,922,4113"/>
+<area shape="rect" id="node164" href="class_dtk_1_1_widget_1_1_content_loader.html" title="Dtk::Widget::ContentLoader" alt="" coords="781,4137,980,4163"/>
+<area shape="rect" id="node165" href="class_dtk_1_1_widget_1_1_d_search_edit.html" title="DSearchEdit 类提供了专门用来进行搜索的输入框控件。相比于一般的输入框控件，DSearchEdit 提供了搜索按钮�..." alt="" coords="789,4187,972,4214"/>
+<area shape="rect" id="node166" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractscrollarea.html" title="QAbstractScrollArea" alt="" coords="805,3665,956,3691"/>
+<area shape="rect" id="node173" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlabel.html" title="QLabel" alt="" coords="847,4238,914,4265"/>
+<area shape="rect" id="node167" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qabstractitemview.html" title="QAbstractItemView" alt="" coords="1094,3665,1238,3691"/>
+<area shape="rect" id="node171" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qgraphicsview.html" title="QGraphicsView" alt="" coords="1107,3177,1225,3203"/>
+<area shape="rect" id="node172" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtextedit.html" title="QTextEdit" alt="" coords="1125,3227,1207,3254"/>
+<area shape="rect" id="node168" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlistview.html" title="QListView" alt="" coords="1420,3665,1503,3691"/>
+<area shape="rect" id="node169" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtwidgets.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qlistwidget.html" title="QListWidget" alt="" coords="1699,3665,1797,3691"/>
+<area shape="rect" id="node170" href="class_dtk_1_1_widget_1_1_d_button_list.html" title="已废弃，请考虑配合 QButtonGroup 使用 QRadioButton 来替代。 " alt="" coords="1909,3665,2088,3691"/>
+<area shape="rect" id="node174" href="class_draggable_label.html" title="DraggableLabel" alt="" coords="1105,4121,1227,4147"/>
+<area shape="rect" id="node175" href="class_dtk_1_1_widget_1_1_arrow_button_icon.html" title="Dtk::Widget::ArrowButtonIcon" alt="" coords="1062,4238,1270,4265"/>
+<area shape="rect" id="node176" href="class_dtk_1_1_widget_1_1_d_arrow_button.html" title="可以使用 DArrowButton 类快速创建箭头形状的按钮。 " alt="" coords="1070,4339,1262,4366"/>
+<area shape="rect" id="node177" href="class_dtk_1_1_widget_1_1_d_base_line.html" title="可以使用 DBaseLine 类快速创建具有位于左右两侧的两个控件的行控件。 " alt="" coords="1081,4289,1251,4315"/>
+<area shape="rect" id="node181" href="class_dtk_1_1_widget_1_1_d_label.html" title="DLabel 是 QLabel 的子类，为 deepin 提供更好的的风格统一。 " alt="" coords="1093,4070,1239,4097"/>
+<area shape="rect" id="node182" href="class_dtk_1_1_widget_1_1_d_shortcut_edit_label.html" title="Dtk::Widget::DShortcutEdit\lLabel" alt="" coords="1070,4172,1262,4213"/>
+<area shape="rect" id="node178" href="class_dtk_1_1_widget_1_1_d_header_line.html" title="可以使用 DHeaderLine 类快速创建标题行控件。 " alt="" coords="1368,4289,1555,4315"/>
+<area shape="rect" id="node179" href="class_dtk_1_1_widget_1_1_arrow_header_line.html" title="Dtk::Widget::ArrowHeaderLine" alt="" coords="1642,4263,1854,4290"/>
+<area shape="rect" id="node180" href="class_dtk_1_1_widget_1_1_d_switch_header_line.html" title="DSwitchHeaderLine 类用于提供 DSwitchLineExpand 的标题栏。 " alt="" coords="1635,4314,1861,4341"/>
+<area shape="rect" id="node185" href="class_widget_gallery.html" title="[0] " alt="" coords="826,4339,935,4366"/>
+<area shape="rect" id="node187" href="classdstyle_1_1_d_q_tab_bar.html" title="dstyle::DQTabBar" alt="" coords="815,4811,946,4838"/>
+<area shape="rect" id="node190" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qpaintdevice.html" title="QPaintDevice" alt="" coords="29,4111,136,4138"/>
+<area shape="rect" id="node191" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qsurface.html" title="QSurface" alt="" coords="42,339,123,366"/>
+<area shape="rect" id="node192" doxygen="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags:https://doc.qt.io/qt-5/" href="https://doc.qt.io/qt-5/qtextobjectinterface.html" title="QTextObjectInterface" alt="" coords="5,4170,160,4197"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_62.png" border="0" alt="" usemap="#_r_svg"/>
+<map name="_r_svg" id="_r_svg">
+<area shape="rect" id="node1" href="class_r_svg.html" title="RSvg" alt="" coords="5,5,60,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_63.png" border="0" alt="" usemap="#_xdg_icon_engine_creator"/>
+<map name="_xdg_icon_engine_creator" id="_xdg_icon_engine_creator">
+<area shape="rect" id="node1" href="class_xdg_icon_engine_creator.html" title="XdgIconEngineCreator" alt="" coords="5,5,168,32"/>
 </map>
 </td></tr>
 </table>
@@ -258,9 +654,9 @@ $(document).ready(function(){initNavTree('hierarchy.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2020年 七月 7日 星期二 19:15:44 , 为 Deepin Tool Kit使用 
+    <li class="footer">生成于 2020年 九月 23日 星期三 07:30:56 , 为 Deepin Tool Kit使用 
     <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
 </div>
 </body>

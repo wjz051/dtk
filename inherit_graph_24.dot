@@ -1,7 +1,0 @@
-digraph "类继承关系图"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node0 [label="Dtk::Widget::DAnchorInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_dtk_1_1_widget_1_1_d_anchor_info.html",tooltip="DAnchorInfo 用于记录“锚线”的锚定信息：被锚定的 DAnchorsBase 对象、 锚定的类型、目标“锚线”的信息 ..."];
-}

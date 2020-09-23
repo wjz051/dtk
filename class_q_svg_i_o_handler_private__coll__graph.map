@@ -1,0 +1,8 @@
+<map id="QSvgIOHandlerPrivate" name="QSvgIOHandlerPrivate">
+<area shape="rect" id="node2" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qcolor.html" title="QColor" alt="" coords="5,81,71,108"/>
+<area shape="rect" id="node3" href="$class_q_svg_i_o_handler.html" title="QSvgIOHandler" alt="" coords="95,81,213,108"/>
+<area shape="rect" id="node4" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qimageiohandler.html" title="QImageIOHandler" alt="" coords="87,5,221,32"/>
+<area shape="rect" id="node5" href="$class_d_svg_renderer.html" title="提供了将SVG文件的内容绘制到绘制设备上的方法。 SVG图形可以在构造 DSvgRenderer 时加载，也可以稍后使用lo..." alt="" coords="237,81,351,108"/>
+<area shape="rect" id="node6" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qsize.html" title="QSize" alt="" coords="375,81,434,108"/>
+<area shape="rect" id="node7" href="/home/travis/build/linuxdeepin/dtk/tags/qtcore.tags$qrect.html" title="QRect" alt="" coords="470,81,529,108"/>
+</map>

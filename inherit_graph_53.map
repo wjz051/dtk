@@ -1,0 +1,7 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="/home/travis/build/linuxdeepin/dtk/tags/qtgui.tags$qiconengine.html" title="QIconEngine" alt="" coords="5,81,107,108"/>
+<area shape="rect" id="node2" href="$class_d_builtin_icon_engine.html" title="DBuiltinIconEngine" alt="" coords="155,5,295,32"/>
+<area shape="rect" id="node3" href="$class_d_icon_engine.html" title="DIconEngine" alt="" coords="174,56,275,83"/>
+<area shape="rect" id="node4" href="$class_d_icon_proxy_engine.html" title="DIconProxyEngine" alt="" coords="157,107,293,133"/>
+<area shape="rect" id="node5" href="$class_q_svg_icon_engine.html" title="QSvgIconEngine" alt="" coords="162,157,287,184"/>
+</map>

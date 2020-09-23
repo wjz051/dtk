@@ -2,10 +2,10 @@ var searchData=
 [
   ['handletype',['handleType',['../class_dtk_1_1_widget_1_1_d_slider.html#a267aacb24ef53e2b2aa179e9bf92bb3d',1,'Dtk::Widget::DSlider']]],
   ['handlewidth',['handleWidth',['https://doc.qt.io/qt-5/qsplitter.html#handleWidth-prop',1,'QSplitter']]],
-  ['hasblurwindow',['hasBlurWindow',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a3d67180cd4890411b5e2e067aa87e335',1,'Dtk::Widget::DWindowManagerHelper']]],
-  ['hascomposite',['hasComposite',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#ac3ac18b228e733181ffb73bc47b038d1',1,'Dtk::Widget::DWindowManagerHelper']]],
+  ['hasblurwindow',['hasBlurWindow',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a3d67180cd4890411b5e2e067aa87e335',1,'Dtk::Widget::DWindowManagerHelper::hasBlurWindow()'],['../class_dtk_1_1_gui_1_1_d_window_manager_helper.html#a2e8a5bd094194f850c14dd3f49820593',1,'Dtk::Gui::DWindowManagerHelper::hasBlurWindow()']]],
+  ['hascomposite',['hasComposite',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#ac3ac18b228e733181ffb73bc47b038d1',1,'Dtk::Widget::DWindowManagerHelper::hasComposite()'],['../class_dtk_1_1_gui_1_1_d_window_manager_helper.html#a83d7f3b1bd5db4565cd58a7a88340025',1,'Dtk::Gui::DWindowManagerHelper::hasComposite()']]],
   ['hashotspot',['hasHotSpot',['https://doc.qt.io/qt-5/qgesture.html#hasHotSpot-prop',1,'QGesture']]],
-  ['hasnotitlebar',['hasNoTitlebar',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a3e8f3a03875331ea9945b0fa89f20121',1,'Dtk::Widget::DWindowManagerHelper']]],
+  ['hasnotitlebar',['hasNoTitlebar',['../class_dtk_1_1_widget_1_1_d_window_manager_helper.html#a3e8f3a03875331ea9945b0fa89f20121',1,'Dtk::Widget::DWindowManagerHelper::hasNoTitlebar()'],['../class_dtk_1_1_gui_1_1_d_window_manager_helper.html#a096e0059a9eed5672b48e794c4890c38',1,'Dtk::Gui::DWindowManagerHelper::hasNoTitlebar()']]],
   ['hasselectedtext',['hasSelectedText',['https://doc.qt.io/qt-5/qlineedit.html#hasSelectedText-prop',1,'QLineEdit::hasSelectedText()'],['https://doc.qt.io/qt-5/qlabel.html#hasSelectedText-prop',1,'QLabel::hasSelectedText()']]],
   ['headerhidden',['headerHidden',['https://doc.qt.io/qt-5/qtreeview.html#headerHidden-prop',1,'QTreeView']]],
   ['height',['height',['https://doc.qt.io/qt-5/qwindow.html#height-prop',1,'QWindow::height()'],['https://doc.qt.io/qt-5/qwidget.html#height-prop',1,'QWidget::height()']]],

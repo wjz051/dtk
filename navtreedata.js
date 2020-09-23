@@ -2,10 +2,13 @@ var NAVTREE =
 [
   [ "Deepin Tool Kit", "index.html", [
     [ "Deepin Tool Kit Widget", "index.html", null ],
-    [ "CHANGELOG", "md_dtkwidget__c_h_a_n_g_e_l_o_g.html", null ],
-    [ "CHANGELOG", "md_dtkcore__c_h_a_n_g_e_l_o_g.html", null ],
-    [ "Deepin Application Specification", "_specification.html", null ],
-    [ "Dtk/Core/DLog", "md_dtkcore_src_log__r_e_a_d_m_e.html", null ],
+    [ "CHANGELOG", "md_dtkwidget_CHANGELOG.html", null ],
+    [ "CHANGELOG", "md_dtkcore_CHANGELOG.html", null ],
+    [ "Deepin Application Specification", "Specification.html", null ],
+    [ "Dtk/Core/DLog", "md_dtkcore_src_log_README.html", null ],
+    [ "dtkgui", "md_dtkgui_README.html", null ],
+    [ "CHANGELOG", "md_qt5integration_CHANGELOG.html", null ],
+    [ "qt5integration", "md_qt5integration_README.html", null ],
     [ "弃用列表", "deprecated.html", null ],
     [ "类", "annotated.html", [
       [ "类列表", "annotated.html", "annotated_dup" ],
@@ -34,18 +37,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_dtk_1_1_core_1_1_d_standard_paths.html#ab50c2e4b74af6519874ab2345e397ccaad5036290828788546d418d40d3692cf5",
-"class_dtk_1_1_widget_1_1_d_anchors_base.html#a57be9dc62e9abbd66c8d924c0e221359",
-"class_dtk_1_1_widget_1_1_d_blur_effect_widget.html#a093f6e3cf42e2efc0bf45029b7575abd",
-"class_dtk_1_1_widget_1_1_d_crumb_edit.html#a678d27a72845d2231917e62286fb6c7e",
-"class_dtk_1_1_widget_1_1_d_graphics_clip_effect.html#a796b90f9c2e8e2b0d8f98e9952b36293",
-"class_dtk_1_1_widget_1_1_d_list_view.html#ad99909c052440e658d79f98c92070a5d",
-"class_dtk_1_1_widget_1_1_d_picture_sequence_view.html#a80e9d43430d142e88d808a163304bd21",
-"class_dtk_1_1_widget_1_1_d_simple_list_view.html#a75b1a50bd4e365fa1bb66da77f8e67d0",
-"class_dtk_1_1_widget_1_1_d_tab_bar.html#a5935b190fb67c316332edbef5797ef2a",
-"class_dtk_1_1_widget_1_1_d_window_close_button.html#a32c82f3ce5b9bd83aa526ba1c70b8ded",
-"dpicturesequenceview_8cpp_source.html",
-"struct_dtk_1_1_widget_1_1_pop.html"
+"class_d_platform_handle.html#a098e587bdc04bfaf68ff000d4f26d6a4",
+"class_d_region_monitor.html#a90d87354a4525dff183762ec25cb6ab5",
+"class_dtk_1_1_core_1_1_d_settings_group.html#a630f65d02085f476e3545d625051bcd1",
+"class_dtk_1_1_widget_1_1_d_about_dialog.html#afada5731af21e45e68248d1559e78618",
+"class_dtk_1_1_widget_1_1_d_arrow_rectangle.html#a2d7db5d5a219dc1719c1c88fff8b5eca",
+"class_dtk_1_1_widget_1_1_d_box_widget.html",
+"class_dtk_1_1_widget_1_1_d_file_chooser_edit.html",
+"class_dtk_1_1_widget_1_1_d_ipv4_line_edit.html#a2da480fd5722ae56deab7451189c5b5b",
+"class_dtk_1_1_widget_1_1_d_main_window.html#acbd86968d7eaa1177545937ca1b87f5a",
+"class_dtk_1_1_widget_1_1_d_segmented_control.html#af079d109069d6fecc6a1bda541aa7cfd",
+"class_dtk_1_1_widget_1_1_d_suggest_button.html#a47d72f62e0f7547fa265d6ce20b8a4cd",
+"class_dtk_1_1_widget_1_1_d_toast.html#a32b49fafaf6c252353f7c1dff8affe61",
+"class_q_svg_icon_engine.html#a7d87a89167af01fd7ebedafc743e57a1",
+"classdstyle_1_1_style.html#a03328fed2cc248cbf0fc5ba6971d8f5e",
+"dplatformhandle_8cpp_source.html",
+"progressbarhelper_8cpp_source.html"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

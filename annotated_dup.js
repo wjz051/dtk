@@ -1,8 +1,26 @@
 var annotated_dup =
 [
+    [ "chameleon", null, [
+      [ "ChameleonStyle", "classchameleon_1_1_chameleon_style.html", "classchameleon_1_1_chameleon_style" ]
+    ] ],
     [ "conanfile", null, [
       [ "DtkcoreConan", "classconanfile_1_1_dtkcore_conan.html", "classconanfile_1_1_dtkcore_conan" ],
       [ "DtkwidgetConan", "classconanfile_1_1_dtkwidget_conan.html", "classconanfile_1_1_dtkwidget_conan" ]
+    ] ],
+    [ "dstyle", null, [
+      [ "ColorUtils", "classdstyle_1_1_color_utils.html", null ],
+      [ "CommonHelper", "classdstyle_1_1_common_helper.html", null ],
+      [ "DBlendStyleAnimation", "classdstyle_1_1_d_blend_style_animation.html", "classdstyle_1_1_d_blend_style_animation" ],
+      [ "DNumberStyleAnimation", "classdstyle_1_1_d_number_style_animation.html", "classdstyle_1_1_d_number_style_animation" ],
+      [ "DProgressStyleAnimation", "classdstyle_1_1_d_progress_style_animation.html", "classdstyle_1_1_d_progress_style_animation" ],
+      [ "DQTabBar", "classdstyle_1_1_d_q_tab_bar.html", "classdstyle_1_1_d_q_tab_bar" ],
+      [ "DScrollbarStyleAnimation", "classdstyle_1_1_d_scrollbar_style_animation.html", "classdstyle_1_1_d_scrollbar_style_animation" ],
+      [ "DStyleAnimation", "classdstyle_1_1_d_style_animation.html", "classdstyle_1_1_d_style_animation" ],
+      [ "GeometryUtils", "classdstyle_1_1_geometry_utils.html", null ],
+      [ "HiDPIHelper", "classdstyle_1_1_hi_d_p_i_helper.html", null ],
+      [ "PaletteExtended", "classdstyle_1_1_palette_extended.html", "classdstyle_1_1_palette_extended" ],
+      [ "Style", "classdstyle_1_1_style.html", "classdstyle_1_1_style" ],
+      [ "StylePrivate", "classdstyle_1_1_style_private.html", "classdstyle_1_1_style_private" ]
     ] ],
     [ "Dtk", null, [
       [ "Core", null, [
@@ -41,6 +59,11 @@ var annotated_dup =
         [ "OutputDebugAppender", "class_dtk_1_1_core_1_1_output_debug_appender.html", "class_dtk_1_1_core_1_1_output_debug_appender" ],
         [ "QSettingBackend", "class_dtk_1_1_core_1_1_q_setting_backend.html", "class_dtk_1_1_core_1_1_q_setting_backend" ],
         [ "RollingFileAppender", "class_dtk_1_1_core_1_1_rolling_file_appender.html", "class_dtk_1_1_core_1_1_rolling_file_appender" ]
+      ] ],
+      [ "Gui", null, [
+        [ "DWindowGroupLeader", "class_dtk_1_1_gui_1_1_d_window_group_leader.html", "class_dtk_1_1_gui_1_1_d_window_group_leader" ],
+        [ "DWindowManagerHelper", "class_dtk_1_1_gui_1_1_d_window_manager_helper.html", "class_dtk_1_1_gui_1_1_d_window_manager_helper" ],
+        [ "DWindowManagerHelper_", "class_dtk_1_1_gui_1_1_d_window_manager_helper__.html", null ]
       ] ],
       [ "Widget", null, [
         [ "XUtils", null, [
@@ -159,13 +182,59 @@ var annotated_dup =
         [ "VideoFormatProxy", "class_dtk_1_1_widget_1_1_video_format_proxy.html", "class_dtk_1_1_widget_1_1_video_format_proxy" ]
       ] ]
     ] ],
+    [ "_DGuiApplicationHelper", "class___d_gui_application_helper.html", "class___d_gui_application_helper" ],
+    [ "AutoScaleWindowObject", "class_auto_scale_window_object.html", "class_auto_scale_window_object" ],
+    [ "ChameleonStylePlugin", "class_chameleon_style_plugin.html", "class_chameleon_style_plugin" ],
+    [ "DBuiltinIconEngine", "class_d_builtin_icon_engine.html", "class_d_builtin_icon_engine" ],
+    [ "DBuiltinIconEnginePlugin", "class_d_builtin_icon_engine_plugin.html", "class_d_builtin_icon_engine_plugin" ],
     [ "DCircleProgress", "class_d_circle_progress.html", null ],
     [ "DDBusCaller", "class_d_d_bus_caller.html", "class_d_d_bus_caller" ],
     [ "DDBusData", "class_d_d_bus_data.html", "class_d_d_bus_data" ],
     [ "DDBusProperty", "class_d_d_bus_property.html", "class_d_d_bus_property" ],
     [ "DDBusSender", "class_d_d_bus_sender.html", "class_d_d_bus_sender" ],
+    [ "DDndClientSignalRelay", "class_d_dnd_client_signal_relay.html", "class_d_dnd_client_signal_relay" ],
+    [ "DDndSourceInterface", "class_d_dnd_source_interface.html", "class_d_dnd_source_interface" ],
     [ "DExpandGroup", "class_d_expand_group.html", null ],
+    [ "DFileDrag", "class_d_file_drag.html", "class_d_file_drag" ],
+    [ "DFileDragClient", "class_d_file_drag_client.html", "class_d_file_drag_client" ],
+    [ "DFileDragServer", "class_d_file_drag_server.html", "class_d_file_drag_server" ],
+    [ "DForeignWindow", "class_d_foreign_window.html", "class_d_foreign_window" ],
+    [ "DGuiApplicationHelper", "class_d_gui_application_helper.html", "class_d_gui_application_helper" ],
+    [ "DIconEngine", "class_d_icon_engine.html", "class_d_icon_engine" ],
+    [ "DIconProxyEngine", "class_d_icon_proxy_engine.html", "class_d_icon_proxy_engine" ],
+    [ "DirImageEntry", "class_dir_image_entry.html", "class_dir_image_entry" ],
+    [ "DNativeSettings", "class_d_native_settings.html", "class_d_native_settings" ],
+    [ "DPalette", "class_d_palette.html", "class_d_palette" ],
+    [ "DPaletteData", "struct_d_palette_data.html", "struct_d_palette_data" ],
+    [ "DPlatformHandle", "class_d_platform_handle.html", "class_d_platform_handle" ],
+    [ "DPlatformTheme", "class_d_platform_theme.html", "class_d_platform_theme" ],
+    [ "DraggableLabel", "class_draggable_label.html", "class_draggable_label" ],
+    [ "DRegionMonitor", "class_d_region_monitor.html", "class_d_region_monitor" ],
+    [ "DropArea", "class_drop_area.html", "class_drop_area" ],
+    [ "DStylePlugin", "class_d_style_plugin.html", "class_d_style_plugin" ],
+    [ "DSvgRenderer", "class_d_svg_renderer.html", null ],
+    [ "DTaskbarControl", "class_d_taskbar_control.html", "class_d_taskbar_control" ],
     [ "DTextButton", "class_d_text_button.html", null ],
+    [ "DThemeSettings", "class_d_theme_settings.html", "class_d_theme_settings" ],
+    [ "DThumbnailProvider", "class_d_thumbnail_provider.html", "class_d_thumbnail_provider" ],
     [ "DVoxWidget", "class_d_vox_widget.html", null ],
-    [ "PopupMenuStyle", "class_popup_menu_style.html", "class_popup_menu_style" ]
+    [ "DWindowHandle", "class_d_window_handle.html", [
+      [ "WMBlurArea", "struct_d_window_handle_1_1_w_m_blur_area.html", null ]
+    ] ],
+    [ "ImageEntry", "class_image_entry.html", "class_image_entry" ],
+    [ "NorwegianWoodStyle", "class_norwegian_wood_style.html", "class_norwegian_wood_style" ],
+    [ "PopupMenuStyle", "class_popup_menu_style.html", "class_popup_menu_style" ],
+    [ "QDeepinFileDialogHelper", "class_q_deepin_file_dialog_helper.html", "class_q_deepin_file_dialog_helper" ],
+    [ "QDeepinTheme", "class_q_deepin_theme.html", "class_q_deepin_theme" ],
+    [ "QDeepinThemePlugin", "class_q_deepin_theme_plugin.html", "class_q_deepin_theme_plugin" ],
+    [ "QSvgIconEngine", "class_q_svg_icon_engine.html", "class_q_svg_icon_engine" ],
+    [ "QSvgIconEnginePrivate", "class_q_svg_icon_engine_private.html", "class_q_svg_icon_engine_private" ],
+    [ "QSvgIconPlugin", "class_q_svg_icon_plugin.html", "class_q_svg_icon_plugin" ],
+    [ "QSvgIOHandler", "class_q_svg_i_o_handler.html", "class_q_svg_i_o_handler" ],
+    [ "QSvgIOHandlerPrivate", "class_q_svg_i_o_handler_private.html", "class_q_svg_i_o_handler_private" ],
+    [ "QSvgPlugin", "class_q_svg_plugin.html", "class_q_svg_plugin" ],
+    [ "RSvg", "class_r_svg.html", "class_r_svg" ],
+    [ "TestTaskbarWindow", "class_test_taskbar_window.html", "class_test_taskbar_window" ],
+    [ "WidgetGallery", "class_widget_gallery.html", "class_widget_gallery" ],
+    [ "XdgIconEngineCreator", "class_xdg_icon_engine_creator.html", null ]
 ];

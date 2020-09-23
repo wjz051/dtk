@@ -8,7 +8,7 @@ var searchData=
   ['_7edabstractunitformatter',['~DAbstractUnitFormatter',['../class_dtk_1_1_core_1_1_d_abstract_unit_formatter.html#a4b1b109f286ed63556a6ce160538a334',1,'Dtk::Core::DAbstractUnitFormatter']]],
   ['_7edanchorsbase',['~DAnchorsBase',['../class_dtk_1_1_widget_1_1_d_anchors_base.html#aa6666779696f18c2de0503ee48615a01',1,'Dtk::Widget::DAnchorsBase']]],
   ['_7edfilesystemwatcher',['~DFileSystemWatcher',['../class_dtk_1_1_core_1_1_d_file_system_watcher.html#af0261247601d380db10af96412b9ba55',1,'Dtk::Core::DFileSystemWatcher']]],
-  ['_7edwindowgroupleader',['~DWindowGroupLeader',['../class_dtk_1_1_widget_1_1_d_window_group_leader.html#ac3074e8e225a0831eeb85da219c03564',1,'Dtk::Widget::DWindowGroupLeader']]],
+  ['_7edwindowgroupleader',['~DWindowGroupLeader',['../class_dtk_1_1_widget_1_1_d_window_group_leader.html#ac3074e8e225a0831eeb85da219c03564',1,'Dtk::Widget::DWindowGroupLeader::~DWindowGroupLeader()'],['../class_dtk_1_1_gui_1_1_d_window_group_leader.html#a14256c594688308f18c94022ffa2b57b',1,'Dtk::Gui::DWindowGroupLeader::~DWindowGroupLeader()']]],
   ['_7ekey',['~Key',['https://doc.qt.io/qt-5/qpixmapcache-key.html#dtor.Key',1,'QPixmapCache::Key']]],
   ['_7elogger',['~Logger',['../class_dtk_1_1_core_1_1_logger.html#ab4eea40e26ce45df1c18058f97d1b11e',1,'Dtk::Core::Logger']]],
   ['_7eqabstractanimation',['~QAbstractAnimation',['https://doc.qt.io/qt-5/qabstractanimation.html#dtor.QAbstractAnimation',1,'QAbstractAnimation']]],
